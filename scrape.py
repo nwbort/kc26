@@ -20,9 +20,10 @@ recorded as not found are tried again on every run.
 --out sets where results/ and the CSVs go (default: the repo root, for the
 Kepler; use --event 2 --out grunt for the Luxmore Grunt).
 
---discover takes the individuals from the event's results list instead of
-scanning --start..--end (the URL's number is the bib, and the Grunt's bib
-range isn't known up front).
+--discover reads the bibs off the event's results pages (events/<n>,
+events/<n>?page=2, ...) and fetches only those, instead of scanning
+--start..--end (the URL's number is the bib, and the Grunt's bib range isn't
+known up front).
 
 Usage: scrape.py [--race SLUG] [--event N] [--start N] [--end N] [--out DIR]
                  [--discover] [--force]
@@ -286,34 +287,58 @@ def page_url(race: str, event: int, n: int) -> str:
     return f"{BASE_URL}/races/{race}/events/{event}/results/individuals/{n}"
 
 
-# Most list pages to follow when discovering individuals.
-MAX_LIST_PAGES = 40
+# Most list pages to read when discovering individuals.
+MAX_LIST_PAGES = 60
+
+
+def listed_ids(html: str, event: int) -> set[int]:
+    """Individuals on one page of the event's results list: the numbers in
+    its links to individual results (the number is the bib), or failing that
+    a "Bib" column."""
+    ids = {int(n) for n in re.findall(rf"/events/{event}/results/individuals/(\d+)", html)}
+    if ids:
+        return ids
+    p = parse.TableParser()
+    p.feed(html)
+    p.close()
+    for t in p.tables:
+        heads = [parse._norm(h) for h in t["headers"]]
+        col = next((i for i, h in enumerate(heads) if h in ("bib", "bib #", "bib no", "#")), None)
+        if col is None:
+            continue
+        for row in t["rows"]:
+            m = re.fullmatch(r"#?(\d+)", row[col].strip()) if col < len(row) else None
+            if m:
+                ids.add(int(m.group(1)))
+    return ids
 
 
 async def discover(browser, tab, race: str, event: int):
-    """Individual ids linked from the event's results list (following its
-    page links), so a race whose bib range isn't known needn't be scanned
-    bib by bib. Returns (tab, sorted ids), empty if none were found."""
+    """Bibs listed on the event's results pages (events/<n>, then
+    events/<n>?page=2, ...), read until a page adds nobody new, so only
+    people who actually ran are fetched. Returns (tab, sorted ids)."""
     base = f"{BASE_URL}/races/{race}/events/{event}"
-    link_re = re.compile(rf"/events/{event}/results/individuals/(\d+)")
-    page_re = re.compile(rf'href="([^"]*/events/{event}/results[^"#]*[?&]page=\d+[^"#]*)"')
-    queue = [f"{base}/results", f"{base}/"]
-    seen, ids = set(), set()
-    while queue and len(seen) < MAX_LIST_PAGES:
-        url = queue.pop(0).replace("&amp;", "&")
-        if url.startswith("/"):
-            url = BASE_URL + url
-        if url in seen:
-            continue
-        seen.add(url)
-        tab, html, where = await fetch_page(browser, url, tab=tab)
+    ids: set[int] = set()
+    for page in range(1, MAX_LIST_PAGES + 1):
+        url = base if page == 1 else f"{base}?page={page}"
+        html = None
+        for _ in range(2):
+            tab, html, _where = await fetch_page(browser, url, tab=tab)
+            if html is not None:
+                break
         if html is None:
-            continue
-        found = {int(n) for n in link_re.findall(html)}
-        ids |= found
-        pages = page_re.findall(html)
-        print(f"  list {url}: {len(found)} individual link(s), {len(set(pages))} page link(s), title {page_title(html)!r}", flush=True)
-        queue += [p for p in pages if p not in queue]
+            print(f"  list page {page} never loaded; stopping here", flush=True)
+            break
+        found = listed_ids(html, event)
+        new = found - ids
+        last = max((int(n) for n in re.findall(r"[?&](?:amp;)?page=(\d+)", html)), default=page)
+        print(f"  list page {page}: {len(found)} listed, {len(new)} new (last page link {last})", flush=True)
+        if page == 1 and not found:
+            text = parse._text(re.sub(r"<script.*?</script>|<style.*?</style>", " ", html, flags=re.S))
+            print(f"  nothing listed on {url}; title {page_title(html)!r}; text: {text[:1500]}", flush=True)
+        if not new:
+            break
+        ids |= new
     return tab, sorted(ids)
 
 
@@ -389,11 +414,11 @@ async def scrape(args) -> int:
     try:
         if args.discover:
             tab, ids = await discover(browser, tab, args.race, args.event)
-            if ids:
-                print(f"Discovered {len(ids)} individual(s): {ids[0]}..{ids[-1]}", flush=True)
-                todo = [n for n in ids if args.force or not already_found(n)]
-            else:
-                print("No individuals listed; falling back to --start..--end", flush=True)
+            if not ids:
+                print("ERROR: no bibs found on the results pages", flush=True)
+                return 4
+            print(f"Discovered {len(ids)} bib(s): {ids[0]}..{ids[-1]}", flush=True)
+            todo = [n for n in ids if args.force or not already_found(n)]
         print(f"{len(todo)} individual(s) to fetch", flush=True)
         for i, n in enumerate(todo):
             if i:
@@ -455,7 +480,7 @@ def main() -> int:
         "--discover",
         action="store_true",
         default=os.environ.get("DISCOVER") == "true",
-        help="fetch the individuals linked from the event's results list (else --start..--end)",
+        help="fetch only the bibs listed on the event's results pages (else --start..--end)",
     )
     p.add_argument("--force", action="store_true", default=os.environ.get("FORCE") == "true")
     args = p.parse_args()

@@ -20,15 +20,15 @@ on:
         description: Output directory (. for the Kepler, grunt for the Grunt)
         default: grunt
       discover:
-        description: Take individuals from the results list
+        description: Fetch only the bibs listed on the event's results pages
         type: boolean
         default: true
       start:
-        description: First individual (if nothing is listed)
-        default: '500'
+        description: First bib (without discover)
+        default: '1'
       end:
-        description: Last individual (if nothing is listed)
-        default: '1200'
+        description: Last bib (without discover)
+        default: '499'
       force:
         description: Re-fetch pages already saved
         type: boolean
@@ -91,8 +91,8 @@ jobs:
         EVENT: ${{ inputs.event || '2' }}
         OUT: ${{ inputs.out || 'grunt' }}
         DISCOVER: ${{ inputs.discover == false && 'false' || 'true' }}
-        START: ${{ inputs.start || '500' }}
-        END: ${{ inputs.end || '1200' }}
+        START: ${{ inputs.start }}
+        END: ${{ inputs.end }}
         FORCE: ${{ inputs.force }}
       run: xvfb-run -a python scrape.py
     - name: Commit and push
