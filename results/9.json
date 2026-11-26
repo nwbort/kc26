@@ -1,0 +1,96 @@
+{
+  "id": 9,
+  "title": "(#9) VAJIN ARMSTRONG - FreshChoice Kepler Challenge - FreshChoice Kepler Challenge (2025) | SportSplits",
+  "headings": [
+    {
+      "level": "h4",
+      "text": "Filter Results"
+    },
+    {
+      "level": "h2",
+      "text": "FreshChoice Kepler Challenge (2025)"
+    },
+    {
+      "level": "h3",
+      "text": "Run 60.0km"
+    },
+    {
+      "level": "h4",
+      "text": "Social Share"
+    }
+  ],
+  "fields": {},
+  "tables": [
+    {
+      "headers": [
+        "Location",
+        "Split",
+        "Run Time",
+        "Race Time",
+        "Pos",
+        "Male",
+        "Veteran 40+",
+        "Speed/Pace",
+        "TOD"
+      ],
+      "rows": [
+        [
+          "RUN 5KM",
+          "00:22:20",
+          "00:22:22",
+          "00:22:22",
+          "-",
+          "-",
+          "-",
+          "13.41 / 04:28",
+          "06:22:22"
+        ],
+        [
+          "RUN 13.8KM",
+          "00:53:20",
+          "01:15:42",
+          "01:15:42",
+          "-",
+          "-",
+          "-",
+          "10.93 / 05:29",
+          "07:15:42"
+        ],
+        [
+          "RUN 19KM",
+          "00:35:51",
+          "01:51:33",
+          "01:51:33",
+          "-",
+          "-",
+          "-",
+          "10.21 / 05:52",
+          "07:51:33"
+        ],
+        [
+          "RUN 23.6KM",
+          "00:24:43",
+          "02:16:17",
+          "02:16:17",
+          "-",
+          "-",
+          "-",
+          "10.38 / 05:46",
+          "08:16:17"
+        ],
+        [
+          "RUN 28.4KM",
+          "00:40:52",
+          "02:57:10",
+          "02:57:10",
+          "-",
+          "-",
+          "-",
+          "9.61 / 06:14",
+          "08:57:10"
+        ]
+      ]
+    }
+  ],
+  "embedded": []
+}
