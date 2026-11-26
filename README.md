@@ -1,8 +1,15 @@
 # Kepler Challenge finish estimator
 
-A static page that supporters use to answer "when will they finish?" on race
+Static pages that supporters use to answer "when will they finish?" on race
 day. They type in checkpoint times from live tracking, and the page projects
 the remaining checkpoints and the finish from how comparable 2025 runners went.
+
+- `index.html`: Kepler Challenge 60 km (race 1), Nick, 6:00am start
+- `grunt.html`: Luxmore Grunt 27 km (race 2), Nicole, 7:00am start
+
+Both are gun starts: in 2025 every runner's time was measured from the gun
+(run time = race time, time of day = start + race time), so a race time on
+tracking converts straight to a clock time.
 
 ## How the estimate works
 
@@ -21,20 +28,22 @@ the remaining checkpoints and the finish from how comparable 2025 runners went.
 
 | File | Purpose |
 |---|---|
-| `index.html`, `style.css`, `app.js` | The page (no build step, no dependencies) |
+| `index.html`, `grunt.html`, `style.css`, `app.js` | The pages (no build step, no dependencies) |
 | `model.js` | Estimation maths (pure JS, also runs in node) |
-| `config.js` | **Edit me:** name, bib, goal, start time, band, checkpoint names |
-| `data/results-2025.json` | 2025 splits used by the model |
-| `scripts/build_data.py` | Converts `splits.csv` into the JSON the page loads |
-| `scrape.py`, `parse.py`, `results/`, `splits.csv` | Scraper and raw 2025 results (below) |
+| `config.js`, `grunt-config.js` | **Edit me:** name, bib, goal, start time, band, checkpoint names (Kepler, Grunt) |
+| `data/results-2025.json`, `data/grunt-2025.json` | 2025 splits used by the model (Kepler, Grunt) |
+| `scripts/build_data.py` | Converts `splits.csv` into the JSON the pages load |
+| `scrape.py`, `parse.py`, `results/`, `splits.csv` | Scraper and raw 2025 Kepler results (below) |
+| `grunt/` | Raw 2025 Grunt results, same layout |
 
 ## Rebuilding the data
 
 ```sh
-python3 scripts/build_data.py splits.csv
+python3 scripts/build_data.py splits.csv                  # Kepler
+python3 scripts/build_data.py --grunt grunt/splits.csv    # Grunt
 ```
 
-This writes `data/results-2025.json` (gun/race time at each checkpoint, plus
+This writes `data/results-2025.json` (or `data/grunt-2025.json`) (gun/race time at each checkpoint, plus
 bib, gender and category; names are dropped). The script also accepts a wide
 CSV with one column per checkpoint, or pasted per-athlete split tables; see
 its docstring.
@@ -64,11 +73,21 @@ loads each results page in the same browser session.
 
 The scraping GitHub Action has been removed now that the 2025 data is in the
 repo (it's in git history if it's ever needed again). Individuals already in
-`results/` are skipped, so a run that stops part way can be resumed.
+`results/` are skipped, so a run that stops part way can be resumed. A
+"Too Many Requests" page is retried after a minute, and left for the next run
+if it persists.
 
 Locally: `pip install -r requirements.txt`, then
-`xvfb-run -a python scrape.py --start 1 --end 499`. `python parse.py`
-rebuilds the CSVs from `results/`.
+
+```sh
+xvfb-run -a python scrape.py --start 1 --end 499                 # Kepler, bibs 1-499
+xvfb-run -a python scrape.py --event 2 --out grunt --discover    # Grunt
+```
+
+The number in a results URL is the bib. `--discover` reads the bibs off the
+event's results pages (`events/2`, `events/2?page=2`, ...; names read
+"LEE GRIEVE (#767)") and fetches only those, skipping DNS. `python parse.py`
+(or `python parse.py grunt`) rebuilds the CSVs from `results/`.
 
 ### Output
 

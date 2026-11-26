@@ -262,8 +262,8 @@
     const y = (v) => H - mb - (v / maxB) * (H - mb - mt);
 
     let svg = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Histogram of finish times">`;
-    // ticks every 30 or 60 min of race time, labelled with clock time
-    const tick = span > 3 * 3600 || W < 500 ? 3600 : 1800;
+    // ticks every 15, 30 or 60 min of race time, labelled with clock time
+    const tick = span > 3 * 3600 || (W < 500 && span > 1.5 * 3600) ? 3600 : span > 3600 ? 1800 : 900;
     svg += `<g class="axis">`;
     for (let t = Math.ceil(lo / tick) * tick; t <= hi; t += tick) {
       svg += `<line class="grid" x1="${x(t)}" x2="${x(t)}" y1="${mt}" y2="${H - mb}"/>`;

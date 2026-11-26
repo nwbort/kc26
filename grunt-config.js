@@ -5,16 +5,20 @@ window.KEPLER_CONFIG = {
   runnerName: "Nicole",           // shown in the header
   bib: "",                        // e.g. "612" once allocated
   raceDate: "2026-12-05",         // Saturday, Te Anau (same day as the Kepler)
-  startTime: "06:00",             // NZ local, 24h. PROVISIONAL: set from the 2025 Grunt results
-  goalFinish: "3:30",             // PROVISIONAL: median 2025 Grunt woman (4:45 marathon ≈ median woman)
+  startTime: "07:00",             // NZ local, 24h. 2025 gun was 7:00am (everyone timed from the gun)
+  goalFinish: "3:45",             // h:mm. 4:45 marathon ≈ median woman road marathoner → median 2025 Grunt woman (3:44)
   band: [10, 75],                 // percentile band of 2025 finishers used as comparables
   gender: "all",                  // "all" | "M" | "F"
   trackingUrl: "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2026/events/2/",
   dataUrl: "data/grunt-2025.json",
   storeKey: "grunt26-v1",
 
-  // Checkpoint names by km, from the timing data.
+  // Checkpoint names by km. Distances come from the timing data; the course
+  // goes up to Luxmore Hut and back down past Brod Bay.
   checkpointNames: {
-    "60": "Finish",
+    "5": "Brod Bay",
+    "13.8": "Luxmore Hut",
+    "22": "Brod Bay (return)",
+    "27": "Finish",
   },
 };
