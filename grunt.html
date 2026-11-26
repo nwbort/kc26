@@ -6,12 +6,29 @@
   <title>Grunt Finish Estimator</title>
   <meta name="description" content="When will they finish the Luxmore Grunt? Live estimates from 2025 checkpoint splits.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M2 28 L12 8 L18 18 L22 12 L30 28 Z' fill='%23257de0'/%3E%3C/svg%3E">
+  <link rel="manifest" href="app.webmanifest">
+  <link rel="apple-touch-icon" href="icons/kepler-180.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Kepler ETA">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="theme-color" content="#f5f6f4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#121412" media="(prefers-color-scheme: dark)">
   <link rel="stylesheet" href="style.css">
+  <script>
+    try {
+      localStorage.setItem("kc26-race", "grunt");
+    } catch (e) {}
+  </script>
 </head>
 <body>
   <main class="wrap">
+    <nav class="seg races" aria-label="Race">
+      <a href="index.html">Kepler 60 km</a>
+      <a aria-current="page" href="grunt.html">Grunt 27 km</a>
+    </nav>
     <header class="top">
-      <p class="eyebrow">Luxmore Grunt 27 km · <span id="raceDate"></span> · <a href="index.html">Kepler Challenge</a></p>
+      <p class="eyebrow">Luxmore Grunt 27 km · <span id="raceDate"></span></p>
       <h1>When will <span id="runnerName">our runner</span> finish?</h1>
       <p class="sub">Type in checkpoint times from the <a id="trackLink" href="#" target="_blank" rel="noopener">live tracking</a>. Estimates come from how comparable runners went in 2025.</p>
     </header>
@@ -108,5 +125,8 @@
   <script src="grunt-config.js"></script>
   <script src="model.js"></script>
   <script src="app.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+  </script>
 </body>
 </html>
