@@ -7,8 +7,9 @@ the remaining checkpoints and the finish from how comparable 2025 runners went.
 - `index.html`: Kepler Challenge 60 km (race 1), Nick, 6:00am start
 - `grunt.html`: Luxmore Grunt 27 km (race 2), Nicole, 7:00am start
 
-Each page can be installed as its own home-screen app (iOS Safari: Share →
-Add to Home Screen; Android Chrome: menu → Install app). Once opened with
+The two pages install as one home-screen app (iOS Safari: Share → Add to
+Home Screen; Android Chrome: menu → Install app), switched with the tabs at
+the top. It reopens on whichever race was viewed last. Once opened with
 signal, it keeps working offline, which matters on the track.
 
 Both are gun starts: in 2025 every runner's time was measured from the gun
@@ -33,7 +34,7 @@ tracking converts straight to a clock time.
 | File | Purpose |
 |---|---|
 | `index.html`, `grunt.html`, `style.css`, `app.js` | The pages (no build step, no dependencies) |
-| `kepler.webmanifest`, `grunt.webmanifest`, `sw.js`, `icons/` | Home-screen install and offline cache (`scripts/make_icons.py` redraws the icons). Bump `CACHE` in `sw.js` if you add files |
+| `app.webmanifest`, `sw.js`, `icons/` | Home-screen install and offline cache (`scripts/make_icons.py` redraws the icons). Bump `CACHE` in `sw.js` if you add files |
 | `model.js` | Estimation maths (pure JS, also runs in node) |
 | `config.js`, `grunt-config.js` | **Edit me:** name, bib, goal, start time, band, checkpoint names (Kepler, Grunt) |
 | `data/results-2025.json`, `data/grunt-2025.json` | 2025 splits used by the model (Kepler, Grunt) |

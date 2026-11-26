@@ -1,11 +1,11 @@
 // Offline support. Network first, so new config/data show up as soon as
 // there's signal; falls back to the last cached copy when there isn't
 // (much of the Kepler track has no coverage).
-const CACHE = "kc26-v1";
+const CACHE = "kc26-v2";
 const ASSETS = [
   "./", "index.html", "grunt.html", "style.css", "app.js", "model.js",
   "config.js", "grunt-config.js", "data/results-2025.json", "data/grunt-2025.json",
-  "kepler.webmanifest", "grunt.webmanifest",
+  "app.webmanifest",
   "icons/kepler-180.png", "icons/kepler-192.png", "icons/kepler-512.png",
   "icons/grunt-180.png", "icons/grunt-192.png", "icons/grunt-512.png",
 ];
