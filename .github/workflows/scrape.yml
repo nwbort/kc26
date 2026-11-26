@@ -90,7 +90,8 @@ jobs:
         RACE: ${{ inputs.race }}
         EVENT: ${{ inputs.event || '2' }}
         OUT: ${{ inputs.out || 'grunt' }}
-        DISCOVER: ${{ inputs.discover == false && 'false' || 'true' }}
+        # A push has no inputs (and '' == false in expressions), so say true outright.
+        DISCOVER: ${{ github.event_name == 'push' && 'true' || inputs.discover }}
         START: ${{ inputs.start }}
         END: ${{ inputs.end }}
         FORCE: ${{ inputs.force }}
