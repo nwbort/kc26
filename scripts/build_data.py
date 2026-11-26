@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Convert exported Kepler 2025 splits into data/results-2025.json for the web app.
+"""Convert exported 2025 splits into the JSON the web app loads.
 
 Accepted inputs (one or more files):
 
@@ -20,7 +20,10 @@ Accepted inputs (one or more files):
      RUN 5KM   00:28:22  00:28:40  00:28:40  101 ...
    The "Race Time" column (gun time) is used.
 
-Usage: python3 scripts/build_data.py data/raw/splits.csv [more files...]
+Usage: python3 scripts/build_data.py [--grunt] splits.csv [more files...]
+
+Writes data/results-2025.json (Kepler) or, with --grunt, data/grunt-2025.json
+(Luxmore Grunt, from grunt/splits.csv).
 """
 import csv, json, re, sys, datetime, pathlib
 
@@ -95,7 +98,14 @@ def read_long(path):
     return out
 
 
-def main(paths):
+EVENTS = {
+    "kepler": ("Kepler Challenge 60km", "FreshChoice Kepler Challenge 2025", "results-2025.json"),
+    "grunt": ("Luxmore Grunt 27km", "FreshChoice Kepler Challenge 2025, Luxmore Grunt", "grunt-2025.json"),
+}
+
+
+def main(paths, event="kepler"):
+    title, source, filename = EVENTS[event]
     athletes = []
     for p in map(pathlib.Path, paths):
         head = p.read_text(encoding="utf-8-sig")[:4000]
@@ -115,21 +125,24 @@ def main(paths):
     fin = sum(1 for a in athletes if a["t"][-1] is not None)
     out = {
         "meta": {
-            "event": "Kepler Challenge 60km",
+            "event": title,
             "year": 2025,
             "demo": False,
-            "source": "sportsplits.com - FreshChoice Kepler Challenge 2025",
+            "source": f"sportsplits.com - {source}",
             "generated": datetime.date.today().isoformat(),
             "checkpoints": [{"km": k} for k in kms],
         },
         "athletes": athletes,
     }
-    dest = pathlib.Path(__file__).resolve().parent.parent / "data" / "results-2025.json"
+    dest = pathlib.Path(__file__).resolve().parent.parent / "data" / filename
     dest.write_text(json.dumps(out, separators=(",", ":")))
     print(f"wrote {dest}: {len(athletes)} athletes, {fin} finishers, checkpoints {kms}")
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
+    args = sys.argv[1:]
+    event = "grunt" if "--grunt" in args else "kepler"
+    args = [a for a in args if a != "--grunt"]
+    if not args:
         sys.exit(__doc__)
-    main(sys.argv[1:])
+    main(args, event)

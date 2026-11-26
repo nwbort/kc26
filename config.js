@@ -8,8 +8,9 @@ window.KEPLER_CONFIG = {
   goalFinish: "7:00",             // h:mm, the pre-race plan (3:21 marathon ≈ 15th pct of road marathoners → 15th pct of 2025 Kepler finishers)
   band: [10, 75],                 // percentile band of 2025 finishers used as comparables
   gender: "all",                  // "all" | "M" | "F"
-  trackingUrl: "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/1/",
+  trackingUrl: "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2026/events/1/",
   dataUrl: "data/results-2025.json",
+  storeKey: "kepler26-v1",          // browser storage for supporters' entries
 
   // Checkpoint names by km. Distances come from the timing data; names are
   // best-guess mapping to the Kepler Track, check against the race guide.
