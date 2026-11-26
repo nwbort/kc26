@@ -9,7 +9,11 @@ Accepted inputs (one or more files):
    "RUN 13.8KM" or "13.8km" or "Luxmore 13.8 km". Cells are race times
    (h:mm:ss or mm:ss); blank / DNF / "-" = no split.
 
-2. Long text - the per-athlete split table as copied from sportsplits,
+2. Long CSV - one row per athlete per checkpoint, as written by scrape.py /
+   parse.py (splits.csv): columns id, bib, gender, category, location,
+   race_time, ... Rows are grouped by id (or bib).
+
+3. Long text - the per-athlete split table as copied from sportsplits,
    each athlete preceded by a header line starting with '##':
      ## 123 | Jane Doe | F | Open
      Location  Split  Run Time  Race Time  Pos  Male  Open  Speed/Pace  TOD
@@ -60,6 +64,19 @@ def read_wide(path):
     return out
 
 
+def read_long_csv(path):
+    by = {}
+    for r in csv.DictReader(path.read_text(encoding="utf-8-sig").splitlines()):
+        key = r.get("id") or r.get("bib")
+        a = by.setdefault(key, {"b": (r.get("bib") or "").strip(),
+                                "g": norm_gender(r.get("gender")),
+                                "c": (r.get("category") or "").strip(), "t": {}})
+        m = KM_RE.search(r.get("location") or "")
+        if m:
+            a["t"][float(m.group(1))] = secs(r.get("race_time"))
+    return list(by.values())
+
+
 def read_long(path):
     out, cur, race_col = [], None, 3
     for line in path.read_text(encoding="utf-8-sig").splitlines():
@@ -82,7 +99,13 @@ def main(paths):
     athletes = []
     for p in map(pathlib.Path, paths):
         head = p.read_text(encoding="utf-8-sig")[:4000]
-        athletes += read_long(p) if "\n##" in "\n" + head else read_wide(p)
+        first = head.splitlines()[0].lower() if head else ""
+        if "\n##" in "\n" + head:
+            athletes += read_long(p)
+        elif "location" in first and "race_time" in first:
+            athletes += read_long_csv(p)
+        else:
+            athletes += read_wide(p)
     kms = sorted({k for a in athletes for k in a["t"]})
     if not kms:
         sys.exit("No checkpoint columns found (headers need a distance like '13.8KM').")

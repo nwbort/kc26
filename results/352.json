@@ -1,0 +1,49 @@
+{
+ "id": 352,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/1/results/individuals/352",
+ "summary": {
+  "bib": "352",
+  "name": "ALAN REID",
+  "status": "DNF",
+  "gun_time": "",
+  "place": "",
+  "place_of": "442",
+  "gender": "Male",
+  "gender_place": "",
+  "gender_of": "293",
+  "category": "Legend 60+",
+  "category_place": "",
+  "category_of": "23"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:45:21",
+   "run_time": "00:46:10",
+   "race_time": "00:46:10",
+   "pos": "-",
+   "tod": "06:46:10",
+   "gender": "Male",
+   "gender_pos": "-",
+   "category": "Legend 60+",
+   "category_pos": "-",
+   "speed_kmh": "6.49",
+   "pace": "09:14"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "02:23:22",
+   "run_time": "03:09:32",
+   "race_time": "03:09:32",
+   "pos": "-",
+   "tod": "09:09:32",
+   "gender": "Male",
+   "gender_pos": "-",
+   "category": "Legend 60+",
+   "category_pos": "-",
+   "speed_kmh": "4.36",
+   "pace": "13:44"
+  }
+ ],
+ "found": true
+}
