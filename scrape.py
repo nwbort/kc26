@@ -209,18 +209,14 @@ async def fetch_page(browser, url: str, tab=None):
     where is the URL the tab ended up on if the site redirected elsewhere
     (html is then that page)."""
     print(f"Navigating to {url}", flush=True)
-    # Until the navigation commits the tab still shows the previous page, so
-    # only a loaded page at neither address counts as a redirect.
-    previous = ""
+    # Until the navigation commits the tab still shows the previous page. So
+    # blank it first: then any loaded http(s) page is where url led, even a
+    # redirect to the same page the previous bib redirected to.
     if tab is not None:
         try:
-            previous = str(
-                await with_timeout(
-                    tab.evaluate("location.origin + location.pathname"), "tab.evaluate"
-                )
-            ).rstrip("/")
-        except Exception:
-            pass
+            await with_timeout(tab.get("about:blank"), "tab.get")
+        except Exception as e:
+            print(f"  could not blank the tab: {e}", flush=True)
     try:
         if tab is None:
             tab = await with_timeout(browser.get(url), "browser.get")
@@ -252,7 +248,7 @@ async def fetch_page(browser, url: str, tab=None):
             )
             ready, href, page_html = json.loads(str(state))
             href = href.rstrip("/")
-            arrived = href == target or (href != previous and href.startswith("http"))
+            arrived = href.startswith("http")
             html = page_html if arrived and ready == "complete" else None
         except Exception as e:
             print(f"  page check failed: {e}", flush=True)
