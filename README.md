@@ -13,7 +13,8 @@ loads each results page in the same browser session.
 
 ## Running it
 
-The [Scrape results](.github/workflows/scrape.yml) workflow runs when the
+The [Scrape results](.github/workflows/scrape.yml) workflow scrapes individuals
+1–10 as a check when the
 scraper changes, or by hand from the Actions tab (Run workflow), where the
 race, event, range of individuals and a "re-fetch" option can be set. Pages
 already saved are skipped, so a run that stops part way can be resumed by

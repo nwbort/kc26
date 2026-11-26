@@ -21,7 +21,7 @@ on:
         default: '1'
       end:
         description: Last individual
-        default: '499'
+        default: '10'
       force:
         description: Re-fetch pages already saved
         type: boolean
@@ -81,7 +81,9 @@ jobs:
         RACE: ${{ inputs.race }}
         EVENT: ${{ inputs.event }}
         START: ${{ inputs.start }}
-        END: ${{ inputs.end }}
+        # A push scrapes just the first 10, as a check; set the range by hand
+        # (Run workflow) for the rest. Pages already saved are skipped.
+        END: ${{ inputs.end || '10' }}
         FORCE: ${{ inputs.force }}
       run: xvfb-run -a python scrape.py
     - name: Parse pages
