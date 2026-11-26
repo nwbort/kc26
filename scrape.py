@@ -291,26 +291,34 @@ def page_url(race: str, event: int, n: int) -> str:
 MAX_LIST_PAGES = 60
 
 
-def listed_ids(html: str, event: int) -> set[int]:
-    """Individuals on one page of the event's results list: the numbers in
-    its links to individual results (the number is the bib), or failing that
-    a "Bib" column."""
-    ids = {int(n) for n in re.findall(rf"/events/{event}/results/individuals/(\d+)", html)}
-    if ids:
-        return ids
+def listed_ids(html: str, event: int) -> tuple[set[int], set[int]]:
+    """Bibs of the people who started, from one page of the event's results
+    table, whose rows read:
+
+        Pos  Name                Gun Time  Representing  Category (Pos)  Gender (Pos)
+        201  LEE GRIEVE (#767)   05:39:23  NZL |         Veteran 40+ (45) Female (128)
+        DNS  MIKE MARTIN (#814)            NZL |         Legend 60+       Male
+
+    Returns (started, listed): DNS rows are left out of started (no splits
+    to fetch), DNFs are kept. If there's no such table, the numbers in links
+    to individual results (also the bib) count as both."""
     p = parse.TableParser()
     p.feed(html)
     p.close()
+    started, listed = set(), set()
     for t in p.tables:
-        heads = [parse._norm(h) for h in t["headers"]]
-        col = next((i for i, h in enumerate(heads) if h in ("bib", "bib #", "bib no", "#")), None)
-        if col is None:
-            continue
         for row in t["rows"]:
-            m = re.fullmatch(r"#?(\d+)", row[col].strip()) if col < len(row) else None
-            if m:
-                ids.add(int(m.group(1)))
-    return ids
+            for cell in row:
+                m = re.search(r"\(#(\d+)\)", cell)
+                if m:
+                    listed.add(int(m.group(1)))
+                    if row[0].strip().upper() != "DNS":
+                        started.add(int(m.group(1)))
+                    break
+    if listed:
+        return started, listed
+    linked = {int(n) for n in re.findall(rf"/events/{event}/results/individuals/(\d+)", html)}
+    return linked, linked
 
 
 async def discover(browser, tab, race: str, event: int):
@@ -319,6 +327,7 @@ async def discover(browser, tab, race: str, event: int):
     people who actually ran are fetched. Returns (tab, sorted ids)."""
     base = f"{BASE_URL}/races/{race}/events/{event}"
     ids: set[int] = set()
+    seen: set[int] = set()
     for page in range(1, MAX_LIST_PAGES + 1):
         url = base if page == 1 else f"{base}?page={page}"
         html = None
@@ -329,16 +338,17 @@ async def discover(browser, tab, race: str, event: int):
         if html is None:
             print(f"  list page {page} never loaded; stopping here", flush=True)
             break
-        found = listed_ids(html, event)
-        new = found - ids
+        started, listed = listed_ids(html, event)
+        new = listed - seen
         last = max((int(n) for n in re.findall(r"[?&](?:amp;)?page=(\d+)", html)), default=page)
-        print(f"  list page {page}: {len(found)} listed, {len(new)} new (last page link {last})", flush=True)
-        if page == 1 and not found:
+        print(f"  list page {page}: {len(listed)} listed ({len(listed - started)} DNS), {len(new)} new (last page link {last})", flush=True)
+        if page == 1 and not listed:
             text = parse._text(re.sub(r"<script.*?</script>|<style.*?</style>", " ", html, flags=re.S))
             print(f"  nothing listed on {url}; title {page_title(html)!r}; text: {text[:1500]}", flush=True)
         if not new:
             break
-        ids |= new
+        seen |= listed
+        ids |= started
     return tab, sorted(ids)
 
 
