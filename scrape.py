@@ -11,9 +11,11 @@ results page in the same browser session, which reuses the clearance cookie.
 Each page is parsed as it's fetched (see parse.py) and saved as
 results/<n>.json; at the end results.csv and splits.csv are rebuilt from
 results/. A bib with no results page (it redirects elsewhere, or has no
-athlete on it) is saved with "found": false and left out of the CSVs.
+athlete on it, after a few tries) is saved with "found": false and left out
+of the CSVs.
 
-Individuals already in results/ are skipped unless --force is given.
+Individuals already in results/ are skipped unless --force is given; bibs
+recorded as not found are tried again on every run.
 
 Usage: scrape.py [--race SLUG] [--event N] [--start N] [--end N] [--force]
 """
@@ -64,6 +66,11 @@ TURNSTILE_FIND_TIMEOUT_SECONDS = 5
 
 # Pause between pages, to be gentle on the site.
 DEFAULT_DELAY_SECONDS = 1.0
+
+# How many times to load a page that seems to have no results before
+# recording the bib as not found, and the pause between tries.
+NOT_FOUND_ATTEMPTS = 3
+NOT_FOUND_RETRY_SECONDS = 3
 
 # Give up if this many pages in a row fail: we've probably been blocked.
 MAX_CONSECUTIVE_FAILURES = 10
@@ -282,12 +289,47 @@ def write_json(path: str, data) -> None:
         f.write("\n")
 
 
+def already_found(n: int) -> bool:
+    """Whether results/<n>.json holds this individual's results. A bib
+    recorded as not found is tried again on every run."""
+    try:
+        with open(parse.result_path(n), encoding="utf-8") as f:
+            return json.load(f).get("found", True)
+    except (FileNotFoundError, ValueError):
+        return False
+
+
+async def fetch_result(browser, tab, url: str, n: int):
+    """Fetch and parse one individual's page. Returns (tab, result), or
+    (tab, None) if the page never got past the challenge.
+
+    A page that looks like it has no results (a redirect, or no athlete on
+    it) is loaded again before we believe it: the first look can catch the
+    browser part way through moving between pages."""
+    result = None
+    for attempt in range(1, NOT_FOUND_ATTEMPTS + 1):
+        if attempt > 1:
+            print(f"  no results for {n}; trying again ({attempt}/{NOT_FOUND_ATTEMPTS})", flush=True)
+            await asyncio.sleep(NOT_FOUND_RETRY_SECONDS)
+        tab, html, where = await fetch_page(browser, url, tab=tab)
+        if html is None:
+            return tab, None
+        if where:
+            # Redirected away. Don't parse what came back: it can still be
+            # the previous page's DOM.
+            result = {"id": n, "url": url, "found": False, "redirected_to": where}
+            continue
+        result = {"id": n, "url": url, **parse.parse_page(html)}
+        summary = result["summary"]
+        result["found"] = bool(summary["name"] or result["splits"])
+        if result["found"]:
+            return tab, result
+        result["title"] = page_title(html)
+    return tab, result
+
+
 async def scrape(args) -> int:
-    todo = [
-        n
-        for n in range(args.start, args.end + 1)
-        if args.force or not os.path.exists(parse.result_path(n))
-    ]
+    todo = [n for n in range(args.start, args.end + 1) if args.force or not already_found(n)]
     print(f"{len(todo)} individual(s) to fetch", flush=True)
     if not todo:
         parse.write_csvs()
@@ -315,11 +357,11 @@ async def scrape(args) -> int:
                 await asyncio.sleep(args.delay)
             url = page_url(args.race, args.event, n)
             try:
-                tab, html, where = await fetch_page(browser, url, tab=tab)
+                tab, result = await fetch_result(browser, tab, url, n)
             except Exception as e:
                 print(f"ERROR fetching {url}: {e!r}", flush=True)
-                html = where = None
-            if html is None:
+                result = None
+            if result is None:
                 failures.append(n)
                 consecutive += 1
                 if consecutive >= MAX_CONSECUTIVE_FAILURES:
@@ -330,23 +372,17 @@ async def scrape(args) -> int:
                     break
                 continue
             consecutive = 0
-            if where:
-                # Redirected away: no results page for this bib. (Don't parse
-                # what came back: it can still be the previous page's DOM.)
-                result = {"id": n, "url": url, "found": False, "redirected_to": where}
-            else:
-                result = {"id": n, "url": url, **parse.parse_page(html)}
-                summary = result["summary"]
-                result["found"] = bool(summary["name"] or result["splits"])
             write_json(parse.result_path(n), result)
             if result["found"]:
+                summary = result["summary"]
                 print(
                     f"  #{summary['bib']} {summary['name']}: {summary['status']}"
                     f" {summary['gun_time']}, {len(result['splits'])} split(s)",
                     flush=True,
                 )
             else:
-                print(f"  no results for {n}" + (f" (went to {where})" if where else ""), flush=True)
+                detail = result.get("redirected_to") or f"title {result.get('title')!r}"
+                print(f"  no results for {n} ({detail})", flush=True)
     finally:
         try:
             browser.stop()
