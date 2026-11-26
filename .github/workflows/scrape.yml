@@ -1,0 +1,96 @@
+name: Scrape results
+
+on:
+  # Runs when the scraper itself changes, so a push kicks off a scrape.
+  push:
+    paths:
+    - scrape.py
+    - parse.py
+    - requirements.txt
+    - .github/workflows/scrape.yml
+  workflow_dispatch:
+    inputs:
+      race:
+        description: Race slug on sportsplits.com
+        default: freshchoice-kepler-challenge-2025
+      event:
+        description: Event number
+        default: '1'
+      start:
+        description: First individual
+        default: '1'
+      end:
+        description: Last individual
+        default: '499'
+      force:
+        description: Re-fetch pages already saved
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+    # The runner's disk is slow the first time a file is read, which can make
+    # Chrome take ~10s to start. Read it in the background while setup runs.
+    - name: Warm up Chrome
+      run: |
+        nohup sh -c '
+          find /opt/google/chrome -type f -exec cat {} + >/dev/null 2>&1
+          timeout 30 google-chrome --headless --disable-gpu --dump-dom about:blank >/dev/null 2>&1
+        ' >/dev/null 2>&1 &
+    # The branch's latest commit, not the one that triggered the run: a run
+    # queued behind another should start from the results that one saved.
+    - uses: actions/checkout@v7
+      with:
+        ref: ${{ github.ref }}
+    - name: Set up Python 3.13
+      uses: actions/setup-python@v7
+      with:
+        python-version: "3.13"
+    - name: Install dependencies
+      run: pip install -r requirements.txt
+    - name: Install Chrome and Xvfb
+      run: |
+        need_update=1
+        apt_install() {
+          if [ -n "$need_update" ]; then sudo apt-get update; need_update=; fi
+          sudo apt-get install -y "$@"
+        }
+        command -v xvfb-run >/dev/null 2>&1 || apt_install xvfb
+        if ! command -v google-chrome >/dev/null 2>&1; then
+          apt_install chromium-browser || apt_install chromium
+        fi
+        CHROME_PATH=$(command -v google-chrome || command -v google-chrome-stable || command -v chromium-browser || command -v chromium || true)
+        echo "Resolved CHROME_PATH=$CHROME_PATH"
+        "$CHROME_PATH" --version || true
+        echo "CHROME_PATH=$CHROME_PATH" >> "$GITHUB_ENV"
+    # Cloudflare blocks plain curl, so drive a real (headful) Chrome under
+    # Xvfb to clear the challenge. Each page is parsed into results/<n>.json
+    # as it arrives, and the CSVs are rebuilt at the end. A timeout counts as
+    # a failure rather than a cancellation, so what was fetched is committed.
+    - name: Scrape results
+      timeout-minutes: 150
+      env:
+        RACE: ${{ inputs.race }}
+        EVENT: ${{ inputs.event }}
+        START: ${{ inputs.start }}
+        END: ${{ inputs.end }}
+        FORCE: ${{ inputs.force }}
+      run: xvfb-run -a python scrape.py
+    - name: Commit and push
+      if: ${{ !cancelled() }}
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        git commit -m "Results scraped $(date -u)" || exit 0
+        git pull --rebase
+        git push

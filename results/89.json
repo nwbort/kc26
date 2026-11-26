@@ -1,0 +1,49 @@
+{
+ "id": 89,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/1/results/individuals/89",
+ "summary": {
+  "bib": "89",
+  "name": "LUKE COTTER",
+  "status": "DNF",
+  "gun_time": "",
+  "place": "",
+  "place_of": "442",
+  "gender": "Male",
+  "gender_place": "",
+  "gender_of": "293",
+  "category": "Open",
+  "category_place": "",
+  "category_of": "127"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:20:05",
+   "run_time": "00:20:05",
+   "race_time": "00:20:05",
+   "pos": "-",
+   "tod": "06:20:05",
+   "gender": "Male",
+   "gender_pos": "-",
+   "category": "Open",
+   "category_pos": "-",
+   "speed_kmh": "14.92",
+   "pace": "04:01"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "00:59:14",
+   "run_time": "01:19:20",
+   "race_time": "01:19:20",
+   "pos": "-",
+   "tod": "07:19:20",
+   "gender": "Male",
+   "gender_pos": "-",
+   "category": "Open",
+   "category_pos": "-",
+   "speed_kmh": "10.43",
+   "pace": "05:44"
+  }
+ ],
+ "found": true
+}
