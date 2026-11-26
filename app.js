@@ -12,6 +12,7 @@
     start: M.parseClock(C.startTime),
     band: C.band.slice(),
     gender: C.gender || "all",
+    bib: "",                   // supporter's override; empty means use config
   });
 
   let S = defaults();
@@ -24,8 +25,17 @@
   let DATA = null, CPS = [];
 
   // ---------- static header ----------
-  $("runnerName").textContent = C.runnerName + (C.bib ? ` (#${C.bib})` : "");
-  $("trackLink").href = C.trackingUrl;
+  // The bib comes from the supporter's setting, else config.js. With a bib,
+  // the tracking link goes straight to that runner's page on Sportsplits.
+  const bib = () => S.bib || String(C.bib || "");
+  function header() {
+    const b = bib();
+    $("runnerName").textContent = C.runnerName + (b ? ` (#${b})` : "");
+    $("trackLink").href = b
+      ? C.trackingUrl.replace(/\/?$/, "/") + "results/individuals/" + encodeURIComponent(b)
+      : C.trackingUrl;
+  }
+  header();
   try {
     const d = new Date(C.raceDate + "T12:00:00");
     $("raceDate").textContent = d.toLocaleDateString("en-NZ", { weekday: "short", day: "numeric", month: "short", year: "numeric" });
@@ -109,6 +119,7 @@
       $("bandLo").value = S.band[0];
       $("bandHi").value = S.band[1];
       $("genderIn").value = S.gender;
+      $("bibIn").value = bib();
     };
     sync();
     $("goalIn").addEventListener("change", (e) => { const g = M.parseDuration(e.target.value); if (g) S.goal = g; save(); sync(); render(); });
@@ -121,9 +132,14 @@
     $("bandLo").addEventListener("change", band);
     $("bandHi").addEventListener("change", band);
     $("genderIn").addEventListener("change", (e) => { S.gender = e.target.value; save(); render(); });
+    $("bibIn").addEventListener("change", (e) => {
+      const v = e.target.value.replace(/\D/g, "");
+      S.bib = v === String(C.bib || "") ? "" : v;
+      save(); sync(); header();
+    });
     $("resetBtn").addEventListener("click", () => {
       const keep = { actual: S.actual, mode: S.mode };
-      S = Object.assign(defaults(), keep); save(); sync(); render();
+      S = Object.assign(defaults(), keep); save(); sync(); header(); render();
     });
   }
 
