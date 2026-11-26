@@ -37,13 +37,18 @@ DEFAULT_RACE = "freshchoice-kepler-challenge-2025"
 DEFAULT_EVENT = 1
 PAGES_DIR = "pages"
 
-# Markers that indicate we're still looking at the Cloudflare challenge rather
-# than the real page. Sportsplits brands its challenge "Checking Your Browser".
+# Titles of Cloudflare's challenge pages. Sportsplits brands its own
+# "Checking Your Browser". The title is what we go by: Cloudflare also puts
+# its challenge-platform script on the real pages once the challenge clears,
+# so markers in the HTML alone would never let a page count as loaded.
+CHALLENGE_TITLES = (
+    "just a moment",
+    "checking your browser",
+    "attention required",
+    "verifying you are human",
+)
+# Only consulted for a page with no title at all.
 CHALLENGE_MARKERS = (
-    "Just a moment",
-    "Checking Your Browser",
-    "Checking your browser",
-    "challenge-platform",
     "cf_chl_opt",
     "Enable JavaScript and cookies to continue",
     "Verifying you are human",
@@ -86,7 +91,15 @@ CHROME_ARGS = [
 ]
 
 
+def page_title(html: str) -> str:
+    m = re.search(r"<title[^>]*>(.*?)</title>", html, re.I | re.S)
+    return re.sub(r"\s+", " ", m.group(1)).strip() if m else ""
+
+
 def looks_like_challenge(html: str) -> bool:
+    title = page_title(html).lower()
+    if title:
+        return title.startswith(CHALLENGE_TITLES)
     return any(marker in html for marker in CHALLENGE_MARKERS)
 
 
@@ -244,8 +257,7 @@ async def fetch_page(browser, url: str, tab=None):
             continue
 
         if html is not None:
-            m = re.search(r"<title[^>]*>(.*?)</title>", html, re.I | re.S)
-            title = m.group(1).strip() if m else ""
+            title = page_title(html)
             challenge = looks_like_challenge(html)
             if challenge and title != last_title:
                 print(f"  attempt {attempt}: challenge, title={title!r}", flush=True)
