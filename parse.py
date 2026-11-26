@@ -14,8 +14,9 @@ the page has rather than relying on particular class names:
   __NEXT_DATA__, <script type="application/json">, Livewire snapshots).
 
 Writes results/<n>.json for each page, results.json with them all,
-results.csv with one row per individual and a column per field, and
-splits.csv with one row per individual per checkpoint (see parse_splits).
+results.csv with one row per individual (name, bib, status, gun time and
+places; see parse_summary), and splits.csv with one row per individual per
+checkpoint (see parse_splits).
 
 Usage: parse.py [PAGES_DIR]
 """
@@ -205,8 +206,69 @@ def parse_page(html: str) -> dict:
     }
 
 
+SUMMARY_COLUMNS = [
+    "id",
+    "bib",
+    "name",
+    "status",
+    "gun_time",
+    "place",
+    "place_of",
+    "gender",
+    "gender_place",
+    "gender_of",
+    "category",
+    "category_place",
+    "category_of",
+]
+
+
+def _text(html: str) -> str:
+    return clean(re.sub(r"<!--.*?-->|<[^>]+>", " ", html, flags=re.S))
+
+
+def parse_summary(html: str) -> dict:
+    """The athlete's header block, which reads (as text):
+
+        BRUCE ADAMS (#1) Finished GUN TIME: 09:56:30
+        Place 364 OF 442  Male 255 OF 293  Veteran 50+ 41 OF 50
+
+    A DNF has no time or places: "VAJIN ARMSTRONG (#9) DNF GUN TIME: Place OF
+    442 ...". The page title, "(#1) BRUCE ADAMS - FreshChoice Kepler ...", is
+    the fallback for the name and bib."""
+    s = {c: "" for c in SUMMARY_COLUMNS if c != "id"}
+    m = re.search(r"<title[^>]*>\s*\(#([^)]*)\)\s*(.*?)\s+-\s", html, re.S)
+    if m:
+        s["bib"], s["name"] = clean(m.group(1)), clean(m.group(2))
+
+    start = html.find("g-font-size-30")
+    end = html.find("End Overall Statistics", start)
+    if start < 0 or end < 0:
+        return s
+    text = _text(html[html.find(">", start) + 1 : end])
+
+    m = re.match(r"(.*?)\s*\(#([^)]*)\)\s*(.*?)\s*GUN TIME:\s*(\S*)\s*(.*)", text)
+    if not m:
+        return s
+    s["name"], s["bib"], s["status"] = m.group(1), m.group(2), m.group(3)
+    s["gun_time"] = m.group(4) if re.fullmatch(r"[\d:.]+", m.group(4)) else ""
+    rest = m.group(5) if s["gun_time"] else f"{m.group(4)} {m.group(5)}"
+
+    # "Place 364 OF 442 Male 255 OF 293 Veteran 50+ 41 OF 50": label, place
+    # (blank for a DNF), total. Labels can end in digits ("Veteran 50+").
+    places = re.findall(r"(.+?)\s+(?:(\d+)\s+)?OF\s+(\d+)\s*", rest)
+    if len(places) > 0:
+        s["place"], s["place_of"] = places[0][1], places[0][2]
+    if len(places) > 1:
+        s["gender"], s["gender_place"], s["gender_of"] = places[1]
+    if len(places) > 2:
+        s["category"], s["category_place"], s["category_of"] = places[2]
+    return s
+
+
 SPLIT_COLUMNS = [
     "id",
+    "bib",
     "name",
     "gender",
     "category",
@@ -266,14 +328,14 @@ def parse_splits(result: dict) -> list[dict]:
     gender_i = extra[0] if len(extra) > 0 else None
     category_i = extra[1] if len(extra) > 1 else None
 
-    name = result["headings"][0]["text"] if result["headings"] else ""
     rows = []
     for cells in table["rows"]:
         if len(cells) != len(headers):
             continue
         row = {c: "" for c in SPLIT_COLUMNS}
         row["id"] = result["id"]
-        row["name"] = name
+        row["bib"] = result["summary"]["bib"]
+        row["name"] = result["summary"]["name"]
         for i, h in enumerate(headers):
             if h in _SPLIT_HEADERS:
                 row[_SPLIT_HEADERS[h]] = cells[i]
@@ -305,7 +367,9 @@ def main() -> int:
     results = []
     for path in paths:
         with open(path, encoding="utf-8") as f:
-            result = {"id": page_number(path), **parse_page(f.read())}
+            html = f.read()
+        result = {"id": page_number(path), "summary": parse_summary(html), **parse_page(html)}
+        result["splits"] = parse_splits(result)
         results.append(result)
         with open(os.path.join(RESULTS_DIR, f"{result['id']}.json"), "w", encoding="utf-8") as f:
             json.dump(result, f, indent=2, ensure_ascii=False)
@@ -315,26 +379,17 @@ def main() -> int:
         json.dump(results, f, indent=1, ensure_ascii=False)
         f.write("\n")
 
-    # One row per individual: name (first heading), then every field seen,
-    # in the order first seen.
-    columns: list[str] = []
-    for r in results:
-        for k in r["fields"]:
-            if k not in columns:
-                columns.append(k)
     with open("results.csv", "w", encoding="utf-8", newline="") as f:
-        w = csv.writer(f)
-        w.writerow(["id", "name", *columns])
-        for r in results:
-            name = r["headings"][0]["text"] if r["headings"] else ""
-            w.writerow([r["id"], name, *(r["fields"].get(c, "") for c in columns)])
+        w = csv.DictWriter(f, fieldnames=SUMMARY_COLUMNS)
+        w.writeheader()
+        w.writerows({"id": r["id"], **r["summary"]} for r in results)
 
-    splits = [row for r in results for row in parse_splits(r)]
+    splits = [row for r in results for row in r["splits"]]
     with open("splits.csv", "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=SPLIT_COLUMNS)
         w.writeheader()
         w.writerows(splits)
-    without = [r["id"] for r in results if not parse_splits(r)]
+    without = [r["id"] for r in results if not r["splits"]]
 
     print(f"Parsed {len(results)} page(s) into {RESULTS_DIR}/, results.json, results.csv")
     print(f"Wrote {len(splits)} split(s) to splits.csv")

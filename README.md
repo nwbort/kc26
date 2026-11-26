@@ -31,9 +31,11 @@ Locally: `pip install -r requirements.txt`, then
   `fields` (label/value pairs such as bib, category, places, finish time),
   `tables` (e.g. the splits) and any `embedded` JSON.
 - `results.json`: all of the above in one file.
-- `results.csv`: one row per individual, a column per field.
+- `results.csv`: one row per individual: `id, bib, name, status, gun_time,
+  place, place_of, gender, gender_place, gender_of, category,
+  category_place, category_of` (blank time and places for a DNF).
 - `splits.csv`: the splits table for everyone, one row per individual per
-  checkpoint: `id, name, gender, category, location, split, run_time,
+  checkpoint: `id, bib, name, gender, category, location, split, run_time,
   race_time, pos, gender_pos, category_pos, speed_kmh, pace, tod`. The
   table's "Male"/"Open" style columns are the athlete's own gender and
   category, so their headers go in `gender`/`category` and the positions in

@@ -1,11 +1,11 @@
-id,name
-1,Filter Results
-2,Filter Results
-3,Filter Results
-4,Filter Results
-5,Filter Results
-6,Filter Results
-7,Filter Results
-8,Filter Results
-9,Filter Results
-10,Filter Results
+id,bib,name,status,gun_time,place,place_of,gender,gender_place,gender_of,category,category_place,category_of
+1,1,BRUCE ADAMS,Finished,09:56:30,364,442,Male,255,293,Veteran 50+,41,50
+2,2,KAREN ALCORN,Finished,11:11:04,428,442,Female,139,149,Open,68,70
+3,3,RICHARD ALCORN,Finished,11:11:04,427,442,Male,289,293,Open,127,127
+4,4,OSCAR ALLEN,Finished,08:43:14,229,442,Male,170,293,Open,89,127
+5,5,VICTOR ALLIS,Finished,08:54:20,252,442,Male,184,293,Legend 60+,4,23
+6,6,STEVE ANDERSON,Finished,06:40:36,44,442,Male,38,293,Veteran 40+,9,93
+7,7,TEGYN ANGEL,Finished,07:34:55,113,442,Male,89,293,Veteran 40+,24,93
+8,8,ANDREW ANGLEMYER,Finished,09:24:06,314,442,Male,226,293,Veteran 40+,76,93
+9,9,VAJIN ARMSTRONG,DNF,,,442,Male,,293,Veteran 40+,,93
+10,10,DANIEL BALCHIN,Finished,05:06:30,3,442,Male,3,293,Open,3,127
