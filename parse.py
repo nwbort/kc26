@@ -13,7 +13,8 @@ parse_page() turns a page into:
 
 scrape.py saves that for each individual as results/<n>.json. Run this file
 to rebuild results.csv (one row per individual) and splits.csv (one row per
-individual per checkpoint) from results/.
+individual per checkpoint) from results/: `python parse.py` for the Kepler,
+`python parse.py grunt` for the Luxmore Grunt.
 """
 
 import csv
@@ -26,6 +27,10 @@ from html import unescape
 from html.parser import HTMLParser
 
 RESULTS_DIR = "results"
+
+# Where results/, results.csv and splits.csv live: the repo root for the
+# Kepler (event 1), grunt/ for the Luxmore Grunt (event 2).
+OUT_DIR = "."
 
 SUMMARY_COLUMNS = [
     "id",
@@ -217,33 +222,35 @@ def parse_page(html: str) -> dict:
     return {"summary": parse_summary(html), "splits": parse_splits(html)}
 
 
-def result_path(n: int) -> str:
-    return os.path.join(RESULTS_DIR, f"{n}.json")
+def result_path(n: int, out: str | None = None) -> str:
+    return os.path.join(out or OUT_DIR, RESULTS_DIR, f"{n}.json")
 
 
-def load_results() -> list[dict]:
+def load_results(out: str | None = None) -> list[dict]:
     def number(path):
         return int(os.path.splitext(os.path.basename(path))[0])
 
     results = []
-    for path in sorted(glob.glob(os.path.join(RESULTS_DIR, "*.json")), key=number):
+    for path in sorted(glob.glob(os.path.join(out or OUT_DIR, RESULTS_DIR, "*.json")), key=number):
         with open(path, encoding="utf-8") as f:
             results.append(json.load(f))
     return results
 
 
-def write_csvs() -> None:
+def write_csvs(out: str | None = None) -> None:
     """results.csv and splits.csv from results/, leaving out bibs that
     don't exist."""
-    results = [r for r in load_results() if r.get("found", True)]
-    with open("results.csv", "w", encoding="utf-8", newline="") as f:
+    out = out or OUT_DIR
+    os.makedirs(out, exist_ok=True)
+    results = [r for r in load_results(out) if r.get("found", True)]
+    with open(os.path.join(out, "results.csv"), "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=SUMMARY_COLUMNS)
         w.writeheader()
         for r in results:
             w.writerow({"id": r["id"], **r["summary"]})
 
     n_splits = 0
-    with open("splits.csv", "w", encoding="utf-8", newline="") as f:
+    with open(os.path.join(out, "splits.csv"), "w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=SPLIT_COLUMNS, restval="")
         w.writeheader()
         for r in results:
@@ -257,9 +264,10 @@ def write_csvs() -> None:
                     }
                 )
                 n_splits += 1
-    print(f"Wrote {len(results)} individual(s) to results.csv, {n_splits} split(s) to splits.csv")
+    print(f"Wrote {len(results)} individual(s) to {out}/results.csv, {n_splits} split(s) to {out}/splits.csv")
 
 
 if __name__ == "__main__":
-    write_csvs()
+    # parse.py [DIR]: DIR holds results/ (default: the current directory).
+    write_csvs(sys.argv[1] if len(sys.argv) > 1 else ".")
     sys.exit(0)

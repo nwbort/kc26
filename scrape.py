@@ -17,7 +17,15 @@ of the CSVs.
 Individuals already in results/ are skipped unless --force is given; bibs
 recorded as not found are tried again on every run.
 
-Usage: scrape.py [--race SLUG] [--event N] [--start N] [--end N] [--force]
+--out sets where results/ and the CSVs go (default: the repo root, for the
+Kepler; use --event 2 --out grunt for the Luxmore Grunt).
+
+--discover takes the individuals from the event's results list instead of
+scanning --start..--end (the URL's number is the bib, and the Grunt's bib
+range isn't known up front).
+
+Usage: scrape.py [--race SLUG] [--event N] [--start N] [--end N] [--out DIR]
+                 [--discover] [--force]
 """
 
 import argparse
@@ -278,6 +286,37 @@ def page_url(race: str, event: int, n: int) -> str:
     return f"{BASE_URL}/races/{race}/events/{event}/results/individuals/{n}"
 
 
+# Most list pages to follow when discovering individuals.
+MAX_LIST_PAGES = 40
+
+
+async def discover(browser, tab, race: str, event: int):
+    """Individual ids linked from the event's results list (following its
+    page links), so a race whose bib range isn't known needn't be scanned
+    bib by bib. Returns (tab, sorted ids), empty if none were found."""
+    base = f"{BASE_URL}/races/{race}/events/{event}"
+    link_re = re.compile(rf"/events/{event}/results/individuals/(\d+)")
+    page_re = re.compile(rf'href="([^"]*/events/{event}/results[^"#]*[?&]page=\d+[^"#]*)"')
+    queue = [f"{base}/results", f"{base}/"]
+    seen, ids = set(), set()
+    while queue and len(seen) < MAX_LIST_PAGES:
+        url = queue.pop(0).replace("&amp;", "&")
+        if url.startswith("/"):
+            url = BASE_URL + url
+        if url in seen:
+            continue
+        seen.add(url)
+        tab, html, where = await fetch_page(browser, url, tab=tab)
+        if html is None:
+            continue
+        found = {int(n) for n in link_re.findall(html)}
+        ids |= found
+        pages = page_re.findall(html)
+        print(f"  list {url}: {len(found)} individual link(s), {len(set(pages))} page link(s), title {page_title(html)!r}", flush=True)
+        queue += [p for p in pages if p not in queue]
+    return tab, sorted(ids)
+
+
 def write_json(path: str, data) -> None:
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
@@ -326,8 +365,8 @@ async def fetch_result(browser, tab, url: str, n: int):
 
 async def scrape(args) -> int:
     todo = [n for n in range(args.start, args.end + 1) if args.force or not already_found(n)]
-    print(f"{len(todo)} individual(s) to fetch", flush=True)
-    if not todo:
+    if not todo and not args.discover:
+        print("0 individual(s) to fetch", flush=True)
         parse.write_csvs()
         return 0
 
@@ -348,6 +387,14 @@ async def scrape(args) -> int:
     consecutive = 0
     tab = None
     try:
+        if args.discover:
+            tab, ids = await discover(browser, tab, args.race, args.event)
+            if ids:
+                print(f"Discovered {len(ids)} individual(s): {ids[0]}..{ids[-1]}", flush=True)
+                todo = [n for n in ids if args.force or not already_found(n)]
+            else:
+                print("No individuals listed; falling back to --start..--end", flush=True)
+        print(f"{len(todo)} individual(s) to fetch", flush=True)
         for i, n in enumerate(todo):
             if i:
                 await asyncio.sleep(args.delay)
@@ -403,8 +450,16 @@ def main() -> int:
     p.add_argument("--start", type=int, default=int(os.environ.get("START") or 1))
     p.add_argument("--end", type=int, default=int(os.environ.get("END") or 499))
     p.add_argument("--delay", type=float, default=DEFAULT_DELAY_SECONDS)
+    p.add_argument("--out", default=os.environ.get("OUT") or ".")
+    p.add_argument(
+        "--discover",
+        action="store_true",
+        default=os.environ.get("DISCOVER") == "true",
+        help="fetch the individuals linked from the event's results list (else --start..--end)",
+    )
     p.add_argument("--force", action="store_true", default=os.environ.get("FORCE") == "true")
     args = p.parse_args()
+    parse.OUT_DIR = args.out
     return uc.loop().run_until_complete(scrape(args))
 
 
