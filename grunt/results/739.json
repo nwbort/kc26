@@ -1,0 +1,77 @@
+{
+ "id": 739,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/739",
+ "summary": {
+  "bib": "739",
+  "name": "HADLEY CLARK",
+  "status": "Finished",
+  "gun_time": "03:09:54",
+  "place": "58",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "35",
+  "gender_of": "74",
+  "category": "Open",
+  "category_place": "20",
+  "category_of": "30"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:26:53",
+   "run_time": "00:26:58",
+   "race_time": "00:26:58",
+   "pos": "40",
+   "tod": "07:26:58",
+   "gender": "Male",
+   "gender_pos": "26",
+   "category": "Open",
+   "category_pos": "17",
+   "speed_kmh": "11.12",
+   "pace": "05:23"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:19:11",
+   "run_time": "01:46:09",
+   "race_time": "01:46:09",
+   "pos": "57",
+   "tod": "08:46:09",
+   "gender": "Male",
+   "gender_pos": "36",
+   "category": "Open",
+   "category_pos": "21",
+   "speed_kmh": "7.79",
+   "pace": "07:41"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:47:14",
+   "run_time": "02:33:23",
+   "race_time": "02:33:23",
+   "pos": "56",
+   "tod": "09:33:23",
+   "gender": "Male",
+   "gender_pos": "35",
+   "category": "Open",
+   "category_pos": "21",
+   "speed_kmh": "8.6",
+   "pace": "06:58"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:36:30",
+   "run_time": "03:09:54",
+   "race_time": "03:09:54",
+   "pos": "58",
+   "tod": "10:09:54",
+   "gender": "Male",
+   "gender_pos": "35",
+   "category": "Open",
+   "category_pos": "20",
+   "speed_kmh": "8.53",
+   "pace": "07:02"
+  }
+ ],
+ "found": true
+}

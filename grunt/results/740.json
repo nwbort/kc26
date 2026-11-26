@@ -1,0 +1,77 @@
+{
+ "id": 740,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/740",
+ "summary": {
+  "bib": "740",
+  "name": "STACEY CLARKE",
+  "status": "Finished",
+  "gun_time": "03:22:18",
+  "place": "84",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "37",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "14",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:31:42",
+   "run_time": "00:31:56",
+   "race_time": "00:31:56",
+   "pos": "94",
+   "tod": "07:31:56",
+   "gender": "Female",
+   "gender_pos": "44",
+   "category": "Veteran 40+",
+   "category_pos": "15",
+   "speed_kmh": "9.39",
+   "pace": "06:23"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:22:43",
+   "run_time": "01:54:39",
+   "race_time": "01:54:39",
+   "pos": "84",
+   "tod": "08:54:39",
+   "gender": "Female",
+   "gender_pos": "37",
+   "category": "Veteran 40+",
+   "category_pos": "13",
+   "speed_kmh": "7.22",
+   "pace": "08:18"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:52:24",
+   "run_time": "02:47:04",
+   "race_time": "02:47:04",
+   "pos": "84",
+   "tod": "09:47:04",
+   "gender": "Female",
+   "gender_pos": "36",
+   "category": "Veteran 40+",
+   "category_pos": "13",
+   "speed_kmh": "7.9",
+   "pace": "07:35"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:35:13",
+   "run_time": "03:22:18",
+   "race_time": "03:22:18",
+   "pos": "84",
+   "tod": "10:22:18",
+   "gender": "Female",
+   "gender_pos": "37",
+   "category": "Veteran 40+",
+   "category_pos": "14",
+   "speed_kmh": "8",
+   "pace": "07:29"
+  }
+ ],
+ "found": true
+}

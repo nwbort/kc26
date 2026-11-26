@@ -1,0 +1,77 @@
+{
+ "id": 800,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/800",
+ "summary": {
+  "bib": "800",
+  "name": "ELODIE KIP",
+  "status": "Finished",
+  "gun_time": "03:47:01",
+  "place": "133",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "71",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "38",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:33:23",
+   "run_time": "00:33:37",
+   "race_time": "00:33:37",
+   "pos": "121",
+   "tod": "07:33:37",
+   "gender": "Female",
+   "gender_pos": "67",
+   "category": "Open",
+   "category_pos": "36",
+   "speed_kmh": "8.92",
+   "pace": "06:43"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:37:19",
+   "run_time": "02:10:56",
+   "race_time": "02:10:56",
+   "pos": "148",
+   "tod": "09:10:56",
+   "gender": "Female",
+   "gender_pos": "84",
+   "category": "Open",
+   "category_pos": "43",
+   "speed_kmh": "6.32",
+   "pace": "09:29"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:57:22",
+   "run_time": "03:08:19",
+   "race_time": "03:08:19",
+   "pos": "133",
+   "tod": "10:08:19",
+   "gender": "Female",
+   "gender_pos": "71",
+   "category": "Open",
+   "category_pos": "38",
+   "speed_kmh": "7",
+   "pace": "08:33"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:38:41",
+   "run_time": "03:47:01",
+   "race_time": "03:47:01",
+   "pos": "133",
+   "tod": "10:47:01",
+   "gender": "Female",
+   "gender_pos": "71",
+   "category": "Open",
+   "category_pos": "38",
+   "speed_kmh": "7.13",
+   "pace": "08:24"
+  }
+ ],
+ "found": true
+}

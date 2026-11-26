@@ -1,0 +1,77 @@
+{
+ "id": 763,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/763",
+ "summary": {
+  "bib": "763",
+  "name": "CALEB GREEN",
+  "status": "Finished",
+  "gun_time": "03:11:17",
+  "place": "63",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "40",
+  "gender_of": "74",
+  "category": "Veteran 40+",
+  "category_place": "10",
+  "category_of": "20"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:28:53",
+   "run_time": "00:28:59",
+   "race_time": "00:28:59",
+   "pos": "61",
+   "tod": "07:28:59",
+   "gender": "Male",
+   "gender_pos": "36",
+   "category": "Veteran 40+",
+   "category_pos": "9",
+   "speed_kmh": "10.34",
+   "pace": "05:47"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:16:56",
+   "run_time": "01:45:55",
+   "race_time": "01:45:55",
+   "pos": "55",
+   "tod": "08:45:55",
+   "gender": "Male",
+   "gender_pos": "34",
+   "category": "Veteran 40+",
+   "category_pos": "10",
+   "speed_kmh": "7.81",
+   "pace": "07:40"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:49:46",
+   "run_time": "02:35:42",
+   "race_time": "02:35:42",
+   "pos": "60",
+   "tod": "09:35:42",
+   "gender": "Male",
+   "gender_pos": "38",
+   "category": "Veteran 40+",
+   "category_pos": "10",
+   "speed_kmh": "8.47",
+   "pace": "07:04"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:35:35",
+   "run_time": "03:11:17",
+   "race_time": "03:11:17",
+   "pos": "63",
+   "tod": "10:11:17",
+   "gender": "Male",
+   "gender_pos": "40",
+   "category": "Veteran 40+",
+   "category_pos": "10",
+   "speed_kmh": "8.46",
+   "pace": "07:05"
+  }
+ ],
+ "found": true
+}

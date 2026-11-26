@@ -1,0 +1,77 @@
+{
+ "id": 760,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/760",
+ "summary": {
+  "bib": "760",
+  "name": "SAM GAWITH",
+  "status": "Finished",
+  "gun_time": "03:38:52",
+  "place": "113",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "59",
+  "gender_of": "74",
+  "category": "Veteran 50+",
+  "category_place": "13",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:33:51",
+   "run_time": "00:34:09",
+   "race_time": "00:34:09",
+   "pos": "126",
+   "tod": "07:34:09",
+   "gender": "Male",
+   "gender_pos": "56",
+   "category": "Veteran 50+",
+   "category_pos": "12",
+   "speed_kmh": "8.78",
+   "pace": "06:49"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:30:23",
+   "run_time": "02:04:32",
+   "race_time": "02:04:32",
+   "pos": "120",
+   "tod": "09:04:32",
+   "gender": "Male",
+   "gender_pos": "59",
+   "category": "Veteran 50+",
+   "category_pos": "13",
+   "speed_kmh": "6.64",
+   "pace": "09:01"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:52:31",
+   "run_time": "02:57:04",
+   "race_time": "02:57:04",
+   "pos": "110",
+   "tod": "09:57:04",
+   "gender": "Male",
+   "gender_pos": "58",
+   "category": "Veteran 50+",
+   "category_pos": "12",
+   "speed_kmh": "7.45",
+   "pace": "08:02"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:41:47",
+   "run_time": "03:38:52",
+   "race_time": "03:38:52",
+   "pos": "113",
+   "tod": "10:38:52",
+   "gender": "Male",
+   "gender_pos": "59",
+   "category": "Veteran 50+",
+   "category_pos": "13",
+   "speed_kmh": "7.4",
+   "pace": "08:06"
+  }
+ ],
+ "found": true
+}

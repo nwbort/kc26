@@ -1,0 +1,77 @@
+{
+ "id": 775,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/775",
+ "summary": {
+  "bib": "775",
+  "name": "COURTNEY HAWKE",
+  "status": "Finished",
+  "gun_time": "02:39:48",
+  "place": "26",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "8",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "6",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:24:34",
+   "run_time": "00:24:37",
+   "race_time": "00:24:37",
+   "pos": "22",
+   "tod": "07:24:37",
+   "gender": "Female",
+   "gender_pos": "5",
+   "category": "Open",
+   "category_pos": "4",
+   "speed_kmh": "12.18",
+   "pace": "04:55"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:08:21",
+   "run_time": "01:32:58",
+   "race_time": "01:32:58",
+   "pos": "28",
+   "tod": "08:32:58",
+   "gender": "Female",
+   "gender_pos": "8",
+   "category": "Open",
+   "category_pos": "5",
+   "speed_kmh": "8.9",
+   "pace": "06:44"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:39:23",
+   "run_time": "02:12:22",
+   "race_time": "02:12:22",
+   "pos": "28",
+   "tod": "09:12:22",
+   "gender": "Female",
+   "gender_pos": "9",
+   "category": "Open",
+   "category_pos": "7",
+   "speed_kmh": "9.97",
+   "pace": "06:01"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:27:26",
+   "run_time": "02:39:48",
+   "race_time": "02:39:48",
+   "pos": "26",
+   "tod": "09:39:48",
+   "gender": "Female",
+   "gender_pos": "8",
+   "category": "Open",
+   "category_pos": "6",
+   "speed_kmh": "10.13",
+   "pace": "05:55"
+  }
+ ],
+ "found": true
+}

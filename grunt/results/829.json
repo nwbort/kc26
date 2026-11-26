@@ -1,0 +1,77 @@
+{
+ "id": 829,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/829",
+ "summary": {
+  "bib": "829",
+  "name": "KATHRYN MENPES",
+  "status": "Finished",
+  "gun_time": "03:43:33",
+  "place": "126",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "64",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "25",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:31:48",
+   "run_time": "00:32:01",
+   "race_time": "00:32:01",
+   "pos": "95",
+   "tod": "07:32:01",
+   "gender": "Female",
+   "gender_pos": "45",
+   "category": "Veteran 40+",
+   "category_pos": "16",
+   "speed_kmh": "9.36",
+   "pace": "06:24"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:32:34",
+   "run_time": "02:04:35",
+   "race_time": "02:04:35",
+   "pos": "121",
+   "tod": "09:04:35",
+   "gender": "Female",
+   "gender_pos": "62",
+   "category": "Veteran 40+",
+   "category_pos": "25",
+   "speed_kmh": "6.64",
+   "pace": "09:01"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:59:33",
+   "run_time": "03:04:09",
+   "race_time": "03:04:09",
+   "pos": "125",
+   "tod": "10:04:09",
+   "gender": "Female",
+   "gender_pos": "64",
+   "category": "Veteran 40+",
+   "category_pos": "25",
+   "speed_kmh": "7.16",
+   "pace": "08:22"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:39:24",
+   "run_time": "03:43:33",
+   "race_time": "03:43:33",
+   "pos": "126",
+   "tod": "10:43:33",
+   "gender": "Female",
+   "gender_pos": "64",
+   "category": "Veteran 40+",
+   "category_pos": "25",
+   "speed_kmh": "7.24",
+   "pace": "08:16"
+  }
+ ],
+ "found": true
+}

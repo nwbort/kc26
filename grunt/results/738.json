@@ -1,0 +1,77 @@
+{
+ "id": 738,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/738",
+ "summary": {
+  "bib": "738",
+  "name": "GINA CAVANAGH",
+  "status": "Finished",
+  "gun_time": "05:19:55",
+  "place": "195",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "124",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "44",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:43:24",
+   "run_time": "00:43:46",
+   "race_time": "00:43:46",
+   "pos": "191",
+   "tod": "07:43:46",
+   "gender": "Female",
+   "gender_pos": "120",
+   "category": "Veteran 40+",
+   "category_pos": "42",
+   "speed_kmh": "6.85",
+   "pace": "08:45"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "02:11:11",
+   "run_time": "02:54:58",
+   "race_time": "02:54:58",
+   "pos": "197",
+   "tod": "09:54:58",
+   "gender": "Female",
+   "gender_pos": "124",
+   "category": "Veteran 40+",
+   "category_pos": "44",
+   "speed_kmh": "4.73",
+   "pace": "12:40"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:33:29",
+   "run_time": "04:28:27",
+   "race_time": "04:28:27",
+   "pos": "195",
+   "tod": "11:28:27",
+   "gender": "Female",
+   "gender_pos": "124",
+   "category": "Veteran 40+",
+   "category_pos": "44",
+   "speed_kmh": "4.91",
+   "pace": "12:12"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:51:27",
+   "run_time": "05:19:55",
+   "race_time": "05:19:55",
+   "pos": "195",
+   "tod": "12:19:55",
+   "gender": "Female",
+   "gender_pos": "124",
+   "category": "Veteran 40+",
+   "category_pos": "44",
+   "speed_kmh": "5.06",
+   "pace": "11:50"
+  }
+ ],
+ "found": true
+}

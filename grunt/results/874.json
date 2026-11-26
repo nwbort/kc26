@@ -1,0 +1,77 @@
+{
+ "id": 874,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/874",
+ "summary": {
+  "bib": "874",
+  "name": "MEGAN STEVENS",
+  "status": "Finished",
+  "gun_time": "04:05:41",
+  "place": "159",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "93",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "48",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:37:19",
+   "run_time": "00:37:38",
+   "race_time": "00:37:38",
+   "pos": "167",
+   "tod": "07:37:38",
+   "gender": "Female",
+   "gender_pos": "98",
+   "category": "Open",
+   "category_pos": "49",
+   "speed_kmh": "7.96",
+   "pace": "07:31"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:42:07",
+   "run_time": "02:19:45",
+   "race_time": "02:19:45",
+   "pos": "165",
+   "tod": "09:19:45",
+   "gender": "Female",
+   "gender_pos": "98",
+   "category": "Open",
+   "category_pos": "50",
+   "speed_kmh": "5.92",
+   "pace": "10:07"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:04:43",
+   "run_time": "03:24:28",
+   "race_time": "03:24:28",
+   "pos": "163",
+   "tod": "10:24:28",
+   "gender": "Female",
+   "gender_pos": "96",
+   "category": "Open",
+   "category_pos": "49",
+   "speed_kmh": "6.45",
+   "pace": "09:17"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:41:12",
+   "run_time": "04:05:41",
+   "race_time": "04:05:41",
+   "pos": "159",
+   "tod": "11:05:41",
+   "gender": "Female",
+   "gender_pos": "93",
+   "category": "Open",
+   "category_pos": "48",
+   "speed_kmh": "6.59",
+   "pace": "09:05"
+  }
+ ],
+ "found": true
+}

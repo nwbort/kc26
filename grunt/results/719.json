@@ -1,0 +1,77 @@
+{
+ "id": 719,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/719",
+ "summary": {
+  "bib": "719",
+  "name": "LEWIS BLAY",
+  "status": "Finished",
+  "gun_time": "02:24:34",
+  "place": "13",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "13",
+  "gender_of": "74",
+  "category": "Open",
+  "category_place": "12",
+  "category_of": "30"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:22:19",
+   "run_time": "00:22:21",
+   "race_time": "00:22:21",
+   "pos": "13",
+   "tod": "07:22:21",
+   "gender": "Male",
+   "gender_pos": "13",
+   "category": "Open",
+   "category_pos": "12",
+   "speed_kmh": "13.42",
+   "pace": "04:28"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:00:55",
+   "run_time": "01:23:16",
+   "race_time": "01:23:16",
+   "pos": "14",
+   "tod": "08:23:16",
+   "gender": "Male",
+   "gender_pos": "14",
+   "category": "Open",
+   "category_pos": "12",
+   "speed_kmh": "9.94",
+   "pace": "06:02"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:37:37",
+   "run_time": "02:00:54",
+   "race_time": "02:00:54",
+   "pos": "14",
+   "tod": "09:00:54",
+   "gender": "Male",
+   "gender_pos": "14",
+   "category": "Open",
+   "category_pos": "13",
+   "speed_kmh": "10.91",
+   "pace": "05:29"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:23:40",
+   "run_time": "02:24:34",
+   "race_time": "02:24:34",
+   "pos": "13",
+   "tod": "09:24:34",
+   "gender": "Male",
+   "gender_pos": "13",
+   "category": "Open",
+   "category_pos": "12",
+   "speed_kmh": "11.2",
+   "pace": "05:21"
+  }
+ ],
+ "found": true
+}

@@ -1,0 +1,77 @@
+{
+ "id": 723,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/723",
+ "summary": {
+  "bib": "723",
+  "name": "CAMERON BONAR",
+  "status": "Finished",
+  "gun_time": "02:06:27",
+  "place": "8",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "8",
+  "gender_of": "74",
+  "category": "Open",
+  "category_place": "7",
+  "category_of": "30"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:19:29",
+   "run_time": "00:19:31",
+   "race_time": "00:19:31",
+   "pos": "7",
+   "tod": "07:19:31",
+   "gender": "Male",
+   "gender_pos": "7",
+   "category": "Open",
+   "category_pos": "7",
+   "speed_kmh": "15.37",
+   "pace": "03:54"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "00:55:25",
+   "run_time": "01:14:56",
+   "race_time": "01:14:56",
+   "pos": "10",
+   "tod": "08:14:56",
+   "gender": "Male",
+   "gender_pos": "10",
+   "category": "Open",
+   "category_pos": "9",
+   "speed_kmh": "11.04",
+   "pace": "05:25"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:29:29",
+   "run_time": "01:44:25",
+   "race_time": "01:44:25",
+   "pos": "8",
+   "tod": "08:44:25",
+   "gender": "Male",
+   "gender_pos": "8",
+   "category": "Open",
+   "category_pos": "7",
+   "speed_kmh": "12.63",
+   "pace": "04:44"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:22:01",
+   "run_time": "02:06:27",
+   "race_time": "02:06:27",
+   "pos": "8",
+   "tod": "09:06:27",
+   "gender": "Male",
+   "gender_pos": "8",
+   "category": "Open",
+   "category_pos": "7",
+   "speed_kmh": "12.81",
+   "pace": "04:41"
+  }
+ ],
+ "found": true
+}

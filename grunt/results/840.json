@@ -1,0 +1,77 @@
+{
+ "id": 840,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/840",
+ "summary": {
+  "bib": "840",
+  "name": "RICHARD MURRAY",
+  "status": "Finished",
+  "gun_time": "02:56:29",
+  "place": "40",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "24",
+  "gender_of": "74",
+  "category": "Veteran 50+",
+  "category_place": "4",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:27:50",
+   "run_time": "00:27:55",
+   "race_time": "00:27:55",
+   "pos": "50",
+   "tod": "07:27:55",
+   "gender": "Male",
+   "gender_pos": "32",
+   "category": "Veteran 50+",
+   "category_pos": "5",
+   "speed_kmh": "10.74",
+   "pace": "05:35"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:15:07",
+   "run_time": "01:43:02",
+   "race_time": "01:43:02",
+   "pos": "48",
+   "tod": "08:43:02",
+   "gender": "Male",
+   "gender_pos": "31",
+   "category": "Veteran 50+",
+   "category_pos": "4",
+   "speed_kmh": "8.03",
+   "pace": "07:28"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:43:49",
+   "run_time": "02:26:52",
+   "race_time": "02:26:52",
+   "pos": "45",
+   "tod": "09:26:52",
+   "gender": "Male",
+   "gender_pos": "28",
+   "category": "Veteran 50+",
+   "category_pos": "4",
+   "speed_kmh": "8.98",
+   "pace": "06:40"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:29:37",
+   "run_time": "02:56:29",
+   "race_time": "02:56:29",
+   "pos": "40",
+   "tod": "09:56:29",
+   "gender": "Male",
+   "gender_pos": "24",
+   "category": "Veteran 50+",
+   "category_pos": "4",
+   "speed_kmh": "9.17",
+   "pace": "06:32"
+  }
+ ],
+ "found": true
+}

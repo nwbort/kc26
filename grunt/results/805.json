@@ -1,0 +1,77 @@
+{
+ "id": 805,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/805",
+ "summary": {
+  "bib": "805",
+  "name": "ADAM LINDSAY",
+  "status": "Finished",
+  "gun_time": "03:09:45",
+  "place": "57",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "34",
+  "gender_of": "74",
+  "category": "Open",
+  "category_place": "19",
+  "category_of": "30"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:29:13",
+   "run_time": "00:29:19",
+   "race_time": "00:29:19",
+   "pos": "69",
+   "tod": "07:29:19",
+   "gender": "Male",
+   "gender_pos": "42",
+   "category": "Open",
+   "category_pos": "24",
+   "speed_kmh": "10.22",
+   "pace": "05:51"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:21:14",
+   "run_time": "01:50:34",
+   "race_time": "01:50:34",
+   "pos": "69",
+   "tod": "08:50:34",
+   "gender": "Male",
+   "gender_pos": "43",
+   "category": "Open",
+   "category_pos": "24",
+   "speed_kmh": "7.48",
+   "pace": "08:00"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:47:46",
+   "run_time": "02:38:20",
+   "race_time": "02:38:20",
+   "pos": "68",
+   "tod": "09:38:20",
+   "gender": "Male",
+   "gender_pos": "41",
+   "category": "Open",
+   "category_pos": "23",
+   "speed_kmh": "8.33",
+   "pace": "07:11"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:31:25",
+   "run_time": "03:09:45",
+   "race_time": "03:09:45",
+   "pos": "57",
+   "tod": "10:09:45",
+   "gender": "Male",
+   "gender_pos": "34",
+   "category": "Open",
+   "category_pos": "19",
+   "speed_kmh": "8.53",
+   "pace": "07:01"
+  }
+ ],
+ "found": true
+}

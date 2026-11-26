@@ -1,0 +1,77 @@
+{
+ "id": 822,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/822",
+ "summary": {
+  "bib": "822",
+  "name": "LYNDSEY MCGUINNIETY",
+  "status": "Finished",
+  "gun_time": "03:45:58",
+  "place": "131",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "69",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "28",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:33:06",
+   "run_time": "00:33:17",
+   "race_time": "00:33:17",
+   "pos": "115",
+   "tod": "07:33:17",
+   "gender": "Female",
+   "gender_pos": "62",
+   "category": "Veteran 40+",
+   "category_pos": "27",
+   "speed_kmh": "9.01",
+   "pace": "06:39"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:36:59",
+   "run_time": "02:10:17",
+   "race_time": "02:10:17",
+   "pos": "144",
+   "tod": "09:10:17",
+   "gender": "Female",
+   "gender_pos": "80",
+   "category": "Veteran 40+",
+   "category_pos": "33",
+   "speed_kmh": "6.35",
+   "pace": "09:26"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:56:34",
+   "run_time": "03:06:51",
+   "race_time": "03:06:51",
+   "pos": "132",
+   "tod": "10:06:51",
+   "gender": "Female",
+   "gender_pos": "70",
+   "category": "Veteran 40+",
+   "category_pos": "28",
+   "speed_kmh": "7.06",
+   "pace": "08:29"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:39:06",
+   "run_time": "03:45:58",
+   "race_time": "03:45:58",
+   "pos": "131",
+   "tod": "10:45:58",
+   "gender": "Female",
+   "gender_pos": "69",
+   "category": "Veteran 40+",
+   "category_pos": "28",
+   "speed_kmh": "7.16",
+   "pace": "08:22"
+  }
+ ],
+ "found": true
+}

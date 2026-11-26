@@ -1,0 +1,77 @@
+{
+ "id": 910,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/910",
+ "summary": {
+  "bib": "910",
+  "name": "SOPHIE WILLANS",
+  "status": "Finished",
+  "gun_time": "03:29:19",
+  "place": "96",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "46",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "27",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:30:37",
+   "run_time": "00:30:49",
+   "race_time": "00:30:49",
+   "pos": "80",
+   "tod": "07:30:49",
+   "gender": "Female",
+   "gender_pos": "32",
+   "category": "Open",
+   "category_pos": "22",
+   "speed_kmh": "9.73",
+   "pace": "06:09"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:25:45",
+   "run_time": "01:56:35",
+   "race_time": "01:56:35",
+   "pos": "96",
+   "tod": "08:56:35",
+   "gender": "Female",
+   "gender_pos": "46",
+   "category": "Open",
+   "category_pos": "26",
+   "speed_kmh": "7.1",
+   "pace": "08:26"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:56:00",
+   "run_time": "02:52:35",
+   "race_time": "02:52:35",
+   "pos": "97",
+   "tod": "09:52:35",
+   "gender": "Female",
+   "gender_pos": "45",
+   "category": "Open",
+   "category_pos": "26",
+   "speed_kmh": "7.64",
+   "pace": "07:50"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:36:43",
+   "run_time": "03:29:19",
+   "race_time": "03:29:19",
+   "pos": "96",
+   "tod": "10:29:19",
+   "gender": "Female",
+   "gender_pos": "46",
+   "category": "Open",
+   "category_pos": "27",
+   "speed_kmh": "7.73",
+   "pace": "07:45"
+  }
+ ],
+ "found": true
+}

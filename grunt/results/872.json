@@ -1,0 +1,77 @@
+{
+ "id": 872,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/872",
+ "summary": {
+  "bib": "872",
+  "name": "OLIVIA SPENCER",
+  "status": "Finished",
+  "gun_time": "03:48:30",
+  "place": "135",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "73",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "39",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:30:45",
+   "run_time": "00:30:53",
+   "race_time": "00:30:53",
+   "pos": "83",
+   "tod": "07:30:53",
+   "gender": "Female",
+   "gender_pos": "35",
+   "category": "Open",
+   "category_pos": "23",
+   "speed_kmh": "9.71",
+   "pace": "06:10"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:31:24",
+   "run_time": "02:02:17",
+   "race_time": "02:02:17",
+   "pos": "112",
+   "tod": "09:02:17",
+   "gender": "Female",
+   "gender_pos": "56",
+   "category": "Open",
+   "category_pos": "32",
+   "speed_kmh": "6.77",
+   "pace": "08:51"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:00:31",
+   "run_time": "03:02:49",
+   "race_time": "03:02:49",
+   "pos": "122",
+   "tod": "10:02:49",
+   "gender": "Female",
+   "gender_pos": "62",
+   "category": "Open",
+   "category_pos": "35",
+   "speed_kmh": "7.21",
+   "pace": "08:18"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:45:40",
+   "run_time": "03:48:30",
+   "race_time": "03:48:30",
+   "pos": "135",
+   "tod": "10:48:30",
+   "gender": "Female",
+   "gender_pos": "73",
+   "category": "Open",
+   "category_pos": "39",
+   "speed_kmh": "7.08",
+   "pace": "08:27"
+  }
+ ],
+ "found": true
+}

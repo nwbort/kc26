@@ -1,0 +1,77 @@
+{
+ "id": 916,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/916",
+ "summary": {
+  "bib": "916",
+  "name": "REBECCA WOOD",
+  "status": "Finished",
+  "gun_time": "02:41:17",
+  "place": "28",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "9",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "7",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:25:49",
+   "run_time": "00:25:53",
+   "race_time": "00:25:53",
+   "pos": "35",
+   "tod": "07:25:53",
+   "gender": "Female",
+   "gender_pos": "11",
+   "category": "Open",
+   "category_pos": "8",
+   "speed_kmh": "11.58",
+   "pace": "05:10"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:10:50",
+   "run_time": "01:36:43",
+   "race_time": "01:36:43",
+   "pos": "37",
+   "tod": "08:36:43",
+   "gender": "Female",
+   "gender_pos": "14",
+   "category": "Open",
+   "category_pos": "10",
+   "speed_kmh": "8.56",
+   "pace": "07:00"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:38:09",
+   "run_time": "02:14:53",
+   "race_time": "02:14:53",
+   "pos": "30",
+   "tod": "09:14:53",
+   "gender": "Female",
+   "gender_pos": "10",
+   "category": "Open",
+   "category_pos": "8",
+   "speed_kmh": "9.78",
+   "pace": "06:07"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:26:24",
+   "run_time": "02:41:17",
+   "race_time": "02:41:17",
+   "pos": "28",
+   "tod": "09:41:17",
+   "gender": "Female",
+   "gender_pos": "9",
+   "category": "Open",
+   "category_pos": "7",
+   "speed_kmh": "10.04",
+   "pace": "05:58"
+  }
+ ],
+ "found": true
+}

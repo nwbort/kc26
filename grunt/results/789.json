@@ -1,0 +1,77 @@
+{
+ "id": 789,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/789",
+ "summary": {
+  "bib": "789",
+  "name": "RACHEL IRWIN",
+  "status": "Finished",
+  "gun_time": "03:48:14",
+  "place": "134",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "72",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "29",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:33:01",
+   "run_time": "00:33:06",
+   "race_time": "00:33:06",
+   "pos": "107",
+   "tod": "07:33:06",
+   "gender": "Female",
+   "gender_pos": "55",
+   "category": "Veteran 40+",
+   "category_pos": "23",
+   "speed_kmh": "9.05",
+   "pace": "06:37"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:34:59",
+   "run_time": "02:08:06",
+   "race_time": "02:08:06",
+   "pos": "133",
+   "tod": "09:08:06",
+   "gender": "Female",
+   "gender_pos": "69",
+   "category": "Veteran 40+",
+   "category_pos": "28",
+   "speed_kmh": "6.46",
+   "pace": "09:16"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:01:01",
+   "run_time": "03:09:08",
+   "race_time": "03:09:08",
+   "pos": "135",
+   "tod": "10:09:08",
+   "gender": "Female",
+   "gender_pos": "73",
+   "category": "Veteran 40+",
+   "category_pos": "29",
+   "speed_kmh": "6.97",
+   "pace": "08:35"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:39:05",
+   "run_time": "03:48:14",
+   "race_time": "03:48:14",
+   "pos": "134",
+   "tod": "10:48:14",
+   "gender": "Female",
+   "gender_pos": "72",
+   "category": "Veteran 40+",
+   "category_pos": "29",
+   "speed_kmh": "7.09",
+   "pace": "08:27"
+  }
+ ],
+ "found": true
+}

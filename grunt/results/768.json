@@ -1,0 +1,77 @@
+{
+ "id": 768,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/768",
+ "summary": {
+  "bib": "768",
+  "name": "PAIGE GRIEVE",
+  "status": "Finished",
+  "gun_time": "05:20:37",
+  "place": "196",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "125",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "60",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:48:44",
+   "run_time": "00:49:04",
+   "race_time": "00:49:04",
+   "pos": "201",
+   "tod": "07:49:04",
+   "gender": "Female",
+   "gender_pos": "129",
+   "category": "Open",
+   "category_pos": "60",
+   "speed_kmh": "6.11",
+   "pace": "09:48"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "02:21:48",
+   "run_time": "03:10:53",
+   "race_time": "03:10:53",
+   "pos": "202",
+   "tod": "10:10:53",
+   "gender": "Female",
+   "gender_pos": "129",
+   "category": "Open",
+   "category_pos": "61",
+   "speed_kmh": "4.33",
+   "pace": "13:49"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:19:25",
+   "run_time": "04:30:18",
+   "race_time": "04:30:18",
+   "pos": "196",
+   "tod": "11:30:18",
+   "gender": "Female",
+   "gender_pos": "125",
+   "category": "Open",
+   "category_pos": "60",
+   "speed_kmh": "4.88",
+   "pace": "12:17"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:50:18",
+   "run_time": "05:20:37",
+   "race_time": "05:20:37",
+   "pos": "196",
+   "tod": "12:20:37",
+   "gender": "Female",
+   "gender_pos": "125",
+   "category": "Open",
+   "category_pos": "60",
+   "speed_kmh": "5.05",
+   "pace": "11:52"
+  }
+ ],
+ "found": true
+}

@@ -1,0 +1,77 @@
+{
+ "id": 871,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/871",
+ "summary": {
+  "bib": "871",
+  "name": "ROBERT SMITH",
+  "status": "Finished",
+  "gun_time": "02:07:15",
+  "place": "9",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "9",
+  "gender_of": "74",
+  "category": "Open",
+  "category_place": "8",
+  "category_of": "30"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:19:59",
+   "run_time": "00:20:02",
+   "race_time": "00:20:02",
+   "pos": "10",
+   "tod": "07:20:02",
+   "gender": "Male",
+   "gender_pos": "10",
+   "category": "Open",
+   "category_pos": "9",
+   "speed_kmh": "14.97",
+   "pace": "04:00"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "00:52:43",
+   "run_time": "01:12:45",
+   "race_time": "01:12:45",
+   "pos": "9",
+   "tod": "08:12:45",
+   "gender": "Male",
+   "gender_pos": "9",
+   "category": "Open",
+   "category_pos": "8",
+   "speed_kmh": "11.38",
+   "pace": "05:16"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:31:47",
+   "run_time": "01:44:33",
+   "race_time": "01:44:33",
+   "pos": "9",
+   "tod": "08:44:33",
+   "gender": "Male",
+   "gender_pos": "9",
+   "category": "Open",
+   "category_pos": "8",
+   "speed_kmh": "12.62",
+   "pace": "04:45"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:22:41",
+   "run_time": "02:07:15",
+   "race_time": "02:07:15",
+   "pos": "9",
+   "tod": "09:07:15",
+   "gender": "Male",
+   "gender_pos": "9",
+   "category": "Open",
+   "category_pos": "8",
+   "speed_kmh": "12.73",
+   "pace": "04:42"
+  }
+ ],
+ "found": true
+}

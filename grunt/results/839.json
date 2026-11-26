@@ -1,0 +1,77 @@
+{
+ "id": 839,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/839",
+ "summary": {
+  "bib": "839",
+  "name": "PENNY MOUAT",
+  "status": "Finished",
+  "gun_time": "02:29:36",
+  "place": "16",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "1",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "1",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:22:20",
+   "run_time": "00:22:22",
+   "race_time": "00:22:22",
+   "pos": "14",
+   "tod": "07:22:22",
+   "gender": "Female",
+   "gender_pos": "1",
+   "category": "Open",
+   "category_pos": "1",
+   "speed_kmh": "13.4",
+   "pace": "04:28"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:02:45",
+   "run_time": "01:25:08",
+   "race_time": "01:25:08",
+   "pos": "16",
+   "tod": "08:25:08",
+   "gender": "Female",
+   "gender_pos": "1",
+   "category": "Open",
+   "category_pos": "1",
+   "speed_kmh": "9.72",
+   "pace": "06:10"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:36:53",
+   "run_time": "02:02:01",
+   "race_time": "02:02:01",
+   "pos": "15",
+   "tod": "09:02:01",
+   "gender": "Female",
+   "gender_pos": "1",
+   "category": "Open",
+   "category_pos": "1",
+   "speed_kmh": "10.81",
+   "pace": "05:32"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:27:34",
+   "run_time": "02:29:36",
+   "race_time": "02:29:36",
+   "pos": "16",
+   "tod": "09:29:36",
+   "gender": "Female",
+   "gender_pos": "1",
+   "category": "Open",
+   "category_pos": "1",
+   "speed_kmh": "10.82",
+   "pace": "05:32"
+  }
+ ],
+ "found": true
+}

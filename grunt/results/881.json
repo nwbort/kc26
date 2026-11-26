@@ -1,0 +1,77 @@
+{
+ "id": 881,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/881",
+ "summary": {
+  "bib": "881",
+  "name": "CAMERON SWALES",
+  "status": "Finished",
+  "gun_time": "01:53:29",
+  "place": "1",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "1",
+  "gender_of": "74",
+  "category": "Open",
+  "category_place": "1",
+  "category_of": "30"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:19:18",
+   "run_time": "00:19:19",
+   "race_time": "00:19:19",
+   "pos": "1",
+   "tod": "07:19:19",
+   "gender": "Male",
+   "gender_pos": "1",
+   "category": "Open",
+   "category_pos": "1",
+   "speed_kmh": "15.52",
+   "pace": "03:51"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "00:45:37",
+   "run_time": "01:04:56",
+   "race_time": "01:04:56",
+   "pos": "3",
+   "tod": "08:04:56",
+   "gender": "Male",
+   "gender_pos": "3",
+   "category": "Open",
+   "category_pos": "3",
+   "speed_kmh": "12.74",
+   "pace": "04:42"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:29:08",
+   "run_time": "01:34:05",
+   "race_time": "01:34:05",
+   "pos": "1",
+   "tod": "08:34:05",
+   "gender": "Male",
+   "gender_pos": "1",
+   "category": "Open",
+   "category_pos": "1",
+   "speed_kmh": "14.02",
+   "pace": "04:16"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:19:24",
+   "run_time": "01:53:29",
+   "race_time": "01:53:29",
+   "pos": "1",
+   "tod": "08:53:29",
+   "gender": "Male",
+   "gender_pos": "1",
+   "category": "Open",
+   "category_pos": "1",
+   "speed_kmh": "14.27",
+   "pace": "04:12"
+  }
+ ],
+ "found": true
+}

@@ -1,0 +1,77 @@
+{
+ "id": 734,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/734",
+ "summary": {
+  "bib": "734",
+  "name": "RACHEL CAMPBELL",
+  "status": "Finished",
+  "gun_time": "03:28:45",
+  "place": "94",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "45",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "26",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:34:06",
+   "run_time": "00:34:29",
+   "race_time": "00:34:29",
+   "pos": "127",
+   "tod": "07:34:29",
+   "gender": "Female",
+   "gender_pos": "71",
+   "category": "Open",
+   "category_pos": "37",
+   "speed_kmh": "8.69",
+   "pace": "06:53"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:27:31",
+   "run_time": "02:02:01",
+   "race_time": "02:02:01",
+   "pos": "109",
+   "tod": "09:02:01",
+   "gender": "Female",
+   "gender_pos": "53",
+   "category": "Open",
+   "category_pos": "30",
+   "speed_kmh": "6.78",
+   "pace": "08:50"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:52:53",
+   "run_time": "02:54:54",
+   "race_time": "02:54:54",
+   "pos": "99",
+   "tod": "09:54:54",
+   "gender": "Female",
+   "gender_pos": "46",
+   "category": "Open",
+   "category_pos": "27",
+   "speed_kmh": "7.54",
+   "pace": "07:57"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:33:51",
+   "run_time": "03:28:45",
+   "race_time": "03:28:45",
+   "pos": "94",
+   "tod": "10:28:45",
+   "gender": "Female",
+   "gender_pos": "45",
+   "category": "Open",
+   "category_pos": "26",
+   "speed_kmh": "7.76",
+   "pace": "07:43"
+  }
+ ],
+ "found": true
+}

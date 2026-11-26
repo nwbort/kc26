@@ -1,0 +1,77 @@
+{
+ "id": 852,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/852",
+ "summary": {
+  "bib": "852",
+  "name": "MATTHEW PRICE",
+  "status": "Finished",
+  "gun_time": "03:05:01",
+  "place": "53",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "32",
+  "gender_of": "74",
+  "category": "Veteran 40+",
+  "category_place": "9",
+  "category_of": "20"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:28:55",
+   "run_time": "00:29:01",
+   "race_time": "00:29:01",
+   "pos": "64",
+   "tod": "07:29:01",
+   "gender": "Male",
+   "gender_pos": "38",
+   "category": "Veteran 40+",
+   "category_pos": "10",
+   "speed_kmh": "10.33",
+   "pace": "05:48"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:12:49",
+   "run_time": "01:41:51",
+   "race_time": "01:41:51",
+   "pos": "44",
+   "tod": "08:41:51",
+   "gender": "Male",
+   "gender_pos": "27",
+   "category": "Veteran 40+",
+   "category_pos": "7",
+   "speed_kmh": "8.12",
+   "pace": "07:22"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:49:23",
+   "run_time": "02:31:14",
+   "race_time": "02:31:14",
+   "pos": "51",
+   "tod": "09:31:14",
+   "gender": "Male",
+   "gender_pos": "31",
+   "category": "Veteran 40+",
+   "category_pos": "9",
+   "speed_kmh": "8.72",
+   "pace": "06:52"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:33:46",
+   "run_time": "03:05:01",
+   "race_time": "03:05:01",
+   "pos": "53",
+   "tod": "10:05:01",
+   "gender": "Male",
+   "gender_pos": "32",
+   "category": "Veteran 40+",
+   "category_pos": "9",
+   "speed_kmh": "8.75",
+   "pace": "06:51"
+  }
+ ],
+ "found": true
+}

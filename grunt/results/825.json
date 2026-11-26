@@ -1,0 +1,77 @@
+{
+ "id": 825,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/825",
+ "summary": {
+  "bib": "825",
+  "name": "MATT MCLAUGHLIN",
+  "status": "Finished",
+  "gun_time": "03:30:45",
+  "place": "99",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "53",
+  "gender_of": "74",
+  "category": "Veteran 50+",
+  "category_place": "10",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:28:27",
+   "run_time": "00:28:36",
+   "race_time": "00:28:36",
+   "pos": "55",
+   "tod": "07:28:36",
+   "gender": "Male",
+   "gender_pos": "34",
+   "category": "Veteran 50+",
+   "category_pos": "6",
+   "speed_kmh": "10.48",
+   "pace": "05:43"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:28:36",
+   "run_time": "01:57:12",
+   "race_time": "01:57:12",
+   "pos": "98",
+   "tod": "08:57:12",
+   "gender": "Male",
+   "gender_pos": "52",
+   "category": "Veteran 50+",
+   "category_pos": "9",
+   "speed_kmh": "7.06",
+   "pace": "08:29"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:52:13",
+   "run_time": "02:49:25",
+   "race_time": "02:49:25",
+   "pos": "92",
+   "tod": "09:49:25",
+   "gender": "Male",
+   "gender_pos": "51",
+   "category": "Veteran 50+",
+   "category_pos": "9",
+   "speed_kmh": "7.79",
+   "pace": "07:42"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:41:19",
+   "run_time": "03:30:45",
+   "race_time": "03:30:45",
+   "pos": "99",
+   "tod": "10:30:45",
+   "gender": "Male",
+   "gender_pos": "53",
+   "category": "Veteran 50+",
+   "category_pos": "10",
+   "speed_kmh": "7.68",
+   "pace": "07:48"
+  }
+ ],
+ "found": true
+}

@@ -1,0 +1,77 @@
+{
+ "id": 820,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/820",
+ "summary": {
+  "bib": "820",
+  "name": "TIM JOHN MCCULLOUGH",
+  "status": "Finished",
+  "gun_time": "05:16:14",
+  "place": "194",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "71",
+  "gender_of": "74",
+  "category": "Veteran 50+",
+  "category_place": "17",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:43:10",
+   "run_time": "00:43:30",
+   "race_time": "00:43:30",
+   "pos": "187",
+   "tod": "07:43:30",
+   "gender": "Male",
+   "gender_pos": "71",
+   "category": "Veteran 50+",
+   "category_pos": "17",
+   "speed_kmh": "6.89",
+   "pace": "08:42"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "02:08:54",
+   "run_time": "02:52:24",
+   "race_time": "02:52:24",
+   "pos": "194",
+   "tod": "09:52:24",
+   "gender": "Male",
+   "gender_pos": "72",
+   "category": "Veteran 50+",
+   "category_pos": "17",
+   "speed_kmh": "4.8",
+   "pace": "12:29"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:29:07",
+   "run_time": "04:21:32",
+   "race_time": "04:21:32",
+   "pos": "193",
+   "tod": "11:21:32",
+   "gender": "Male",
+   "gender_pos": "71",
+   "category": "Veteran 50+",
+   "category_pos": "17",
+   "speed_kmh": "5.04",
+   "pace": "11:53"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:54:41",
+   "run_time": "05:16:14",
+   "race_time": "05:16:14",
+   "pos": "194",
+   "tod": "12:16:14",
+   "gender": "Male",
+   "gender_pos": "71",
+   "category": "Veteran 50+",
+   "category_pos": "17",
+   "speed_kmh": "5.12",
+   "pace": "11:42"
+  }
+ ],
+ "found": true
+}

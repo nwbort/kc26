@@ -1,0 +1,77 @@
+{
+ "id": 865,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/865",
+ "summary": {
+  "bib": "865",
+  "name": "COURTNEY SHEA",
+  "status": "Finished",
+  "gun_time": "03:06:18",
+  "place": "54",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "22",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "15",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:28:56",
+   "run_time": "00:29:07",
+   "race_time": "00:29:07",
+   "pos": "66",
+   "tod": "07:29:07",
+   "gender": "Female",
+   "gender_pos": "27",
+   "category": "Open",
+   "category_pos": "19",
+   "speed_kmh": "10.29",
+   "pace": "05:49"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:14:46",
+   "run_time": "01:43:53",
+   "race_time": "01:43:53",
+   "pos": "51",
+   "tod": "08:43:53",
+   "gender": "Female",
+   "gender_pos": "19",
+   "category": "Open",
+   "category_pos": "15",
+   "speed_kmh": "7.96",
+   "pace": "07:31"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:51:25",
+   "run_time": "02:35:19",
+   "race_time": "02:35:19",
+   "pos": "57",
+   "tod": "09:35:19",
+   "gender": "Female",
+   "gender_pos": "22",
+   "category": "Open",
+   "category_pos": "15",
+   "speed_kmh": "8.49",
+   "pace": "07:03"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:30:58",
+   "run_time": "03:06:18",
+   "race_time": "03:06:18",
+   "pos": "54",
+   "tod": "10:06:18",
+   "gender": "Female",
+   "gender_pos": "22",
+   "category": "Open",
+   "category_pos": "15",
+   "speed_kmh": "8.69",
+   "pace": "06:54"
+  }
+ ],
+ "found": true
+}

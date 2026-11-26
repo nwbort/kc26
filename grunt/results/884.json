@@ -1,0 +1,77 @@
+{
+ "id": 884,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/884",
+ "summary": {
+  "bib": "884",
+  "name": "BEN TAYLOR",
+  "status": "Finished",
+  "gun_time": "02:40:38",
+  "place": "27",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "19",
+  "gender_of": "74",
+  "category": "Open",
+  "category_place": "16",
+  "category_of": "30"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:26:52",
+   "run_time": "00:27:00",
+   "race_time": "00:27:00",
+   "pos": "42",
+   "tod": "07:27:00",
+   "gender": "Male",
+   "gender_pos": "27",
+   "category": "Open",
+   "category_pos": "18",
+   "speed_kmh": "11.1",
+   "pace": "05:24"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:05:06",
+   "run_time": "01:32:06",
+   "race_time": "01:32:06",
+   "pos": "25",
+   "tod": "08:32:06",
+   "gender": "Male",
+   "gender_pos": "20",
+   "category": "Open",
+   "category_pos": "16",
+   "speed_kmh": "8.98",
+   "pace": "06:40"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:38:58",
+   "run_time": "02:11:05",
+   "race_time": "02:11:05",
+   "pos": "22",
+   "tod": "09:11:05",
+   "gender": "Male",
+   "gender_pos": "18",
+   "category": "Open",
+   "category_pos": "16",
+   "speed_kmh": "10.06",
+   "pace": "05:57"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:29:33",
+   "run_time": "02:40:38",
+   "race_time": "02:40:38",
+   "pos": "27",
+   "tod": "09:40:38",
+   "gender": "Male",
+   "gender_pos": "19",
+   "category": "Open",
+   "category_pos": "16",
+   "speed_kmh": "10.08",
+   "pace": "05:56"
+  }
+ ],
+ "found": true
+}

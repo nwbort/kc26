@@ -1,0 +1,77 @@
+{
+ "id": 836,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/836",
+ "summary": {
+  "bib": "836",
+  "name": "KELSEY MORRIS",
+  "status": "Finished",
+  "gun_time": "04:57:49",
+  "place": "190",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "120",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "59",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:44:14",
+   "run_time": "00:44:24",
+   "race_time": "00:44:24",
+   "pos": "193",
+   "tod": "07:44:24",
+   "gender": "Female",
+   "gender_pos": "122",
+   "category": "Open",
+   "category_pos": "58",
+   "speed_kmh": "6.75",
+   "pace": "08:52"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "02:02:39",
+   "run_time": "02:47:03",
+   "race_time": "02:47:03",
+   "pos": "192",
+   "tod": "09:47:03",
+   "gender": "Female",
+   "gender_pos": "121",
+   "category": "Open",
+   "category_pos": "59",
+   "speed_kmh": "4.95",
+   "pace": "12:06"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:20:00",
+   "run_time": "04:07:04",
+   "race_time": "04:07:04",
+   "pos": "189",
+   "tod": "11:07:04",
+   "gender": "Female",
+   "gender_pos": "119",
+   "category": "Open",
+   "category_pos": "59",
+   "speed_kmh": "5.34",
+   "pace": "11:13"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:50:44",
+   "run_time": "04:57:49",
+   "race_time": "04:57:49",
+   "pos": "190",
+   "tod": "11:57:49",
+   "gender": "Female",
+   "gender_pos": "120",
+   "category": "Open",
+   "category_pos": "59",
+   "speed_kmh": "5.43",
+   "pace": "11:01"
+  }
+ ],
+ "found": true
+}

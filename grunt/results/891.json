@@ -1,0 +1,77 @@
+{
+ "id": 891,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/891",
+ "summary": {
+  "bib": "891",
+  "name": "REBECCA VELLA-KING",
+  "status": "Finished",
+  "gun_time": "02:41:54",
+  "place": "29",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "10",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "8",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:24:35",
+   "run_time": "00:24:39",
+   "race_time": "00:24:39",
+   "pos": "25",
+   "tod": "07:24:39",
+   "gender": "Female",
+   "gender_pos": "8",
+   "category": "Open",
+   "category_pos": "6",
+   "speed_kmh": "12.16",
+   "pace": "04:55"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:08:37",
+   "run_time": "01:33:16",
+   "race_time": "01:33:16",
+   "pos": "29",
+   "tod": "08:33:16",
+   "gender": "Female",
+   "gender_pos": "9",
+   "category": "Open",
+   "category_pos": "6",
+   "speed_kmh": "8.87",
+   "pace": "06:45"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:39:02",
+   "run_time": "02:12:19",
+   "race_time": "02:12:19",
+   "pos": "27",
+   "tod": "09:12:19",
+   "gender": "Female",
+   "gender_pos": "8",
+   "category": "Open",
+   "category_pos": "6",
+   "speed_kmh": "9.97",
+   "pace": "06:00"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:29:34",
+   "run_time": "02:41:54",
+   "race_time": "02:41:54",
+   "pos": "29",
+   "tod": "09:41:54",
+   "gender": "Female",
+   "gender_pos": "10",
+   "category": "Open",
+   "category_pos": "8",
+   "speed_kmh": "10",
+   "pace": "05:59"
+  }
+ ],
+ "found": true
+}

@@ -1,0 +1,77 @@
+{
+ "id": 883,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/883",
+ "summary": {
+  "bib": "883",
+  "name": "RUBY SYMON",
+  "status": "Finished",
+  "gun_time": "03:37:12",
+  "place": "110",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "52",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "29",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:35:17",
+   "run_time": "00:35:39",
+   "race_time": "00:35:39",
+   "pos": "142",
+   "tod": "07:35:39",
+   "gender": "Female",
+   "gender_pos": "83",
+   "category": "Open",
+   "category_pos": "43",
+   "speed_kmh": "8.41",
+   "pace": "07:07"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:28:58",
+   "run_time": "02:04:37",
+   "race_time": "02:04:37",
+   "pos": "122",
+   "tod": "09:04:37",
+   "gender": "Female",
+   "gender_pos": "63",
+   "category": "Open",
+   "category_pos": "33",
+   "speed_kmh": "6.64",
+   "pace": "09:01"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:53:48",
+   "run_time": "02:58:26",
+   "race_time": "02:58:26",
+   "pos": "111",
+   "tod": "09:58:26",
+   "gender": "Female",
+   "gender_pos": "53",
+   "category": "Open",
+   "category_pos": "29",
+   "speed_kmh": "7.39",
+   "pace": "08:06"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:38:46",
+   "run_time": "03:37:12",
+   "race_time": "03:37:12",
+   "pos": "110",
+   "tod": "10:37:12",
+   "gender": "Female",
+   "gender_pos": "52",
+   "category": "Open",
+   "category_pos": "29",
+   "speed_kmh": "7.45",
+   "pace": "08:02"
+  }
+ ],
+ "found": true
+}

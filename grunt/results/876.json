@@ -1,0 +1,77 @@
+{
+ "id": 876,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/876",
+ "summary": {
+  "bib": "876",
+  "name": "CHRISTINE SUMMERS",
+  "status": "Finished",
+  "gun_time": "04:06:30",
+  "place": "160",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "94",
+  "gender_of": "131",
+  "category": "Veteran 50+",
+  "category_place": "8",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:35:58",
+   "run_time": "00:36:16",
+   "race_time": "00:36:16",
+   "pos": "149",
+   "tod": "07:36:16",
+   "gender": "Female",
+   "gender_pos": "87",
+   "category": "Veteran 50+",
+   "category_pos": "8",
+   "speed_kmh": "8.26",
+   "pace": "07:15"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:37:33",
+   "run_time": "02:13:50",
+   "race_time": "02:13:50",
+   "pos": "157",
+   "tod": "09:13:50",
+   "gender": "Female",
+   "gender_pos": "90",
+   "category": "Veteran 50+",
+   "category_pos": "7",
+   "speed_kmh": "6.18",
+   "pace": "09:41"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:07:49",
+   "run_time": "03:21:39",
+   "race_time": "03:21:39",
+   "pos": "158",
+   "tod": "10:21:39",
+   "gender": "Female",
+   "gender_pos": "91",
+   "category": "Veteran 50+",
+   "category_pos": "7",
+   "speed_kmh": "6.54",
+   "pace": "09:09"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:44:50",
+   "run_time": "04:06:30",
+   "race_time": "04:06:30",
+   "pos": "160",
+   "tod": "11:06:30",
+   "gender": "Female",
+   "gender_pos": "94",
+   "category": "Veteran 50+",
+   "category_pos": "8",
+   "speed_kmh": "6.57",
+   "pace": "09:07"
+  }
+ ],
+ "found": true
+}

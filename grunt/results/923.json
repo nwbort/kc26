@@ -1,0 +1,77 @@
+{
+ "id": 923,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/923",
+ "summary": {
+  "bib": "923",
+  "name": "SALLY THRON",
+  "status": "Finished",
+  "gun_time": "03:25:00",
+  "place": "91",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "43",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "24",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:27:47",
+   "run_time": "00:27:51",
+   "race_time": "00:27:51",
+   "pos": "47",
+   "tod": "07:27:51",
+   "gender": "Female",
+   "gender_pos": "18",
+   "category": "Open",
+   "category_pos": "13",
+   "speed_kmh": "10.76",
+   "pace": "05:34"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:28:16",
+   "run_time": "01:56:08",
+   "race_time": "01:56:08",
+   "pos": "92",
+   "tod": "08:56:08",
+   "gender": "Female",
+   "gender_pos": "42",
+   "category": "Open",
+   "category_pos": "25",
+   "speed_kmh": "7.12",
+   "pace": "08:24"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:51:44",
+   "run_time": "02:47:52",
+   "race_time": "02:47:52",
+   "pos": "88",
+   "tod": "09:47:52",
+   "gender": "Female",
+   "gender_pos": "39",
+   "category": "Open",
+   "category_pos": "23",
+   "speed_kmh": "7.86",
+   "pace": "07:37"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:37:08",
+   "run_time": "03:25:00",
+   "race_time": "03:25:00",
+   "pos": "91",
+   "tod": "10:25:00",
+   "gender": "Female",
+   "gender_pos": "43",
+   "category": "Open",
+   "category_pos": "24",
+   "speed_kmh": "7.9",
+   "pace": "07:35"
+  }
+ ],
+ "found": true
+}

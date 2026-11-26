@@ -1,0 +1,77 @@
+{
+ "id": 862,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/862",
+ "summary": {
+  "bib": "862",
+  "name": "TODD SCHOFIELD",
+  "status": "Finished",
+  "gun_time": "03:59:28",
+  "place": "147",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "64",
+  "gender_of": "74",
+  "category": "Legend 60+",
+  "category_place": "2",
+  "category_of": "7"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:36:44",
+   "run_time": "00:37:07",
+   "race_time": "00:37:07",
+   "pos": "161",
+   "tod": "07:37:07",
+   "gender": "Male",
+   "gender_pos": "68",
+   "category": "Legend 60+",
+   "category_pos": "4",
+   "speed_kmh": "8.08",
+   "pace": "07:25"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:33:51",
+   "run_time": "02:10:58",
+   "race_time": "02:10:58",
+   "pos": "149",
+   "tod": "09:10:58",
+   "gender": "Male",
+   "gender_pos": "65",
+   "category": "Legend 60+",
+   "category_pos": "2",
+   "speed_kmh": "6.32",
+   "pace": "09:29"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:02:20",
+   "run_time": "03:13:18",
+   "race_time": "03:13:18",
+   "pos": "141",
+   "tod": "10:13:18",
+   "gender": "Male",
+   "gender_pos": "64",
+   "category": "Legend 60+",
+   "category_pos": "2",
+   "speed_kmh": "6.82",
+   "pace": "08:47"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:46:10",
+   "run_time": "03:59:28",
+   "race_time": "03:59:28",
+   "pos": "147",
+   "tod": "10:59:28",
+   "gender": "Male",
+   "gender_pos": "64",
+   "category": "Legend 60+",
+   "category_pos": "2",
+   "speed_kmh": "6.76",
+   "pace": "08:52"
+  }
+ ],
+ "found": true
+}

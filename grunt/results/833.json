@@ -1,0 +1,77 @@
+{
+ "id": 833,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/833",
+ "summary": {
+  "bib": "833",
+  "name": "AMANDA MITCHELL",
+  "status": "Finished",
+  "gun_time": "04:04:34",
+  "place": "157",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "91",
+  "gender_of": "131",
+  "category": "Legend 60+",
+  "category_place": "3",
+  "category_of": "6"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:37:43",
+   "run_time": "00:38:00",
+   "race_time": "00:38:00",
+   "pos": "169",
+   "tod": "07:38:00",
+   "gender": "Female",
+   "gender_pos": "100",
+   "category": "Legend 60+",
+   "category_pos": "4",
+   "speed_kmh": "7.89",
+   "pace": "07:36"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:39:36",
+   "run_time": "02:17:36",
+   "race_time": "02:17:36",
+   "pos": "163",
+   "tod": "09:17:36",
+   "gender": "Female",
+   "gender_pos": "96",
+   "category": "Legend 60+",
+   "category_pos": "4",
+   "speed_kmh": "6.01",
+   "pace": "09:58"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:05:40",
+   "run_time": "03:23:17",
+   "race_time": "03:23:17",
+   "pos": "160",
+   "tod": "10:23:17",
+   "gender": "Female",
+   "gender_pos": "93",
+   "category": "Legend 60+",
+   "category_pos": "3",
+   "speed_kmh": "6.49",
+   "pace": "09:14"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:41:17",
+   "run_time": "04:04:34",
+   "race_time": "04:04:34",
+   "pos": "157",
+   "tod": "11:04:34",
+   "gender": "Female",
+   "gender_pos": "91",
+   "category": "Legend 60+",
+   "category_pos": "3",
+   "speed_kmh": "6.62",
+   "pace": "09:03"
+  }
+ ],
+ "found": true
+}

@@ -1,0 +1,77 @@
+{
+ "id": 720,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/720",
+ "summary": {
+  "bib": "720",
+  "name": "JACKIE BLAY",
+  "status": "Finished",
+  "gun_time": "03:15:46",
+  "place": "72",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "29",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "10",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:28:05",
+   "run_time": "00:28:10",
+   "race_time": "00:28:10",
+   "pos": "53",
+   "tod": "07:28:10",
+   "gender": "Female",
+   "gender_pos": "21",
+   "category": "Veteran 40+",
+   "category_pos": "7",
+   "speed_kmh": "10.64",
+   "pace": "05:38"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:23:13",
+   "run_time": "01:51:24",
+   "race_time": "01:51:24",
+   "pos": "72",
+   "tod": "08:51:24",
+   "gender": "Female",
+   "gender_pos": "29",
+   "category": "Veteran 40+",
+   "category_pos": "10",
+   "speed_kmh": "7.43",
+   "pace": "08:04"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:47:55",
+   "run_time": "02:39:20",
+   "race_time": "02:39:20",
+   "pos": "70",
+   "tod": "09:39:20",
+   "gender": "Female",
+   "gender_pos": "28",
+   "category": "Veteran 40+",
+   "category_pos": "10",
+   "speed_kmh": "8.28",
+   "pace": "07:14"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:36:25",
+   "run_time": "03:15:46",
+   "race_time": "03:15:46",
+   "pos": "72",
+   "tod": "10:15:46",
+   "gender": "Female",
+   "gender_pos": "29",
+   "category": "Veteran 40+",
+   "category_pos": "10",
+   "speed_kmh": "8.27",
+   "pace": "07:15"
+  }
+ ],
+ "found": true
+}

@@ -1,0 +1,77 @@
+{
+ "id": 863,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/863",
+ "summary": {
+  "bib": "863",
+  "name": "JENNY SCOTT",
+  "status": "Finished",
+  "gun_time": "03:40:05",
+  "place": "115",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "56",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "23",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:32:44",
+   "run_time": "00:33:04",
+   "race_time": "00:33:04",
+   "pos": "104",
+   "tod": "07:33:04",
+   "gender": "Female",
+   "gender_pos": "52",
+   "category": "Veteran 40+",
+   "category_pos": "20",
+   "speed_kmh": "9.07",
+   "pace": "06:36"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:35:24",
+   "run_time": "02:08:28",
+   "race_time": "02:08:28",
+   "pos": "135",
+   "tod": "09:08:28",
+   "gender": "Female",
+   "gender_pos": "71",
+   "category": "Veteran 40+",
+   "category_pos": "29",
+   "speed_kmh": "6.44",
+   "pace": "09:18"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:52:37",
+   "run_time": "03:01:06",
+   "race_time": "03:01:06",
+   "pos": "117",
+   "tod": "10:01:06",
+   "gender": "Female",
+   "gender_pos": "57",
+   "category": "Veteran 40+",
+   "category_pos": "23",
+   "speed_kmh": "7.28",
+   "pace": "08:13"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:38:58",
+   "run_time": "03:40:05",
+   "race_time": "03:40:05",
+   "pos": "115",
+   "tod": "10:40:05",
+   "gender": "Female",
+   "gender_pos": "56",
+   "category": "Veteran 40+",
+   "category_pos": "23",
+   "speed_kmh": "7.36",
+   "pace": "08:09"
+  }
+ ],
+ "found": true
+}

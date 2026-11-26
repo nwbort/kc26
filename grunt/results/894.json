@@ -1,0 +1,77 @@
+{
+ "id": 894,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/894",
+ "summary": {
+  "bib": "894",
+  "name": "DAYNA WALLACE",
+  "status": "Finished",
+  "gun_time": "03:21:07",
+  "place": "78",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "34",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "11",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:30:40",
+   "run_time": "00:30:56",
+   "race_time": "00:30:56",
+   "pos": "84",
+   "tod": "07:30:56",
+   "gender": "Female",
+   "gender_pos": "36",
+   "category": "Veteran 40+",
+   "category_pos": "13",
+   "speed_kmh": "9.69",
+   "pace": "06:11"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:21:24",
+   "run_time": "01:52:20",
+   "race_time": "01:52:20",
+   "pos": "75",
+   "tod": "08:52:20",
+   "gender": "Female",
+   "gender_pos": "32",
+   "category": "Veteran 40+",
+   "category_pos": "12",
+   "speed_kmh": "7.37",
+   "pace": "08:08"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:50:46",
+   "run_time": "02:43:07",
+   "race_time": "02:43:07",
+   "pos": "77",
+   "tod": "09:43:07",
+   "gender": "Female",
+   "gender_pos": "34",
+   "category": "Veteran 40+",
+   "category_pos": "11",
+   "speed_kmh": "8.09",
+   "pace": "07:24"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:38:00",
+   "run_time": "03:21:07",
+   "race_time": "03:21:07",
+   "pos": "78",
+   "tod": "10:21:07",
+   "gender": "Female",
+   "gender_pos": "34",
+   "category": "Veteran 40+",
+   "category_pos": "11",
+   "speed_kmh": "8.05",
+   "pace": "07:26"
+  }
+ ],
+ "found": true
+}

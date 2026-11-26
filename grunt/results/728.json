@@ -1,0 +1,77 @@
+{
+ "id": 728,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/728",
+ "summary": {
+  "bib": "728",
+  "name": "MEGAN BRASS",
+  "status": "Finished",
+  "gun_time": "04:56:14",
+  "place": "188",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "118",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "42",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:45:26",
+   "run_time": "00:45:37",
+   "race_time": "00:45:37",
+   "pos": "195",
+   "tod": "07:45:37",
+   "gender": "Female",
+   "gender_pos": "124",
+   "category": "Veteran 40+",
+   "category_pos": "44",
+   "speed_kmh": "6.57",
+   "pace": "09:07"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:52:12",
+   "run_time": "02:37:50",
+   "race_time": "02:37:50",
+   "pos": "188",
+   "tod": "09:37:50",
+   "gender": "Female",
+   "gender_pos": "118",
+   "category": "Veteran 40+",
+   "category_pos": "42",
+   "speed_kmh": "5.24",
+   "pace": "11:26"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:23:33",
+   "run_time": "04:01:24",
+   "race_time": "04:01:24",
+   "pos": "188",
+   "tod": "11:01:24",
+   "gender": "Female",
+   "gender_pos": "118",
+   "category": "Veteran 40+",
+   "category_pos": "42",
+   "speed_kmh": "5.46",
+   "pace": "10:58"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:54:50",
+   "run_time": "04:56:14",
+   "race_time": "04:56:14",
+   "pos": "188",
+   "tod": "11:56:14",
+   "gender": "Female",
+   "gender_pos": "118",
+   "category": "Veteran 40+",
+   "category_pos": "42",
+   "speed_kmh": "5.46",
+   "pace": "10:58"
+  }
+ ],
+ "found": true
+}

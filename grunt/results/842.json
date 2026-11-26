@@ -1,0 +1,77 @@
+{
+ "id": 842,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/842",
+ "summary": {
+  "bib": "842",
+  "name": "WAYNE NICHOLL",
+  "status": "Finished",
+  "gun_time": "03:36:44",
+  "place": "109",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "58",
+  "gender_of": "74",
+  "category": "Veteran 50+",
+  "category_place": "12",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:34:31",
+   "run_time": "00:34:47",
+   "race_time": "00:34:47",
+   "pos": "131",
+   "tod": "07:34:47",
+   "gender": "Male",
+   "gender_pos": "57",
+   "category": "Veteran 50+",
+   "category_pos": "13",
+   "speed_kmh": "8.62",
+   "pace": "06:57"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:32:08",
+   "run_time": "02:06:56",
+   "race_time": "02:06:56",
+   "pos": "126",
+   "tod": "09:06:56",
+   "gender": "Male",
+   "gender_pos": "61",
+   "category": "Veteran 50+",
+   "category_pos": "15",
+   "speed_kmh": "6.52",
+   "pace": "09:11"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:53:04",
+   "run_time": "03:00:01",
+   "race_time": "03:00:01",
+   "pos": "114",
+   "tod": "10:00:01",
+   "gender": "Male",
+   "gender_pos": "60",
+   "category": "Veteran 50+",
+   "category_pos": "13",
+   "speed_kmh": "7.33",
+   "pace": "08:10"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:36:43",
+   "run_time": "03:36:44",
+   "race_time": "03:36:44",
+   "pos": "109",
+   "tod": "10:36:44",
+   "gender": "Male",
+   "gender_pos": "58",
+   "category": "Veteran 50+",
+   "category_pos": "12",
+   "speed_kmh": "7.47",
+   "pace": "08:01"
+  }
+ ],
+ "found": true
+}

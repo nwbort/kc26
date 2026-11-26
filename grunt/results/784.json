@@ -1,0 +1,77 @@
+{
+ "id": 784,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/784",
+ "summary": {
+  "bib": "784",
+  "name": "KATE IDLE",
+  "status": "Finished",
+  "gun_time": "03:48:53",
+  "place": "136",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "74",
+  "gender_of": "131",
+  "category": "Legend 60+",
+  "category_place": "1",
+  "category_of": "6"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:37:21",
+   "run_time": "00:37:34",
+   "race_time": "00:37:34",
+   "pos": "166",
+   "tod": "07:37:34",
+   "gender": "Female",
+   "gender_pos": "97",
+   "category": "Legend 60+",
+   "category_pos": "3",
+   "speed_kmh": "7.98",
+   "pace": "07:30"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:31:24",
+   "run_time": "02:08:58",
+   "race_time": "02:08:58",
+   "pos": "140",
+   "tod": "09:08:58",
+   "gender": "Female",
+   "gender_pos": "76",
+   "category": "Legend 60+",
+   "category_pos": "1",
+   "speed_kmh": "6.41",
+   "pace": "09:20"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:00:16",
+   "run_time": "03:09:15",
+   "race_time": "03:09:15",
+   "pos": "136",
+   "tod": "10:09:15",
+   "gender": "Female",
+   "gender_pos": "74",
+   "category": "Legend 60+",
+   "category_pos": "1",
+   "speed_kmh": "6.97",
+   "pace": "08:36"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:39:37",
+   "run_time": "03:48:53",
+   "race_time": "03:48:53",
+   "pos": "136",
+   "tod": "10:48:53",
+   "gender": "Female",
+   "gender_pos": "74",
+   "category": "Legend 60+",
+   "category_pos": "1",
+   "speed_kmh": "7.07",
+   "pace": "08:28"
+  }
+ ],
+ "found": true
+}

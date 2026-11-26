@@ -1,0 +1,77 @@
+{
+ "id": 844,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/844",
+ "summary": {
+  "bib": "844",
+  "name": "JUDE O'NEILL",
+  "status": "Finished",
+  "gun_time": "02:59:21",
+  "place": "46",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "18",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "5",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:27:15",
+   "run_time": "00:27:20",
+   "race_time": "00:27:20",
+   "pos": "44",
+   "tod": "07:27:20",
+   "gender": "Female",
+   "gender_pos": "17",
+   "category": "Veteran 40+",
+   "category_pos": "5",
+   "speed_kmh": "10.97",
+   "pace": "05:28"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:18:00",
+   "run_time": "01:45:21",
+   "race_time": "01:45:21",
+   "pos": "54",
+   "tod": "08:45:21",
+   "gender": "Female",
+   "gender_pos": "21",
+   "category": "Veteran 40+",
+   "category_pos": "6",
+   "speed_kmh": "7.85",
+   "pace": "07:38"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:42:22",
+   "run_time": "02:27:43",
+   "race_time": "02:27:43",
+   "pos": "46",
+   "tod": "09:27:43",
+   "gender": "Female",
+   "gender_pos": "18",
+   "category": "Veteran 40+",
+   "category_pos": "5",
+   "speed_kmh": "8.93",
+   "pace": "06:42"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:31:38",
+   "run_time": "02:59:21",
+   "race_time": "02:59:21",
+   "pos": "46",
+   "tod": "09:59:21",
+   "gender": "Female",
+   "gender_pos": "18",
+   "category": "Veteran 40+",
+   "category_pos": "5",
+   "speed_kmh": "9.03",
+   "pace": "06:38"
+  }
+ ],
+ "found": true
+}

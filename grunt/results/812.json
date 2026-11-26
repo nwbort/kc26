@@ -1,0 +1,77 @@
+{
+ "id": 812,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/812",
+ "summary": {
+  "bib": "812",
+  "name": "OTEANA MANUKAU-YOUNG",
+  "status": "Finished",
+  "gun_time": "04:03:10",
+  "place": "153",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "88",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "46",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:35:02",
+   "run_time": "00:35:19",
+   "race_time": "00:35:19",
+   "pos": "136",
+   "tod": "07:35:19",
+   "gender": "Female",
+   "gender_pos": "78",
+   "category": "Open",
+   "category_pos": "40",
+   "speed_kmh": "8.49",
+   "pace": "07:03"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:36:19",
+   "run_time": "02:11:38",
+   "race_time": "02:11:38",
+   "pos": "153",
+   "tod": "09:11:38",
+   "gender": "Female",
+   "gender_pos": "87",
+   "category": "Open",
+   "category_pos": "46",
+   "speed_kmh": "6.28",
+   "pace": "09:32"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:06:58",
+   "run_time": "03:18:36",
+   "race_time": "03:18:36",
+   "pos": "148",
+   "tod": "10:18:36",
+   "gender": "Female",
+   "gender_pos": "84",
+   "category": "Open",
+   "category_pos": "44",
+   "speed_kmh": "6.64",
+   "pace": "09:01"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:44:33",
+   "run_time": "04:03:10",
+   "race_time": "04:03:10",
+   "pos": "153",
+   "tod": "11:03:10",
+   "gender": "Female",
+   "gender_pos": "88",
+   "category": "Open",
+   "category_pos": "46",
+   "speed_kmh": "6.66",
+   "pace": "09:00"
+  }
+ ],
+ "found": true
+}

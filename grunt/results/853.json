@@ -1,0 +1,77 @@
+{
+ "id": 853,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/853",
+ "summary": {
+  "bib": "853",
+  "name": "ANNIE RADECKI",
+  "status": "Finished",
+  "gun_time": "02:38:31",
+  "place": "22",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "5",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "2",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:24:34",
+   "run_time": "00:24:38",
+   "race_time": "00:24:38",
+   "pos": "24",
+   "tod": "07:24:38",
+   "gender": "Female",
+   "gender_pos": "7",
+   "category": "Veteran 40+",
+   "category_pos": "2",
+   "speed_kmh": "12.17",
+   "pace": "04:55"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:06:24",
+   "run_time": "01:31:03",
+   "race_time": "01:31:03",
+   "pos": "22",
+   "tod": "08:31:03",
+   "gender": "Female",
+   "gender_pos": "5",
+   "category": "Veteran 40+",
+   "category_pos": "2",
+   "speed_kmh": "9.09",
+   "pace": "06:35"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:39:09",
+   "run_time": "02:10:13",
+   "race_time": "02:10:13",
+   "pos": "21",
+   "tod": "09:10:13",
+   "gender": "Female",
+   "gender_pos": "4",
+   "category": "Veteran 40+",
+   "category_pos": "2",
+   "speed_kmh": "10.13",
+   "pace": "05:55"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:28:18",
+   "run_time": "02:38:31",
+   "race_time": "02:38:31",
+   "pos": "22",
+   "tod": "09:38:31",
+   "gender": "Female",
+   "gender_pos": "5",
+   "category": "Veteran 40+",
+   "category_pos": "2",
+   "speed_kmh": "10.21",
+   "pace": "05:52"
+  }
+ ],
+ "found": true
+}

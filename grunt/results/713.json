@@ -1,0 +1,77 @@
+{
+ "id": 713,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/713",
+ "summary": {
+  "bib": "713",
+  "name": "RACHEL BERKETT",
+  "status": "Finished",
+  "gun_time": "03:56:48",
+  "place": "142",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "79",
+  "gender_of": "131",
+  "category": "Veteran 50+",
+  "category_place": "6",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:36:48",
+   "run_time": "00:37:05",
+   "race_time": "00:37:05",
+   "pos": "159",
+   "tod": "07:37:05",
+   "gender": "Female",
+   "gender_pos": "93",
+   "category": "Veteran 50+",
+   "category_pos": "11",
+   "speed_kmh": "8.08",
+   "pace": "07:25"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:31:17",
+   "run_time": "02:08:22",
+   "race_time": "02:08:22",
+   "pos": "134",
+   "tod": "09:08:22",
+   "gender": "Female",
+   "gender_pos": "70",
+   "category": "Veteran 50+",
+   "category_pos": "6",
+   "speed_kmh": "6.44",
+   "pace": "09:18"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:08:32",
+   "run_time": "03:16:55",
+   "race_time": "03:16:55",
+   "pos": "146",
+   "tod": "10:16:55",
+   "gender": "Female",
+   "gender_pos": "82",
+   "category": "Veteran 50+",
+   "category_pos": "6",
+   "speed_kmh": "6.7",
+   "pace": "08:57"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:39:52",
+   "run_time": "03:56:48",
+   "race_time": "03:56:48",
+   "pos": "142",
+   "tod": "10:56:48",
+   "gender": "Female",
+   "gender_pos": "79",
+   "category": "Veteran 50+",
+   "category_pos": "6",
+   "speed_kmh": "6.84",
+   "pace": "08:46"
+  }
+ ],
+ "found": true
+}

@@ -1,0 +1,77 @@
+{
+ "id": 730,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/730",
+ "summary": {
+  "bib": "730",
+  "name": "ANISSA BROWN",
+  "status": "Finished",
+  "gun_time": "03:17:32",
+  "place": "75",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "31",
+  "gender_of": "131",
+  "category": "Veteran 50+",
+  "category_place": "1",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:30:45",
+   "run_time": "00:30:58",
+   "race_time": "00:30:58",
+   "pos": "86",
+   "tod": "07:30:58",
+   "gender": "Female",
+   "gender_pos": "37",
+   "category": "Veteran 50+",
+   "category_pos": "1",
+   "speed_kmh": "9.68",
+   "pace": "06:11"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:20:01",
+   "run_time": "01:50:59",
+   "race_time": "01:50:59",
+   "pos": "70",
+   "tod": "08:50:59",
+   "gender": "Female",
+   "gender_pos": "27",
+   "category": "Veteran 50+",
+   "category_pos": "1",
+   "speed_kmh": "7.45",
+   "pace": "08:02"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:51:12",
+   "run_time": "02:42:12",
+   "race_time": "02:42:12",
+   "pos": "75",
+   "tod": "09:42:12",
+   "gender": "Female",
+   "gender_pos": "32",
+   "category": "Veteran 50+",
+   "category_pos": "1",
+   "speed_kmh": "8.13",
+   "pace": "07:22"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:35:20",
+   "run_time": "03:17:32",
+   "race_time": "03:17:32",
+   "pos": "75",
+   "tod": "10:17:32",
+   "gender": "Female",
+   "gender_pos": "31",
+   "category": "Veteran 50+",
+   "category_pos": "1",
+   "speed_kmh": "8.2",
+   "pace": "07:18"
+  }
+ ],
+ "found": true
+}

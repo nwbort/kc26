@@ -1,0 +1,77 @@
+{
+ "id": 708,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/708",
+ "summary": {
+  "bib": "708",
+  "name": "BENJAMIN BARROW",
+  "status": "Finished",
+  "gun_time": "02:58:01",
+  "place": "44",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "27",
+  "gender_of": "74",
+  "category": "Open",
+  "category_place": "18",
+  "category_of": "30"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:27:41",
+   "run_time": "00:27:48",
+   "race_time": "00:27:48",
+   "pos": "46",
+   "tod": "07:27:48",
+   "gender": "Male",
+   "gender_pos": "29",
+   "category": "Open",
+   "category_pos": "19",
+   "speed_kmh": "10.78",
+   "pace": "05:33"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:14:43",
+   "run_time": "01:42:32",
+   "race_time": "01:42:32",
+   "pos": "46",
+   "tod": "08:42:32",
+   "gender": "Male",
+   "gender_pos": "29",
+   "category": "Open",
+   "category_pos": "18",
+   "speed_kmh": "8.07",
+   "pace": "07:25"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:40:25",
+   "run_time": "02:22:58",
+   "race_time": "02:22:58",
+   "pos": "40",
+   "tod": "09:22:58",
+   "gender": "Male",
+   "gender_pos": "24",
+   "category": "Open",
+   "category_pos": "17",
+   "speed_kmh": "9.23",
+   "pace": "06:29"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:35:03",
+   "run_time": "02:58:01",
+   "race_time": "02:58:01",
+   "pos": "44",
+   "tod": "09:58:01",
+   "gender": "Male",
+   "gender_pos": "27",
+   "category": "Open",
+   "category_pos": "18",
+   "speed_kmh": "9.09",
+   "pace": "06:35"
+  }
+ ],
+ "found": true
+}

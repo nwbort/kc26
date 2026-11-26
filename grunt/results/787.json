@@ -1,0 +1,77 @@
+{
+ "id": 787,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/787",
+ "summary": {
+  "bib": "787",
+  "name": "STEPHEN INGRAM",
+  "status": "Finished",
+  "gun_time": "03:33:12",
+  "place": "102",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "55",
+  "gender_of": "74",
+  "category": "Veteran 50+",
+  "category_place": "11",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:34:35",
+   "run_time": "00:34:52",
+   "race_time": "00:34:52",
+   "pos": "133",
+   "tod": "07:34:52",
+   "gender": "Male",
+   "gender_pos": "58",
+   "category": "Veteran 50+",
+   "category_pos": "14",
+   "speed_kmh": "8.6",
+   "pace": "06:58"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:25:17",
+   "run_time": "02:00:10",
+   "race_time": "02:00:10",
+   "pos": "104",
+   "tod": "09:00:10",
+   "gender": "Male",
+   "gender_pos": "56",
+   "category": "Veteran 50+",
+   "category_pos": "11",
+   "speed_kmh": "6.89",
+   "pace": "08:42"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:53:56",
+   "run_time": "02:54:06",
+   "race_time": "02:54:06",
+   "pos": "98",
+   "tod": "09:54:06",
+   "gender": "Male",
+   "gender_pos": "53",
+   "category": "Veteran 50+",
+   "category_pos": "10",
+   "speed_kmh": "7.58",
+   "pace": "07:54"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:39:05",
+   "run_time": "03:33:12",
+   "race_time": "03:33:12",
+   "pos": "102",
+   "tod": "10:33:12",
+   "gender": "Male",
+   "gender_pos": "55",
+   "category": "Veteran 50+",
+   "category_pos": "11",
+   "speed_kmh": "7.59",
+   "pace": "07:53"
+  }
+ ],
+ "found": true
+}

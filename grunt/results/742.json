@@ -1,0 +1,77 @@
+{
+ "id": 742,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/742",
+ "summary": {
+  "bib": "742",
+  "name": "MELISSA CONDER",
+  "status": "Finished",
+  "gun_time": "03:24:17",
+  "place": "90",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "42",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "17",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:32:06",
+   "run_time": "00:32:18",
+   "race_time": "00:32:18",
+   "pos": "99",
+   "tod": "07:32:18",
+   "gender": "Female",
+   "gender_pos": "48",
+   "category": "Veteran 40+",
+   "category_pos": "17",
+   "speed_kmh": "9.28",
+   "pace": "06:27"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:23:55",
+   "run_time": "01:56:14",
+   "race_time": "01:56:14",
+   "pos": "93",
+   "tod": "08:56:14",
+   "gender": "Female",
+   "gender_pos": "43",
+   "category": "Veteran 40+",
+   "category_pos": "16",
+   "speed_kmh": "7.12",
+   "pace": "08:25"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:54:00",
+   "run_time": "02:50:14",
+   "race_time": "02:50:14",
+   "pos": "93",
+   "tod": "09:50:14",
+   "gender": "Female",
+   "gender_pos": "42",
+   "category": "Veteran 40+",
+   "category_pos": "17",
+   "speed_kmh": "7.75",
+   "pace": "07:44"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:34:03",
+   "run_time": "03:24:17",
+   "race_time": "03:24:17",
+   "pos": "90",
+   "tod": "10:24:17",
+   "gender": "Female",
+   "gender_pos": "42",
+   "category": "Veteran 40+",
+   "category_pos": "17",
+   "speed_kmh": "7.92",
+   "pace": "07:33"
+  }
+ ],
+ "found": true
+}

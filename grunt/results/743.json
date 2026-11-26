@@ -1,0 +1,77 @@
+{
+ "id": 743,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/743",
+ "summary": {
+  "bib": "743",
+  "name": "LES COOPER",
+  "status": "Finished",
+  "gun_time": "03:13:01",
+  "place": "67",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "41",
+  "gender_of": "74",
+  "category": "Veteran 40+",
+  "category_place": "11",
+  "category_of": "20"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:29:00",
+   "run_time": "00:29:11",
+   "race_time": "00:29:11",
+   "pos": "67",
+   "tod": "07:29:11",
+   "gender": "Male",
+   "gender_pos": "40",
+   "category": "Veteran 40+",
+   "category_pos": "11",
+   "speed_kmh": "10.27",
+   "pace": "05:50"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:18:48",
+   "run_time": "01:47:59",
+   "race_time": "01:47:59",
+   "pos": "63",
+   "tod": "08:47:59",
+   "gender": "Male",
+   "gender_pos": "40",
+   "category": "Veteran 40+",
+   "category_pos": "11",
+   "speed_kmh": "7.66",
+   "pace": "07:49"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:48:07",
+   "run_time": "02:36:06",
+   "race_time": "02:36:06",
+   "pos": "61",
+   "tod": "09:36:06",
+   "gender": "Male",
+   "gender_pos": "39",
+   "category": "Veteran 40+",
+   "category_pos": "11",
+   "speed_kmh": "8.45",
+   "pace": "07:05"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:36:55",
+   "run_time": "03:13:01",
+   "race_time": "03:13:01",
+   "pos": "67",
+   "tod": "10:13:01",
+   "gender": "Male",
+   "gender_pos": "41",
+   "category": "Veteran 40+",
+   "category_pos": "11",
+   "speed_kmh": "8.39",
+   "pace": "07:08"
+  }
+ ],
+ "found": true
+}

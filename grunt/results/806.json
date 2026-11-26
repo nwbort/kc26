@@ -1,0 +1,77 @@
+{
+ "id": 806,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/806",
+ "summary": {
+  "bib": "806",
+  "name": "ALEX LLEWELLYN",
+  "status": "Finished",
+  "gun_time": "03:02:57",
+  "place": "49",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "20",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "14",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:28:43",
+   "run_time": "00:28:51",
+   "race_time": "00:28:51",
+   "pos": "60",
+   "tod": "07:28:51",
+   "gender": "Female",
+   "gender_pos": "25",
+   "category": "Open",
+   "category_pos": "17",
+   "speed_kmh": "10.39",
+   "pace": "05:46"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:14:24",
+   "run_time": "01:43:16",
+   "race_time": "01:43:16",
+   "pos": "50",
+   "tod": "08:43:16",
+   "gender": "Female",
+   "gender_pos": "18",
+   "category": "Open",
+   "category_pos": "14",
+   "speed_kmh": "8.01",
+   "pace": "07:29"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:47:13",
+   "run_time": "02:30:30",
+   "race_time": "02:30:30",
+   "pos": "49",
+   "tod": "09:30:30",
+   "gender": "Female",
+   "gender_pos": "19",
+   "category": "Open",
+   "category_pos": "14",
+   "speed_kmh": "8.77",
+   "pace": "06:50"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:32:27",
+   "run_time": "03:02:57",
+   "race_time": "03:02:57",
+   "pos": "49",
+   "tod": "10:02:57",
+   "gender": "Female",
+   "gender_pos": "20",
+   "category": "Open",
+   "category_pos": "14",
+   "speed_kmh": "8.85",
+   "pace": "06:46"
+  }
+ ],
+ "found": true
+}

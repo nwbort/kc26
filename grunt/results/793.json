@@ -1,0 +1,77 @@
+{
+ "id": 793,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/793",
+ "summary": {
+  "bib": "793",
+  "name": "TERRI JONES",
+  "status": "Finished",
+  "gun_time": "04:11:05",
+  "place": "166",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "99",
+  "gender_of": "131",
+  "category": "Legend 60+",
+  "category_place": "4",
+  "category_of": "6"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:35:24",
+   "run_time": "00:35:36",
+   "race_time": "00:35:36",
+   "pos": "139",
+   "tod": "07:35:36",
+   "gender": "Female",
+   "gender_pos": "80",
+   "category": "Legend 60+",
+   "category_pos": "1",
+   "speed_kmh": "8.42",
+   "pace": "07:07"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:41:58",
+   "run_time": "02:17:34",
+   "race_time": "02:17:34",
+   "pos": "162",
+   "tod": "09:17:34",
+   "gender": "Female",
+   "gender_pos": "95",
+   "category": "Legend 60+",
+   "category_pos": "3",
+   "speed_kmh": "6.01",
+   "pace": "09:58"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:12:03",
+   "run_time": "03:29:38",
+   "race_time": "03:29:38",
+   "pos": "167",
+   "tod": "10:29:38",
+   "gender": "Female",
+   "gender_pos": "99",
+   "category": "Legend 60+",
+   "category_pos": "4",
+   "speed_kmh": "6.29",
+   "pace": "09:31"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:41:27",
+   "run_time": "04:11:05",
+   "race_time": "04:11:05",
+   "pos": "166",
+   "tod": "11:11:05",
+   "gender": "Female",
+   "gender_pos": "99",
+   "category": "Legend 60+",
+   "category_pos": "4",
+   "speed_kmh": "6.45",
+   "pace": "09:17"
+  }
+ ],
+ "found": true
+}

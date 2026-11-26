@@ -1,0 +1,77 @@
+{
+ "id": 710,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/710",
+ "summary": {
+  "bib": "710",
+  "name": "PAUL BARTON",
+  "status": "Finished",
+  "gun_time": "03:09:24",
+  "place": "56",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "33",
+  "gender_of": "74",
+  "category": "Veteran 50+",
+  "category_place": "6",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:27:48",
+   "run_time": "00:27:53",
+   "race_time": "00:27:53",
+   "pos": "49",
+   "tod": "07:27:53",
+   "gender": "Male",
+   "gender_pos": "31",
+   "category": "Veteran 50+",
+   "category_pos": "4",
+   "speed_kmh": "10.75",
+   "pace": "05:34"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:19:31",
+   "run_time": "01:47:25",
+   "race_time": "01:47:25",
+   "pos": "61",
+   "tod": "08:47:25",
+   "gender": "Male",
+   "gender_pos": "38",
+   "category": "Veteran 50+",
+   "category_pos": "6",
+   "speed_kmh": "7.7",
+   "pace": "07:47"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:48:08",
+   "run_time": "02:35:33",
+   "race_time": "02:35:33",
+   "pos": "59",
+   "tod": "09:35:33",
+   "gender": "Male",
+   "gender_pos": "37",
+   "category": "Veteran 50+",
+   "category_pos": "6",
+   "speed_kmh": "8.48",
+   "pace": "07:04"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:33:51",
+   "run_time": "03:09:24",
+   "race_time": "03:09:24",
+   "pos": "56",
+   "tod": "10:09:24",
+   "gender": "Male",
+   "gender_pos": "33",
+   "category": "Veteran 50+",
+   "category_pos": "6",
+   "speed_kmh": "8.55",
+   "pace": "07:00"
+  }
+ ],
+ "found": true
+}

@@ -1,0 +1,77 @@
+{
+ "id": 892,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/892",
+ "summary": {
+  "bib": "892",
+  "name": "KRIS VERMEIR",
+  "status": "Finished",
+  "gun_time": "03:03:18",
+  "place": "50",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "30",
+  "gender_of": "74",
+  "category": "Veteran 50+",
+  "category_place": "5",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:28:55",
+   "run_time": "00:29:02",
+   "race_time": "00:29:02",
+   "pos": "65",
+   "tod": "07:29:02",
+   "gender": "Male",
+   "gender_pos": "39",
+   "category": "Veteran 50+",
+   "category_pos": "7",
+   "speed_kmh": "10.33",
+   "pace": "05:48"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:14:58",
+   "run_time": "01:44:00",
+   "race_time": "01:44:00",
+   "pos": "52",
+   "tod": "08:44:00",
+   "gender": "Male",
+   "gender_pos": "33",
+   "category": "Veteran 50+",
+   "category_pos": "5",
+   "speed_kmh": "7.96",
+   "pace": "07:32"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:47:18",
+   "run_time": "02:31:19",
+   "race_time": "02:31:19",
+   "pos": "53",
+   "tod": "09:31:19",
+   "gender": "Male",
+   "gender_pos": "33",
+   "category": "Veteran 50+",
+   "category_pos": "5",
+   "speed_kmh": "8.72",
+   "pace": "06:52"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:31:58",
+   "run_time": "03:03:18",
+   "race_time": "03:03:18",
+   "pos": "50",
+   "tod": "10:03:18",
+   "gender": "Male",
+   "gender_pos": "30",
+   "category": "Veteran 50+",
+   "category_pos": "5",
+   "speed_kmh": "8.83",
+   "pace": "06:47"
+  }
+ ],
+ "found": true
+}

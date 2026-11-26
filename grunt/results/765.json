@@ -1,0 +1,77 @@
+{
+ "id": 765,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/765",
+ "summary": {
+  "bib": "765",
+  "name": "DWIGHT GRIEVE",
+  "status": "Finished",
+  "gun_time": "02:00:37",
+  "place": "7",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "7",
+  "gender_of": "74",
+  "category": "Veteran 40+",
+  "category_place": "1",
+  "category_of": "20"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:19:58",
+   "run_time": "00:20:00",
+   "race_time": "00:20:00",
+   "pos": "8",
+   "tod": "07:20:00",
+   "gender": "Male",
+   "gender_pos": "8",
+   "category": "Veteran 40+",
+   "category_pos": "1",
+   "speed_kmh": "14.99",
+   "pace": "04:00"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "00:49:44",
+   "run_time": "01:09:45",
+   "race_time": "01:09:45",
+   "pos": "7",
+   "tod": "08:09:45",
+   "gender": "Male",
+   "gender_pos": "7",
+   "category": "Veteran 40+",
+   "category_pos": "1",
+   "speed_kmh": "11.87",
+   "pace": "05:03"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:30:16",
+   "run_time": "01:40:01",
+   "race_time": "01:40:01",
+   "pos": "7",
+   "tod": "08:40:01",
+   "gender": "Male",
+   "gender_pos": "7",
+   "category": "Veteran 40+",
+   "category_pos": "1",
+   "speed_kmh": "13.19",
+   "pace": "04:32"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:20:36",
+   "run_time": "02:00:37",
+   "race_time": "02:00:37",
+   "pos": "7",
+   "tod": "09:00:37",
+   "gender": "Male",
+   "gender_pos": "7",
+   "category": "Veteran 40+",
+   "category_pos": "1",
+   "speed_kmh": "13.42",
+   "pace": "04:28"
+  }
+ ],
+ "found": true
+}

@@ -1,0 +1,77 @@
+{
+ "id": 827,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/827",
+ "summary": {
+  "bib": "827",
+  "name": "NIKI MCNAUGHT",
+  "status": "Finished",
+  "gun_time": "04:37:16",
+  "place": "182",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "113",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "40",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:37:33",
+   "run_time": "00:37:50",
+   "race_time": "00:37:50",
+   "pos": "168",
+   "tod": "07:37:50",
+   "gender": "Female",
+   "gender_pos": "99",
+   "category": "Veteran 40+",
+   "category_pos": "36",
+   "speed_kmh": "7.92",
+   "pace": "07:34"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:54:21",
+   "run_time": "02:32:12",
+   "race_time": "02:32:12",
+   "pos": "182",
+   "tod": "09:32:12",
+   "gender": "Female",
+   "gender_pos": "113",
+   "category": "Veteran 40+",
+   "category_pos": "40",
+   "speed_kmh": "5.43",
+   "pace": "11:01"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:13:46",
+   "run_time": "03:45:59",
+   "race_time": "03:45:59",
+   "pos": "180",
+   "tod": "10:45:59",
+   "gender": "Female",
+   "gender_pos": "111",
+   "category": "Veteran 40+",
+   "category_pos": "39",
+   "speed_kmh": "5.84",
+   "pace": "10:16"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:51:17",
+   "run_time": "04:37:16",
+   "race_time": "04:37:16",
+   "pos": "182",
+   "tod": "11:37:16",
+   "gender": "Female",
+   "gender_pos": "113",
+   "category": "Veteran 40+",
+   "category_pos": "40",
+   "speed_kmh": "5.84",
+   "pace": "10:16"
+  }
+ ],
+ "found": true
+}

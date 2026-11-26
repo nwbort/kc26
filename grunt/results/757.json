@@ -1,0 +1,77 @@
+{
+ "id": 757,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/757",
+ "summary": {
+  "bib": "757",
+  "name": "DAYNA GALLAGHER",
+  "status": "Finished",
+  "gun_time": "03:39:33",
+  "place": "114",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "55",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "31",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:37:57",
+   "run_time": "00:38:18",
+   "race_time": "00:38:18",
+   "pos": "170",
+   "tod": "07:38:18",
+   "gender": "Female",
+   "gender_pos": "101",
+   "category": "Open",
+   "category_pos": "50",
+   "speed_kmh": "7.83",
+   "pace": "07:39"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:28:39",
+   "run_time": "02:06:57",
+   "race_time": "02:06:57",
+   "pos": "127",
+   "tod": "09:06:57",
+   "gender": "Female",
+   "gender_pos": "66",
+   "category": "Open",
+   "category_pos": "35",
+   "speed_kmh": "6.52",
+   "pace": "09:12"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:53:26",
+   "run_time": "03:00:23",
+   "race_time": "03:00:23",
+   "pos": "115",
+   "tod": "10:00:23",
+   "gender": "Female",
+   "gender_pos": "55",
+   "category": "Open",
+   "category_pos": "31",
+   "speed_kmh": "7.31",
+   "pace": "08:11"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:39:09",
+   "run_time": "03:39:33",
+   "race_time": "03:39:33",
+   "pos": "114",
+   "tod": "10:39:33",
+   "gender": "Female",
+   "gender_pos": "55",
+   "category": "Open",
+   "category_pos": "31",
+   "speed_kmh": "7.37",
+   "pace": "08:07"
+  }
+ ],
+ "found": true
+}

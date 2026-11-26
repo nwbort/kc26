@@ -1,0 +1,77 @@
+{
+ "id": 897,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/897",
+ "summary": {
+  "bib": "897",
+  "name": "RUTH WALLER",
+  "status": "Finished",
+  "gun_time": "03:34:16",
+  "place": "104",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "49",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "20",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:32:58",
+   "run_time": "00:33:08",
+   "race_time": "00:33:08",
+   "pos": "108",
+   "tod": "07:33:08",
+   "gender": "Female",
+   "gender_pos": "56",
+   "category": "Veteran 40+",
+   "category_pos": "24",
+   "speed_kmh": "9.05",
+   "pace": "06:37"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:24:52",
+   "run_time": "01:58:01",
+   "race_time": "01:58:01",
+   "pos": "99",
+   "tod": "08:58:01",
+   "gender": "Female",
+   "gender_pos": "47",
+   "category": "Veteran 40+",
+   "category_pos": "18",
+   "speed_kmh": "7.01",
+   "pace": "08:33"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:57:16",
+   "run_time": "02:55:17",
+   "race_time": "02:55:17",
+   "pos": "101",
+   "tod": "09:55:17",
+   "gender": "Female",
+   "gender_pos": "48",
+   "category": "Veteran 40+",
+   "category_pos": "19",
+   "speed_kmh": "7.52",
+   "pace": "07:58"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:38:58",
+   "run_time": "03:34:16",
+   "race_time": "03:34:16",
+   "pos": "104",
+   "tod": "10:34:16",
+   "gender": "Female",
+   "gender_pos": "49",
+   "category": "Veteran 40+",
+   "category_pos": "20",
+   "speed_kmh": "7.56",
+   "pace": "07:56"
+  }
+ ],
+ "found": true
+}

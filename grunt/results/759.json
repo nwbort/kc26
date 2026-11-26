@@ -1,0 +1,77 @@
+{
+ "id": 759,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/759",
+ "summary": {
+  "bib": "759",
+  "name": "SARAH GAWITH",
+  "status": "Finished",
+  "gun_time": "04:12:04",
+  "place": "167",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "100",
+  "gender_of": "131",
+  "category": "Veteran 50+",
+  "category_place": "9",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:33:41",
+   "run_time": "00:33:59",
+   "race_time": "00:33:59",
+   "pos": "123",
+   "tod": "07:33:59",
+   "gender": "Female",
+   "gender_pos": "68",
+   "category": "Veteran 50+",
+   "category_pos": "4",
+   "speed_kmh": "8.82",
+   "pace": "06:47"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:47:01",
+   "run_time": "02:21:00",
+   "race_time": "02:21:00",
+   "pos": "170",
+   "tod": "09:21:00",
+   "gender": "Female",
+   "gender_pos": "101",
+   "category": "Veteran 50+",
+   "category_pos": "9",
+   "speed_kmh": "5.87",
+   "pace": "10:13"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:08:39",
+   "run_time": "03:29:40",
+   "race_time": "03:29:40",
+   "pos": "168",
+   "tod": "10:29:40",
+   "gender": "Female",
+   "gender_pos": "100",
+   "category": "Veteran 50+",
+   "category_pos": "9",
+   "speed_kmh": "6.29",
+   "pace": "09:31"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:42:23",
+   "run_time": "04:12:04",
+   "race_time": "04:12:04",
+   "pos": "167",
+   "tod": "11:12:04",
+   "gender": "Female",
+   "gender_pos": "100",
+   "category": "Veteran 50+",
+   "category_pos": "9",
+   "speed_kmh": "6.42",
+   "pace": "09:20"
+  }
+ ],
+ "found": true
+}

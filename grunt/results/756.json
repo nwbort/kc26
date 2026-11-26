@@ -1,0 +1,77 @@
+{
+ "id": 756,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/756",
+ "summary": {
+  "bib": "756",
+  "name": "BRENDON FULLER",
+  "status": "Finished",
+  "gun_time": "03:13:51",
+  "place": "69",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "43",
+  "gender_of": "74",
+  "category": "Veteran 50+",
+  "category_place": "8",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:29:39",
+   "run_time": "00:29:49",
+   "race_time": "00:29:49",
+   "pos": "74",
+   "tod": "07:29:49",
+   "gender": "Male",
+   "gender_pos": "45",
+   "category": "Veteran 50+",
+   "category_pos": "8",
+   "speed_kmh": "10.05",
+   "pace": "05:57"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:22:31",
+   "run_time": "01:52:20",
+   "race_time": "01:52:20",
+   "pos": "76",
+   "tod": "08:52:20",
+   "gender": "Male",
+   "gender_pos": "44",
+   "category": "Veteran 50+",
+   "category_pos": "8",
+   "speed_kmh": "7.36",
+   "pace": "08:08"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:52:01",
+   "run_time": "02:44:22",
+   "race_time": "02:44:22",
+   "pos": "80",
+   "tod": "09:44:22",
+   "gender": "Male",
+   "gender_pos": "46",
+   "category": "Veteran 50+",
+   "category_pos": "8",
+   "speed_kmh": "8.03",
+   "pace": "07:28"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:29:29",
+   "run_time": "03:13:51",
+   "race_time": "03:13:51",
+   "pos": "69",
+   "tod": "10:13:51",
+   "gender": "Male",
+   "gender_pos": "43",
+   "category": "Veteran 50+",
+   "category_pos": "8",
+   "speed_kmh": "8.35",
+   "pace": "07:10"
+  }
+ ],
+ "found": true
+}

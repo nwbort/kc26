@@ -1,0 +1,77 @@
+{
+ "id": 851,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/851",
+ "summary": {
+  "bib": "851",
+  "name": "JONATHAN PINNEY",
+  "status": "Finished",
+  "gun_time": "03:28:57",
+  "place": "95",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "50",
+  "gender_of": "74",
+  "category": "Veteran 50+",
+  "category_place": "9",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:32:54",
+   "run_time": "00:33:09",
+   "race_time": "00:33:09",
+   "pos": "109",
+   "tod": "07:33:09",
+   "gender": "Male",
+   "gender_pos": "53",
+   "category": "Veteran 50+",
+   "category_pos": "11",
+   "speed_kmh": "9.04",
+   "pace": "06:37"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:25:03",
+   "run_time": "01:58:12",
+   "race_time": "01:58:12",
+   "pos": "101",
+   "tod": "08:58:12",
+   "gender": "Male",
+   "gender_pos": "53",
+   "category": "Veteran 50+",
+   "category_pos": "10",
+   "speed_kmh": "7",
+   "pace": "08:33"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:57:13",
+   "run_time": "02:55:25",
+   "race_time": "02:55:25",
+   "pos": "103",
+   "tod": "09:55:25",
+   "gender": "Male",
+   "gender_pos": "54",
+   "category": "Veteran 50+",
+   "category_pos": "11",
+   "speed_kmh": "7.52",
+   "pace": "07:58"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:33:31",
+   "run_time": "03:28:57",
+   "race_time": "03:28:57",
+   "pos": "95",
+   "tod": "10:28:57",
+   "gender": "Male",
+   "gender_pos": "50",
+   "category": "Veteran 50+",
+   "category_pos": "9",
+   "speed_kmh": "7.75",
+   "pace": "07:44"
+  }
+ ],
+ "found": true
+}

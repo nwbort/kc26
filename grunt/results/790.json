@@ -1,0 +1,77 @@
+{
+ "id": 790,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/790",
+ "summary": {
+  "bib": "790",
+  "name": "JONATHAN JACKSON",
+  "status": "Finished",
+  "gun_time": "01:56:27",
+  "place": "3",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "3",
+  "gender_of": "74",
+  "category": "Open",
+  "category_place": "3",
+  "category_of": "30"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:19:18",
+   "run_time": "00:19:20",
+   "race_time": "00:19:20",
+   "pos": "2",
+   "tod": "07:19:20",
+   "gender": "Male",
+   "gender_pos": "2",
+   "category": "Open",
+   "category_pos": "2",
+   "speed_kmh": "15.51",
+   "pace": "03:52"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "00:44:43",
+   "run_time": "01:04:03",
+   "race_time": "01:04:03",
+   "pos": "1",
+   "tod": "08:04:03",
+   "gender": "Male",
+   "gender_pos": "1",
+   "category": "Open",
+   "category_pos": "1",
+   "speed_kmh": "12.92",
+   "pace": "04:38"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:31:23",
+   "run_time": "01:35:26",
+   "race_time": "01:35:26",
+   "pos": "3",
+   "tod": "08:35:26",
+   "gender": "Male",
+   "gender_pos": "3",
+   "category": "Open",
+   "category_pos": "3",
+   "speed_kmh": "13.83",
+   "pace": "04:20"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:21:01",
+   "run_time": "01:56:27",
+   "race_time": "01:56:27",
+   "pos": "3",
+   "tod": "08:56:27",
+   "gender": "Male",
+   "gender_pos": "3",
+   "category": "Open",
+   "category_pos": "3",
+   "speed_kmh": "13.91",
+   "pace": "04:18"
+  }
+ ],
+ "found": true
+}

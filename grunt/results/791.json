@@ -1,0 +1,77 @@
+{
+ "id": 791,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/791",
+ "summary": {
+  "bib": "791",
+  "name": "HANNAH JAMES",
+  "status": "Finished",
+  "gun_time": "03:34:59",
+  "place": "105",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "50",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "28",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:31:03",
+   "run_time": "00:31:17",
+   "race_time": "00:31:17",
+   "pos": "91",
+   "tod": "07:31:17",
+   "gender": "Female",
+   "gender_pos": "41",
+   "category": "Open",
+   "category_pos": "26",
+   "speed_kmh": "9.58",
+   "pace": "06:15"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:29:43",
+   "run_time": "02:01:01",
+   "race_time": "02:01:01",
+   "pos": "105",
+   "tod": "09:01:01",
+   "gender": "Female",
+   "gender_pos": "49",
+   "category": "Open",
+   "category_pos": "27",
+   "speed_kmh": "6.84",
+   "pace": "08:46"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:55:14",
+   "run_time": "02:56:15",
+   "race_time": "02:56:15",
+   "pos": "108",
+   "tod": "09:56:15",
+   "gender": "Female",
+   "gender_pos": "51",
+   "category": "Open",
+   "category_pos": "28",
+   "speed_kmh": "7.48",
+   "pace": "08:00"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:38:44",
+   "run_time": "03:34:59",
+   "race_time": "03:34:59",
+   "pos": "105",
+   "tod": "10:34:59",
+   "gender": "Female",
+   "gender_pos": "50",
+   "category": "Open",
+   "category_pos": "28",
+   "speed_kmh": "7.53",
+   "pace": "07:57"
+  }
+ ],
+ "found": true
+}

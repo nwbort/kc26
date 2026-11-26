@@ -1,0 +1,77 @@
+{
+ "id": 907,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/907",
+ "summary": {
+  "bib": "907",
+  "name": "NICOLE WEGENER",
+  "status": "Finished",
+  "gun_time": "04:37:28",
+  "place": "183",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "114",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "58",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:36:00",
+   "run_time": "00:36:15",
+   "race_time": "00:36:15",
+   "pos": "148",
+   "tod": "07:36:15",
+   "gender": "Female",
+   "gender_pos": "86",
+   "category": "Open",
+   "category_pos": "45",
+   "speed_kmh": "8.27",
+   "pace": "07:15"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:51:07",
+   "run_time": "02:27:22",
+   "race_time": "02:27:22",
+   "pos": "178",
+   "tod": "09:27:22",
+   "gender": "Female",
+   "gender_pos": "109",
+   "category": "Open",
+   "category_pos": "57",
+   "speed_kmh": "5.61",
+   "pace": "10:40"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:23:10",
+   "run_time": "03:50:33",
+   "race_time": "03:50:33",
+   "pos": "184",
+   "tod": "10:50:33",
+   "gender": "Female",
+   "gender_pos": "115",
+   "category": "Open",
+   "category_pos": "58",
+   "speed_kmh": "5.72",
+   "pace": "10:28"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:46:54",
+   "run_time": "04:37:28",
+   "race_time": "04:37:28",
+   "pos": "183",
+   "tod": "11:37:28",
+   "gender": "Female",
+   "gender_pos": "114",
+   "category": "Open",
+   "category_pos": "58",
+   "speed_kmh": "5.83",
+   "pace": "10:16"
+  }
+ ],
+ "found": true
+}

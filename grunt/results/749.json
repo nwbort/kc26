@@ -1,0 +1,77 @@
+{
+ "id": 749,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/749",
+ "summary": {
+  "bib": "749",
+  "name": "HYWEL DINNICK",
+  "status": "Finished",
+  "gun_time": "02:08:37",
+  "place": "10",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "10",
+  "gender_of": "74",
+  "category": "Open",
+  "category_place": "9",
+  "category_of": "30"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:20:15",
+   "run_time": "00:20:18",
+   "race_time": "00:20:18",
+   "pos": "11",
+   "tod": "07:20:18",
+   "gender": "Male",
+   "gender_pos": "11",
+   "category": "Open",
+   "category_pos": "10",
+   "speed_kmh": "14.77",
+   "pace": "04:03"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "00:52:26",
+   "run_time": "01:12:44",
+   "race_time": "01:12:44",
+   "pos": "8",
+   "tod": "08:12:44",
+   "gender": "Male",
+   "gender_pos": "8",
+   "category": "Open",
+   "category_pos": "7",
+   "speed_kmh": "11.38",
+   "pace": "05:16"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:33:49",
+   "run_time": "01:46:33",
+   "race_time": "01:46:33",
+   "pos": "10",
+   "tod": "08:46:33",
+   "gender": "Male",
+   "gender_pos": "10",
+   "category": "Open",
+   "category_pos": "9",
+   "speed_kmh": "12.38",
+   "pace": "04:50"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:22:03",
+   "run_time": "02:08:37",
+   "race_time": "02:08:37",
+   "pos": "10",
+   "tod": "09:08:37",
+   "gender": "Male",
+   "gender_pos": "10",
+   "category": "Open",
+   "category_pos": "9",
+   "speed_kmh": "12.59",
+   "pace": "04:45"
+  }
+ ],
+ "found": true
+}

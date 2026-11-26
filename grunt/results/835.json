@@ -1,0 +1,77 @@
+{
+ "id": 835,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/835",
+ "summary": {
+  "bib": "835",
+  "name": "ERIN MORRESEY",
+  "status": "Finished",
+  "gun_time": "04:02:57",
+  "place": "152",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "87",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "45",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:35:23",
+   "run_time": "00:35:37",
+   "race_time": "00:35:37",
+   "pos": "141",
+   "tod": "07:35:37",
+   "gender": "Female",
+   "gender_pos": "82",
+   "category": "Open",
+   "category_pos": "42",
+   "speed_kmh": "8.42",
+   "pace": "07:07"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:34:55",
+   "run_time": "02:10:33",
+   "race_time": "02:10:33",
+   "pos": "146",
+   "tod": "09:10:33",
+   "gender": "Female",
+   "gender_pos": "82",
+   "category": "Open",
+   "category_pos": "42",
+   "speed_kmh": "6.34",
+   "pace": "09:27"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:09:37",
+   "run_time": "03:20:10",
+   "race_time": "03:20:10",
+   "pos": "156",
+   "tod": "10:20:10",
+   "gender": "Female",
+   "gender_pos": "90",
+   "category": "Open",
+   "category_pos": "47",
+   "speed_kmh": "6.59",
+   "pace": "09:05"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:42:46",
+   "run_time": "04:02:57",
+   "race_time": "04:02:57",
+   "pos": "152",
+   "tod": "11:02:57",
+   "gender": "Female",
+   "gender_pos": "87",
+   "category": "Open",
+   "category_pos": "45",
+   "speed_kmh": "6.66",
+   "pace": "08:59"
+  }
+ ],
+ "found": true
+}

@@ -1,0 +1,77 @@
+{
+ "id": 795,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/795",
+ "summary": {
+  "bib": "795",
+  "name": "ALINA JUNC",
+  "status": "Finished",
+  "gun_time": "04:30:56",
+  "place": "179",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "110",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "57",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:38:21",
+   "run_time": "00:38:29",
+   "race_time": "00:38:29",
+   "pos": "171",
+   "tod": "07:38:29",
+   "gender": "Female",
+   "gender_pos": "102",
+   "category": "Open",
+   "category_pos": "51",
+   "speed_kmh": "7.79",
+   "pace": "07:41"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:56:19",
+   "run_time": "02:34:49",
+   "race_time": "02:34:49",
+   "pos": "185",
+   "tod": "09:34:49",
+   "gender": "Female",
+   "gender_pos": "115",
+   "category": "Open",
+   "category_pos": "58",
+   "speed_kmh": "5.34",
+   "pace": "11:13"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:15:03",
+   "run_time": "03:49:52",
+   "race_time": "03:49:52",
+   "pos": "183",
+   "tod": "10:49:52",
+   "gender": "Female",
+   "gender_pos": "114",
+   "category": "Open",
+   "category_pos": "57",
+   "speed_kmh": "5.74",
+   "pace": "10:26"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:41:04",
+   "run_time": "04:30:56",
+   "race_time": "04:30:56",
+   "pos": "179",
+   "tod": "11:30:56",
+   "gender": "Female",
+   "gender_pos": "110",
+   "category": "Open",
+   "category_pos": "57",
+   "speed_kmh": "5.97",
+   "pace": "10:02"
+  }
+ ],
+ "found": true
+}

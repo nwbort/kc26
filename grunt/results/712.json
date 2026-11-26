@@ -1,0 +1,77 @@
+{
+ "id": 712,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/712",
+ "summary": {
+  "bib": "712",
+  "name": "SOPHIE BEAUMONT",
+  "status": "Finished",
+  "gun_time": "02:47:23",
+  "place": "34",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "13",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "9",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:26:27",
+   "run_time": "00:26:31",
+   "race_time": "00:26:31",
+   "pos": "39",
+   "tod": "07:26:31",
+   "gender": "Female",
+   "gender_pos": "14",
+   "category": "Open",
+   "category_pos": "10",
+   "speed_kmh": "11.31",
+   "pace": "05:18"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:08:57",
+   "run_time": "01:35:28",
+   "race_time": "01:35:28",
+   "pos": "33",
+   "tod": "08:35:28",
+   "gender": "Female",
+   "gender_pos": "12",
+   "category": "Open",
+   "category_pos": "8",
+   "speed_kmh": "8.67",
+   "pace": "06:55"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:42:08",
+   "run_time": "02:17:37",
+   "race_time": "02:17:37",
+   "pos": "34",
+   "tod": "09:17:37",
+   "gender": "Female",
+   "gender_pos": "13",
+   "category": "Open",
+   "category_pos": "9",
+   "speed_kmh": "9.59",
+   "pace": "06:15"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:29:45",
+   "run_time": "02:47:23",
+   "race_time": "02:47:23",
+   "pos": "34",
+   "tod": "09:47:23",
+   "gender": "Female",
+   "gender_pos": "13",
+   "category": "Open",
+   "category_pos": "9",
+   "speed_kmh": "9.67",
+   "pace": "06:11"
+  }
+ ],
+ "found": true
+}

@@ -1,0 +1,77 @@
+{
+ "id": 794,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/794",
+ "summary": {
+  "bib": "794",
+  "name": "TESS JOUBERT",
+  "status": "Finished",
+  "gun_time": "03:58:32",
+  "place": "143",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "80",
+  "gender_of": "131",
+  "category": "Legend 60+",
+  "category_place": "2",
+  "category_of": "6"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:36:43",
+   "run_time": "00:37:03",
+   "race_time": "00:37:03",
+   "pos": "158",
+   "tod": "07:37:03",
+   "gender": "Female",
+   "gender_pos": "92",
+   "category": "Legend 60+",
+   "category_pos": "2",
+   "speed_kmh": "8.09",
+   "pace": "07:24"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:33:48",
+   "run_time": "02:10:51",
+   "race_time": "02:10:51",
+   "pos": "147",
+   "tod": "09:10:51",
+   "gender": "Female",
+   "gender_pos": "83",
+   "category": "Legend 60+",
+   "category_pos": "2",
+   "speed_kmh": "6.32",
+   "pace": "09:28"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:08:40",
+   "run_time": "03:19:32",
+   "race_time": "03:19:32",
+   "pos": "150",
+   "tod": "10:19:32",
+   "gender": "Female",
+   "gender_pos": "85",
+   "category": "Legend 60+",
+   "category_pos": "2",
+   "speed_kmh": "6.61",
+   "pace": "09:04"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:38:59",
+   "run_time": "03:58:32",
+   "race_time": "03:58:32",
+   "pos": "143",
+   "tod": "10:58:32",
+   "gender": "Female",
+   "gender_pos": "80",
+   "category": "Legend 60+",
+   "category_pos": "2",
+   "speed_kmh": "6.79",
+   "pace": "08:50"
+  }
+ ],
+ "found": true
+}

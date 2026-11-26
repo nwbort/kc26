@@ -1,0 +1,77 @@
+{
+ "id": 882,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/882",
+ "summary": {
+  "bib": "882",
+  "name": "TODD SYMON",
+  "status": "Finished",
+  "gun_time": "02:56:40",
+  "place": "41",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "25",
+  "gender_of": "74",
+  "category": "Veteran 40+",
+  "category_place": "5",
+  "category_of": "20"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:25:15",
+   "run_time": "00:25:17",
+   "race_time": "00:25:17",
+   "pos": "31",
+   "tod": "07:25:17",
+   "gender": "Male",
+   "gender_pos": "21",
+   "category": "Veteran 40+",
+   "category_pos": "5",
+   "speed_kmh": "11.85",
+   "pace": "05:03"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:15:29",
+   "run_time": "01:40:47",
+   "race_time": "01:40:47",
+   "pos": "42",
+   "tod": "08:40:47",
+   "gender": "Male",
+   "gender_pos": "25",
+   "category": "Veteran 40+",
+   "category_pos": "6",
+   "speed_kmh": "8.21",
+   "pace": "07:18"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:45:35",
+   "run_time": "02:26:22",
+   "race_time": "02:26:22",
+   "pos": "43",
+   "tod": "09:26:22",
+   "gender": "Male",
+   "gender_pos": "26",
+   "category": "Veteran 40+",
+   "category_pos": "6",
+   "speed_kmh": "9.01",
+   "pace": "06:39"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:30:18",
+   "run_time": "02:56:40",
+   "race_time": "02:56:40",
+   "pos": "41",
+   "tod": "09:56:40",
+   "gender": "Male",
+   "gender_pos": "25",
+   "category": "Veteran 40+",
+   "category_pos": "5",
+   "speed_kmh": "9.16",
+   "pace": "06:32"
+  }
+ ],
+ "found": true
+}

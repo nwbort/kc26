@@ -1,0 +1,77 @@
+{
+ "id": 781,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/781",
+ "summary": {
+  "bib": "781",
+  "name": "MEL HUNTER",
+  "status": "Finished",
+  "gun_time": "04:56:31",
+  "place": "189",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "119",
+  "gender_of": "131",
+  "category": "Veteran 50+",
+  "category_place": "14",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:40:15",
+   "run_time": "00:40:41",
+   "race_time": "00:40:41",
+   "pos": "180",
+   "tod": "07:40:41",
+   "gender": "Female",
+   "gender_pos": "111",
+   "category": "Veteran 50+",
+   "category_pos": "13",
+   "speed_kmh": "7.37",
+   "pace": "08:08"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "02:00:03",
+   "run_time": "02:40:45",
+   "race_time": "02:40:45",
+   "pos": "190",
+   "tod": "09:40:45",
+   "gender": "Female",
+   "gender_pos": "119",
+   "category": "Veteran 50+",
+   "category_pos": "14",
+   "speed_kmh": "5.15",
+   "pace": "11:38"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:31:50",
+   "run_time": "04:12:36",
+   "race_time": "04:12:36",
+   "pos": "191",
+   "tod": "11:12:36",
+   "gender": "Female",
+   "gender_pos": "121",
+   "category": "Veteran 50+",
+   "category_pos": "14",
+   "speed_kmh": "5.22",
+   "pace": "11:28"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:43:55",
+   "run_time": "04:56:31",
+   "race_time": "04:56:31",
+   "pos": "189",
+   "tod": "11:56:31",
+   "gender": "Female",
+   "gender_pos": "119",
+   "category": "Veteran 50+",
+   "category_pos": "14",
+   "speed_kmh": "5.46",
+   "pace": "10:58"
+  }
+ ],
+ "found": true
+}

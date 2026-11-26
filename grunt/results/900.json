@@ -1,0 +1,77 @@
+{
+ "id": 900,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/900",
+ "summary": {
+  "bib": "900",
+  "name": "ANNA WATSON-TAYLOR",
+  "status": "Finished",
+  "gun_time": "02:47:43",
+  "place": "35",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "14",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "10",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:26:05",
+   "run_time": "00:26:10",
+   "race_time": "00:26:10",
+   "pos": "36",
+   "tod": "07:26:10",
+   "gender": "Female",
+   "gender_pos": "12",
+   "category": "Open",
+   "category_pos": "9",
+   "speed_kmh": "11.46",
+   "pace": "05:14"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:09:48",
+   "run_time": "01:35:58",
+   "race_time": "01:35:58",
+   "pos": "34",
+   "tod": "08:35:58",
+   "gender": "Female",
+   "gender_pos": "13",
+   "category": "Open",
+   "category_pos": "9",
+   "speed_kmh": "8.62",
+   "pace": "06:57"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:42:41",
+   "run_time": "02:18:40",
+   "race_time": "02:18:40",
+   "pos": "35",
+   "tod": "09:18:40",
+   "gender": "Female",
+   "gender_pos": "14",
+   "category": "Open",
+   "category_pos": "10",
+   "speed_kmh": "9.51",
+   "pace": "06:18"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:29:03",
+   "run_time": "02:47:43",
+   "race_time": "02:47:43",
+   "pos": "35",
+   "tod": "09:47:43",
+   "gender": "Female",
+   "gender_pos": "14",
+   "category": "Open",
+   "category_pos": "10",
+   "speed_kmh": "9.65",
+   "pace": "06:12"
+  }
+ ],
+ "found": true
+}

@@ -1,0 +1,77 @@
+{
+ "id": 783,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/783",
+ "summary": {
+  "bib": "783",
+  "name": "RICKY HUTCHINSON",
+  "status": "Finished",
+  "gun_time": "02:59:34",
+  "place": "47",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "29",
+  "gender_of": "74",
+  "category": "Veteran 40+",
+  "category_place": "7",
+  "category_of": "20"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:26:22",
+   "run_time": "00:26:28",
+   "race_time": "00:26:28",
+   "pos": "38",
+   "tod": "07:26:28",
+   "gender": "Male",
+   "gender_pos": "25",
+   "category": "Veteran 40+",
+   "category_pos": "6",
+   "speed_kmh": "11.33",
+   "pace": "05:17"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:15:48",
+   "run_time": "01:42:17",
+   "race_time": "01:42:17",
+   "pos": "45",
+   "tod": "08:42:17",
+   "gender": "Male",
+   "gender_pos": "28",
+   "category": "Veteran 40+",
+   "category_pos": "8",
+   "speed_kmh": "8.09",
+   "pace": "07:24"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:45:28",
+   "run_time": "02:27:45",
+   "race_time": "02:27:45",
+   "pos": "47",
+   "tod": "09:27:45",
+   "gender": "Male",
+   "gender_pos": "29",
+   "category": "Veteran 40+",
+   "category_pos": "7",
+   "speed_kmh": "8.93",
+   "pace": "06:42"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:31:49",
+   "run_time": "02:59:34",
+   "race_time": "02:59:34",
+   "pos": "47",
+   "tod": "09:59:34",
+   "gender": "Male",
+   "gender_pos": "29",
+   "category": "Veteran 40+",
+   "category_pos": "7",
+   "speed_kmh": "9.02",
+   "pace": "06:39"
+  }
+ ],
+ "found": true
+}

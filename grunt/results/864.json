@@ -1,0 +1,77 @@
+{
+ "id": 864,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/864",
+ "summary": {
+  "bib": "864",
+  "name": "NATHAN SHANKS",
+  "status": "Finished",
+  "gun_time": "02:18:10",
+  "place": "12",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "12",
+  "gender_of": "74",
+  "category": "Open",
+  "category_place": "11",
+  "category_of": "30"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:21:54",
+   "run_time": "00:21:57",
+   "race_time": "00:21:57",
+   "pos": "12",
+   "tod": "07:21:57",
+   "gender": "Male",
+   "gender_pos": "12",
+   "category": "Open",
+   "category_pos": "11",
+   "speed_kmh": "13.66",
+   "pace": "04:23"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "00:55:33",
+   "run_time": "01:17:31",
+   "race_time": "01:17:31",
+   "pos": "12",
+   "tod": "08:17:31",
+   "gender": "Male",
+   "gender_pos": "12",
+   "category": "Open",
+   "category_pos": "11",
+   "speed_kmh": "10.68",
+   "pace": "05:37"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:35:04",
+   "run_time": "01:52:35",
+   "race_time": "01:52:35",
+   "pos": "12",
+   "tod": "08:52:35",
+   "gender": "Male",
+   "gender_pos": "12",
+   "category": "Open",
+   "category_pos": "11",
+   "speed_kmh": "11.72",
+   "pace": "05:07"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:25:35",
+   "run_time": "02:18:10",
+   "race_time": "02:18:10",
+   "pos": "12",
+   "tod": "09:18:10",
+   "gender": "Male",
+   "gender_pos": "12",
+   "category": "Open",
+   "category_pos": "11",
+   "speed_kmh": "11.72",
+   "pace": "05:07"
+  }
+ ],
+ "found": true
+}

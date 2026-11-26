@@ -1,0 +1,77 @@
+{
+ "id": 879,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/879",
+ "summary": {
+  "bib": "879",
+  "name": "CYNTHIA SUTCLIFFE",
+  "status": "Finished",
+  "gun_time": "04:05:41",
+  "place": "158",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "92",
+  "gender_of": "131",
+  "category": "Veteran 50+",
+  "category_place": "7",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:36:01",
+   "run_time": "00:36:09",
+   "race_time": "00:36:09",
+   "pos": "146",
+   "tod": "07:36:09",
+   "gender": "Female",
+   "gender_pos": "85",
+   "category": "Veteran 50+",
+   "category_pos": "7",
+   "speed_kmh": "8.29",
+   "pace": "07:13"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:38:56",
+   "run_time": "02:15:06",
+   "race_time": "02:15:06",
+   "pos": "160",
+   "tod": "09:15:06",
+   "gender": "Female",
+   "gender_pos": "93",
+   "category": "Veteran 50+",
+   "category_pos": "8",
+   "speed_kmh": "6.12",
+   "pace": "09:47"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:08:05",
+   "run_time": "03:23:11",
+   "race_time": "03:23:11",
+   "pos": "159",
+   "tod": "10:23:11",
+   "gender": "Female",
+   "gender_pos": "92",
+   "category": "Veteran 50+",
+   "category_pos": "8",
+   "speed_kmh": "6.49",
+   "pace": "09:14"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:42:29",
+   "run_time": "04:05:41",
+   "race_time": "04:05:41",
+   "pos": "158",
+   "tod": "11:05:41",
+   "gender": "Female",
+   "gender_pos": "92",
+   "category": "Veteran 50+",
+   "category_pos": "7",
+   "speed_kmh": "6.59",
+   "pace": "09:05"
+  }
+ ],
+ "found": true
+}

@@ -1,0 +1,77 @@
+{
+ "id": 854,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/854",
+ "summary": {
+  "bib": "854",
+  "name": "JESSICA RATHGEN",
+  "status": "Finished",
+  "gun_time": "02:50:31",
+  "place": "37",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "15",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "11",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:26:54",
+   "run_time": "00:26:59",
+   "race_time": "00:26:59",
+   "pos": "41",
+   "tod": "07:26:59",
+   "gender": "Female",
+   "gender_pos": "15",
+   "category": "Open",
+   "category_pos": "11",
+   "speed_kmh": "11.11",
+   "pace": "05:23"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:12:09",
+   "run_time": "01:39:08",
+   "race_time": "01:39:08",
+   "pos": "38",
+   "tod": "08:39:08",
+   "gender": "Female",
+   "gender_pos": "15",
+   "category": "Open",
+   "category_pos": "11",
+   "speed_kmh": "8.35",
+   "pace": "07:11"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:39:42",
+   "run_time": "02:18:51",
+   "race_time": "02:18:51",
+   "pos": "36",
+   "tod": "09:18:51",
+   "gender": "Female",
+   "gender_pos": "15",
+   "category": "Open",
+   "category_pos": "11",
+   "speed_kmh": "9.5",
+   "pace": "06:18"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:31:39",
+   "run_time": "02:50:31",
+   "race_time": "02:50:31",
+   "pos": "37",
+   "tod": "09:50:31",
+   "gender": "Female",
+   "gender_pos": "15",
+   "category": "Open",
+   "category_pos": "11",
+   "speed_kmh": "9.5",
+   "pace": "06:18"
+  }
+ ],
+ "found": true
+}

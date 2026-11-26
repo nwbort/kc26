@@ -1,0 +1,77 @@
+{
+ "id": 766,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/766",
+ "summary": {
+  "bib": "766",
+  "name": "HUNTER GRIEVE",
+  "status": "Finished",
+  "gun_time": "03:30:39",
+  "place": "98",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "52",
+  "gender_of": "74",
+  "category": "Open",
+  "category_place": "28",
+  "category_of": "30"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:29:07",
+   "run_time": "00:29:18",
+   "race_time": "00:29:18",
+   "pos": "68",
+   "tod": "07:29:18",
+   "gender": "Male",
+   "gender_pos": "41",
+   "category": "Open",
+   "category_pos": "23",
+   "speed_kmh": "10.23",
+   "pace": "05:51"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:25:41",
+   "run_time": "01:54:59",
+   "race_time": "01:54:59",
+   "pos": "85",
+   "tod": "08:54:59",
+   "gender": "Male",
+   "gender_pos": "48",
+   "category": "Open",
+   "category_pos": "26",
+   "speed_kmh": "7.2",
+   "pace": "08:19"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:56:19",
+   "run_time": "02:51:19",
+   "race_time": "02:51:19",
+   "pos": "96",
+   "tod": "09:51:19",
+   "gender": "Male",
+   "gender_pos": "52",
+   "category": "Open",
+   "category_pos": "28",
+   "speed_kmh": "7.7",
+   "pace": "07:47"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:39:19",
+   "run_time": "03:30:39",
+   "race_time": "03:30:39",
+   "pos": "98",
+   "tod": "10:30:39",
+   "gender": "Male",
+   "gender_pos": "52",
+   "category": "Open",
+   "category_pos": "28",
+   "speed_kmh": "7.69",
+   "pace": "07:48"
+  }
+ ],
+ "found": true
+}

@@ -1,0 +1,77 @@
+{
+ "id": 889,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/889",
+ "summary": {
+  "bib": "889",
+  "name": "SADAO TSUCHIYA",
+  "status": "Finished",
+  "gun_time": "03:36:05",
+  "place": "107",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "57",
+  "gender_of": "74",
+  "category": "Veteran 40+",
+  "category_place": "16",
+  "category_of": "20"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:35:57",
+   "run_time": "00:36:20",
+   "race_time": "00:36:20",
+   "pos": "152",
+   "tod": "07:36:20",
+   "gender": "Male",
+   "gender_pos": "64",
+   "category": "Veteran 40+",
+   "category_pos": "19",
+   "speed_kmh": "8.25",
+   "pace": "07:16"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:22:45",
+   "run_time": "01:59:05",
+   "race_time": "01:59:05",
+   "pos": "103",
+   "tod": "08:59:05",
+   "gender": "Male",
+   "gender_pos": "55",
+   "category": "Veteran 40+",
+   "category_pos": "16",
+   "speed_kmh": "6.95",
+   "pace": "08:37"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:57:03",
+   "run_time": "02:56:09",
+   "race_time": "02:56:09",
+   "pos": "106",
+   "tod": "09:56:09",
+   "gender": "Male",
+   "gender_pos": "57",
+   "category": "Veteran 40+",
+   "category_pos": "16",
+   "speed_kmh": "7.49",
+   "pace": "08:00"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:39:56",
+   "run_time": "03:36:05",
+   "race_time": "03:36:05",
+   "pos": "107",
+   "tod": "10:36:05",
+   "gender": "Male",
+   "gender_pos": "57",
+   "category": "Veteran 40+",
+   "category_pos": "16",
+   "speed_kmh": "7.49",
+   "pace": "08:00"
+  }
+ ],
+ "found": true
+}
