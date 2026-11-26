@@ -55,18 +55,16 @@ from Sportsplits (event 1, individuals 1–499).
 
 Sportsplits sits behind a Cloudflare challenge ("Checking your browser"), so
 plain `curl` only gets a 403. As in
-[tribunal-tracker](https://github.com/nwbort/tribunal-tracker), the GitHub
-Action drives a real Chrome under Xvfb with
+[tribunal-tracker](https://github.com/nwbort/tribunal-tracker), the scraper
+(formerly run as a GitHub Action) drives a real Chrome under Xvfb with
 [nodriver](https://github.com/ultrafunkamsterdam/nodriver) to clear it, then
 loads each results page in the same browser session.
 
 ### Running it
 
-The [Scrape results](.github/workflows/scrape.yml) workflow runs when the
-scraper changes, or by hand from the Actions tab (Run workflow), where the
-race, event, range of individuals and a "re-fetch" option can be set.
-Individuals already in `results/` are skipped, so a run that stops part way
-can be resumed by running it again.
+The scraping GitHub Action has been removed now that the 2025 data is in the
+repo (it's in git history if it's ever needed again). Individuals already in
+`results/` are skipped, so a run that stops part way can be resumed.
 
 Locally: `pip install -r requirements.txt`, then
 `xvfb-run -a python scrape.py --start 1 --end 499`. `python parse.py`
