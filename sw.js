@@ -1,7 +1,7 @@
 // Offline support. Network first, so new config/data show up as soon as
 // there's signal; falls back to the last cached copy when there isn't
 // (much of the Kepler track has no coverage).
-const CACHE = "kc26-v2";
+const CACHE = "kc26-v3";
 const ASSETS = [
   "./", "index.html", "grunt.html", "style.css", "app.js", "model.js",
   "config.js", "grunt-config.js", "data/results-2025.json", "data/grunt-2025.json",
