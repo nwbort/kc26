@@ -43,6 +43,7 @@ id,bib,name,status,gun_time,place,place_of,gender,gender_place,gender_of,categor
 43,43,ANDREW BRANHAM,Finished,11:06:33,425,442,Male,288,293,Open,126,127
 44,44,IAN BREWSTER,Finished,11:36:57,441,442,Male,293,293,Legend 60+,23,23
 45,45,DAVID BRINSON,Finished,10:16:04,387,442,Male,268,293,Veteran 50+,44,50
+46,46,JASON BROOKS,Finished,06:31:10,38,442,Male,33,293,Open,27,127
 47,47,COLIN BROWN,Finished,10:17:05,388,442,Male,269,293,Veteran 50+,45,50
 48,48,JAMES BROWNELL,Finished,07:05:37,71,442,Male,60,293,Veteran 40+,17,93
 49,49,MONICA BRUMMITT,Finished,10:09:46,382,442,Female,118,149,Veteran 50+,14,19
@@ -83,6 +84,7 @@ id,bib,name,status,gun_time,place,place_of,gender,gender_place,gender_of,categor
 84,84,ALEXANDRA COMPTON,Finished,10:20:15,391,442,Female,121,149,Open,62,70
 85,85,DAVID CONRADSON,Finished,10:29:22,398,442,Male,276,293,Veteran 50+,48,50
 86,86,MICHAEL COOK,Finished,06:53:07,56,442,Male,47,293,Open,34,127
+87,87,NIALL COOMBES,Finished,08:43:29,230,442,Male,171,293,Open,90,127
 88,88,CHANTAL COTE,Finished,08:33:51,213,442,Female,56,149,Open,29,70
 89,89,LUKE COTTER,DNF,,,442,Male,,293,Open,,127
 90,90,KIRSTEN COWAN,Finished,09:04:14,273,442,Female,77,149,Veteran 50+,8,19
@@ -120,6 +122,7 @@ id,bib,name,status,gun_time,place,place_of,gender,gender_place,gender_of,categor
 124,124,NIKKI EVERTON,DNF,,,442,Female,,149,Open,,70
 125,125,NATHAN FACER,Finished,09:40:29,345,442,Male,242,293,Veteran 50+,37,50
 126,126,MEGAN FARNDALE,Finished,09:40:18,344,442,Female,103,149,Veteran 50+,11,19
+127,127,TANIA FINK,Finished,08:48:15,240,442,Female,64,149,Open,33,70
 128,128,RONAN FINN,Finished,09:24:53,316,442,Male,227,293,Open,109,127
 130,130,SALLY FITZGERALD,Finished,08:15:49,188,442,Female,46,149,Veteran 40+,15,57
 131,131,LEE FLOWERS,Finished,08:01:59,165,442,Male,127,293,Veteran 50+,17,50
@@ -154,6 +157,7 @@ id,bib,name,status,gun_time,place,place_of,gender,gender_place,gender_of,categor
 160,160,FRANKLIN HAMILTON,Finished,05:29:05,9,442,Male,9,293,Open,8,127
 161,161,MAGNUS HAMMARSAL,Finished,08:08:17,176,442,Male,134,293,Legend 60+,1,23
 162,162,JENNIFER HANCOCK,Finished,07:56:23,153,442,Female,34,149,Veteran 40+,9,57
+165,165,NICOLE HARRISON,Finished,07:29:55,103,442,Female,22,149,Veteran 50+,3,19
 166,166,LUTZ HARTGE,Finished,09:41:25,346,442,Male,243,293,Veteran 50+,38,50
 167,167,MATHEW HARTY,Finished,10:11:13,384,442,Male,266,293,Open,122,127
 168,168,SONIA HARVEY,Finished,10:39:32,410,442,Female,131,149,Legend 60+,1,3
@@ -161,6 +165,7 @@ id,bib,name,status,gun_time,place,place_of,gender,gender_place,gender_of,categor
 171,171,NICOLE HAWKES,Finished,08:17:42,193,442,Female,48,149,Veteran 40+,17,57
 172,172,IRELAND HAYES,Finished,08:07:26,175,442,Female,42,149,Open,25,70
 173,173,ANDREW HECK,Finished,06:59:14,62,442,Male,52,293,Open,37,127
+174,174,MICHELLE HEIGHWAY,Finished,11:29:45,437,442,Female,145,149,Open,70,70
 175,175,PAUL HELM,DNF,,,442,Male,,293,Legend 60+,,23
 176,176,EMMA HENRICKSEN,Finished,08:02:40,166,442,Female,39,149,Veteran 40+,12,57
 177,177,JO HICKS-BEACH,Finished,10:06:45,376,442,Female,114,149,Veteran 40+,41,57
@@ -196,6 +201,7 @@ id,bib,name,status,gun_time,place,place_of,gender,gender_place,gender_of,categor
 208,208,TIMOTHY JORGENSEN,Finished,05:13:32,4,442,Male,4,293,Open,4,127
 209,209,EUGENE JOUBERT,Finished,09:56:42,365,442,Male,256,293,Legend 60+,11,23
 210,210,BRODIE KANE,Finished,09:43:04,347,442,Female,104,149,Open,54,70
+211,211,ADAM KEEN,Finished,07:20:32,85,442,Male,71,293,Veteran 40+,21,93
 212,212,DANIEL KEENAN,Finished,07:43:06,132,442,Male,104,293,Veteran 40+,29,93
 213,213,HAYLEY KEENAN,Finished,11:21:48,435,442,Female,144,149,Open,69,70
 214,214,JOSH KEES,Finished,08:24:41,203,442,Male,151,293,Veteran 40+,47,93
@@ -235,6 +241,7 @@ id,bib,name,status,gun_time,place,place_of,gender,gender_place,gender_of,categor
 250,250,CATRIONA MACGREGOR,Finished,08:55:36,258,442,Female,70,149,Open,37,70
 251,251,SARAH MACKEY,Finished,10:08:04,381,442,Female,117,149,Veteran 40+,44,57
 252,252,ROHANN MACKRELL,Finished,09:59:12,369,442,Female,111,149,Open,58,70
+253,253,JAMES MACMILLAN ARMSTRONG,Finished,06:41:23,45,442,Male,39,293,Veteran 40+,10,93
 254,254,SALLY MACMILLAN ARMSTRONG,Finished,07:21:25,88,442,Female,15,149,Veteran 50+,1,19
 255,255,LIV MARTIN,Finished,08:21:19,199,442,Female,51,149,Open,27,70
 256,256,GLEN MARTIN,Finished,08:03:38,168,442,Male,129,293,Veteran 40+,36,93
@@ -242,10 +249,12 @@ id,bib,name,status,gun_time,place,place_of,gender,gender_place,gender_of,categor
 258,258,WILLIAM MASTERS,Finished,08:47:35,234,442,Male,174,293,Open,91,127
 259,259,EUAN MASTERS,DNS,,,442,Male,,293,Veteran 50+,,50
 260,260,NAOKI MATSUMURA,Finished,11:05:50,424,442,Male,287,293,Veteran 40+,93,93
+261,261,BRENT MATUSCHKA,Finished,07:37:44,118,442,Male,93,293,Open,57,127
 262,262,DAVID MAVOR,Finished,07:19:44,84,442,Male,70,293,Veteran 50+,5,50
 263,263,KATRINA MCARA,Finished,09:02:33,269,442,Female,75,149,Veteran 40+,27,57
 264,264,TAYLOR MCARLEY,Finished,09:37:52,341,442,Female,101,149,Open,52,70
 265,265,LYDIA MCCARTNEY,Finished,09:19:28,301,442,Female,85,149,Open,46,70
+266,266,SEAN MCCOLL,Finished,10:20:43,393,442,Male,271,293,Veteran 50+,47,50
 267,267,SAM MCCOLL,Finished,07:19:04,83,442,Male,69,293,Open,45,127
 268,268,KAT MCCORKINDALE,Finished,10:18:50,389,442,Female,120,149,Veteran 40+,45,57
 269,269,BRYAN MCCORKINDALE,Finished,11:28:32,436,442,Male,292,293,Legend 60+,22,23
@@ -428,6 +437,7 @@ id,bib,name,status,gun_time,place,place_of,gender,gender_place,gender_of,categor
 448,448,NICK VALENTINE,Finished,09:37:08,339,442,Male,240,293,Open,114,127
 449,449,JADE VALLER,Finished,06:38:52,42,442,Female,6,149,Open,6,70
 450,450,JEFF VANDERSANDELACOSTE,Finished,06:22:42,29,442,Male,25,293,Open,23,127
+451,451,ADAM VASLET,Finished,09:22:51,311,442,Male,224,293,Open,108,127
 452,452,ROBIN VERHELLEN,Finished,08:15:10,187,442,Male,142,293,Open,81,127
 453,453,DAAN VERKOEIJEN,Finished,10:01:16,371,442,Male,260,293,Veteran 50+,42,50
 454,454,HAMISH VODANE,Finished,07:01:02,64,442,Male,54,293,Open,39,127
