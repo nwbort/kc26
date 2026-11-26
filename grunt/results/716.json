@@ -1,0 +1,77 @@
+{
+ "id": 716,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/716",
+ "summary": {
+  "bib": "716",
+  "name": "JANINE BLANKLEY",
+  "status": "Finished",
+  "gun_time": "04:22:56",
+  "place": "174",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "105",
+  "gender_of": "131",
+  "category": "Veteran 50+",
+  "category_place": "11",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:36:44",
+   "run_time": "00:36:54",
+   "race_time": "00:36:54",
+   "pos": "156",
+   "tod": "07:36:54",
+   "gender": "Female",
+   "gender_pos": "91",
+   "category": "Veteran 50+",
+   "category_pos": "10",
+   "speed_kmh": "8.12",
+   "pace": "07:22"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:44:51",
+   "run_time": "02:21:46",
+   "race_time": "02:21:46",
+   "pos": "172",
+   "tod": "09:21:46",
+   "gender": "Female",
+   "gender_pos": "103",
+   "category": "Veteran 50+",
+   "category_pos": "10",
+   "speed_kmh": "5.84",
+   "pace": "10:16"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:20:03",
+   "run_time": "03:41:49",
+   "race_time": "03:41:49",
+   "pos": "177",
+   "tod": "10:41:49",
+   "gender": "Female",
+   "gender_pos": "108",
+   "category": "Veteran 50+",
+   "category_pos": "11",
+   "speed_kmh": "5.95",
+   "pace": "10:04"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:41:06",
+   "run_time": "04:22:56",
+   "race_time": "04:22:56",
+   "pos": "174",
+   "tod": "11:22:56",
+   "gender": "Female",
+   "gender_pos": "105",
+   "category": "Veteran 50+",
+   "category_pos": "11",
+   "speed_kmh": "6.16",
+   "pace": "09:44"
+  }
+ ],
+ "found": true
+}

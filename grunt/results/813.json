@@ -1,0 +1,77 @@
+{
+ "id": 813,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/813",
+ "summary": {
+  "bib": "813",
+  "name": "LAURA MARSTON",
+  "status": "Finished",
+  "gun_time": "03:23:55",
+  "place": "89",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "41",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "23",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:32:35",
+   "run_time": "00:32:53",
+   "race_time": "00:32:53",
+   "pos": "102",
+   "tod": "07:32:53",
+   "gender": "Female",
+   "gender_pos": "51",
+   "category": "Open",
+   "category_pos": "31",
+   "speed_kmh": "9.12",
+   "pace": "06:34"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:20:39",
+   "run_time": "01:53:33",
+   "race_time": "01:53:33",
+   "pos": "81",
+   "tod": "08:53:33",
+   "gender": "Female",
+   "gender_pos": "34",
+   "category": "Open",
+   "category_pos": "20",
+   "speed_kmh": "7.29",
+   "pace": "08:13"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:56:51",
+   "run_time": "02:50:24",
+   "race_time": "02:50:24",
+   "pos": "94",
+   "tod": "09:50:24",
+   "gender": "Female",
+   "gender_pos": "43",
+   "category": "Open",
+   "category_pos": "24",
+   "speed_kmh": "7.74",
+   "pace": "07:44"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:33:30",
+   "run_time": "03:23:55",
+   "race_time": "03:23:55",
+   "pos": "89",
+   "tod": "10:23:55",
+   "gender": "Female",
+   "gender_pos": "41",
+   "category": "Open",
+   "category_pos": "23",
+   "speed_kmh": "7.94",
+   "pace": "07:33"
+  }
+ ],
+ "found": true
+}

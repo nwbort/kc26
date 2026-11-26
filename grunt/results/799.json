@@ -1,0 +1,77 @@
+{
+ "id": 799,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/799",
+ "summary": {
+  "bib": "799",
+  "name": "JAMES KING",
+  "status": "Finished",
+  "gun_time": "02:44:24",
+  "place": "31",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "21",
+  "gender_of": "74",
+  "category": "Veteran 50+",
+  "category_place": "2",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:25:15",
+   "run_time": "00:25:20",
+   "race_time": "00:25:20",
+   "pos": "33",
+   "tod": "07:25:20",
+   "gender": "Male",
+   "gender_pos": "23",
+   "category": "Veteran 50+",
+   "category_pos": "2",
+   "speed_kmh": "11.84",
+   "pace": "05:04"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:09:47",
+   "run_time": "01:35:08",
+   "race_time": "01:35:08",
+   "pos": "32",
+   "tod": "08:35:08",
+   "gender": "Male",
+   "gender_pos": "21",
+   "category": "Veteran 50+",
+   "category_pos": "2",
+   "speed_kmh": "8.7",
+   "pace": "06:53"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:41:16",
+   "run_time": "02:16:24",
+   "race_time": "02:16:24",
+   "pos": "32",
+   "tod": "09:16:24",
+   "gender": "Male",
+   "gender_pos": "21",
+   "category": "Veteran 50+",
+   "category_pos": "2",
+   "speed_kmh": "9.67",
+   "pace": "06:12"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:28:00",
+   "run_time": "02:44:24",
+   "race_time": "02:44:24",
+   "pos": "31",
+   "tod": "09:44:24",
+   "gender": "Male",
+   "gender_pos": "21",
+   "category": "Veteran 50+",
+   "category_pos": "2",
+   "speed_kmh": "9.85",
+   "pace": "06:05"
+  }
+ ],
+ "found": true
+}

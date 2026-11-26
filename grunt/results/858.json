@@ -1,0 +1,77 @@
+{
+ "id": 858,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/858",
+ "summary": {
+  "bib": "858",
+  "name": "MICAELA RILEY",
+  "status": "Finished",
+  "gun_time": "03:01:51",
+  "place": "48",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "19",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "6",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:27:58",
+   "run_time": "00:28:04",
+   "race_time": "00:28:04",
+   "pos": "51",
+   "tod": "07:28:04",
+   "gender": "Female",
+   "gender_pos": "19",
+   "category": "Veteran 40+",
+   "category_pos": "6",
+   "speed_kmh": "10.68",
+   "pace": "05:36"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:16:40",
+   "run_time": "01:44:44",
+   "race_time": "01:44:44",
+   "pos": "53",
+   "tod": "08:44:44",
+   "gender": "Female",
+   "gender_pos": "20",
+   "category": "Veteran 40+",
+   "category_pos": "5",
+   "speed_kmh": "7.9",
+   "pace": "07:35"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:45:47",
+   "run_time": "02:30:31",
+   "race_time": "02:30:31",
+   "pos": "50",
+   "tod": "09:30:31",
+   "gender": "Female",
+   "gender_pos": "20",
+   "category": "Veteran 40+",
+   "category_pos": "6",
+   "speed_kmh": "8.76",
+   "pace": "06:50"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:31:19",
+   "run_time": "03:01:51",
+   "race_time": "03:01:51",
+   "pos": "48",
+   "tod": "10:01:51",
+   "gender": "Female",
+   "gender_pos": "19",
+   "category": "Veteran 40+",
+   "category_pos": "6",
+   "speed_kmh": "8.9",
+   "pace": "06:44"
+  }
+ ],
+ "found": true
+}

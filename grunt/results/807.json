@@ -1,0 +1,77 @@
+{
+ "id": 807,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/807",
+ "summary": {
+  "bib": "807",
+  "name": "MORGAN LOWE",
+  "status": "Finished",
+  "gun_time": "02:38:10",
+  "place": "21",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "4",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "3",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:23:57",
+   "run_time": "00:24:00",
+   "race_time": "00:24:00",
+   "pos": "19",
+   "tod": "07:24:00",
+   "gender": "Female",
+   "gender_pos": "2",
+   "category": "Open",
+   "category_pos": "2",
+   "speed_kmh": "12.49",
+   "pace": "04:48"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:09:20",
+   "run_time": "01:33:20",
+   "race_time": "01:33:20",
+   "pos": "30",
+   "tod": "08:33:20",
+   "gender": "Female",
+   "gender_pos": "10",
+   "category": "Open",
+   "category_pos": "7",
+   "speed_kmh": "8.87",
+   "pace": "06:45"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:37:56",
+   "run_time": "02:11:17",
+   "race_time": "02:11:17",
+   "pos": "24",
+   "tod": "09:11:17",
+   "gender": "Female",
+   "gender_pos": "6",
+   "category": "Open",
+   "category_pos": "4",
+   "speed_kmh": "10.05",
+   "pace": "05:58"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:26:53",
+   "run_time": "02:38:10",
+   "race_time": "02:38:10",
+   "pos": "21",
+   "tod": "09:38:10",
+   "gender": "Female",
+   "gender_pos": "4",
+   "category": "Open",
+   "category_pos": "3",
+   "speed_kmh": "10.24",
+   "pace": "05:51"
+  }
+ ],
+ "found": true
+}

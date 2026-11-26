@@ -1,0 +1,77 @@
+{
+ "id": 808,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/808",
+ "summary": {
+  "bib": "808",
+  "name": "JAPHET LUCERO",
+  "status": "Finished",
+  "gun_time": "04:18:28",
+  "place": "170",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "102",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "53",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:38:10",
+   "run_time": "00:38:32",
+   "race_time": "00:38:32",
+   "pos": "172",
+   "tod": "07:38:32",
+   "gender": "Female",
+   "gender_pos": "103",
+   "category": "Open",
+   "category_pos": "52",
+   "speed_kmh": "7.78",
+   "pace": "07:42"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:43:04",
+   "run_time": "02:21:36",
+   "race_time": "02:21:36",
+   "pos": "171",
+   "tod": "09:21:36",
+   "gender": "Female",
+   "gender_pos": "102",
+   "category": "Open",
+   "category_pos": "53",
+   "speed_kmh": "5.84",
+   "pace": "10:15"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:11:49",
+   "run_time": "03:33:26",
+   "race_time": "03:33:26",
+   "pos": "171",
+   "tod": "10:33:26",
+   "gender": "Female",
+   "gender_pos": "102",
+   "category": "Open",
+   "category_pos": "53",
+   "speed_kmh": "6.18",
+   "pace": "09:42"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:45:01",
+   "run_time": "04:18:28",
+   "race_time": "04:18:28",
+   "pos": "170",
+   "tod": "11:18:28",
+   "gender": "Female",
+   "gender_pos": "102",
+   "category": "Open",
+   "category_pos": "53",
+   "speed_kmh": "6.26",
+   "pace": "09:34"
+  }
+ ],
+ "found": true
+}

@@ -1,0 +1,77 @@
+{
+ "id": 919,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/919",
+ "summary": {
+  "bib": "919",
+  "name": "JOSH BOYD",
+  "status": "Finished",
+  "gun_time": "03:25:51",
+  "place": "92",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "49",
+  "gender_of": "74",
+  "category": "Open",
+  "category_place": "27",
+  "category_of": "30"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:27:48",
+   "run_time": "00:27:52",
+   "race_time": "00:27:52",
+   "pos": "48",
+   "tod": "07:27:52",
+   "gender": "Male",
+   "gender_pos": "30",
+   "category": "Open",
+   "category_pos": "20",
+   "speed_kmh": "10.76",
+   "pace": "05:34"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:27:36",
+   "run_time": "01:55:29",
+   "race_time": "01:55:29",
+   "pos": "91",
+   "tod": "08:55:29",
+   "gender": "Male",
+   "gender_pos": "50",
+   "category": "Open",
+   "category_pos": "28",
+   "speed_kmh": "7.16",
+   "pace": "08:22"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:52:16",
+   "run_time": "02:47:46",
+   "race_time": "02:47:46",
+   "pos": "87",
+   "tod": "09:47:46",
+   "gender": "Male",
+   "gender_pos": "49",
+   "category": "Open",
+   "category_pos": "27",
+   "speed_kmh": "7.86",
+   "pace": "07:37"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:38:05",
+   "run_time": "03:25:51",
+   "race_time": "03:25:51",
+   "pos": "92",
+   "tod": "10:25:51",
+   "gender": "Male",
+   "gender_pos": "49",
+   "category": "Open",
+   "category_pos": "27",
+   "speed_kmh": "7.86",
+   "pace": "07:37"
+  }
+ ],
+ "found": true
+}

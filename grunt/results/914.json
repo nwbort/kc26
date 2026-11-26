@@ -1,0 +1,77 @@
+{
+ "id": 914,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/914",
+ "summary": {
+  "bib": "914",
+  "name": "TAYLOR WISELY",
+  "status": "Finished",
+  "gun_time": "04:24:41",
+  "place": "176",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "107",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "55",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:36:00",
+   "run_time": "00:36:18",
+   "race_time": "00:36:18",
+   "pos": "150",
+   "tod": "07:36:18",
+   "gender": "Female",
+   "gender_pos": "88",
+   "category": "Open",
+   "category_pos": "46",
+   "speed_kmh": "8.26",
+   "pace": "07:15"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:50:31",
+   "run_time": "02:26:50",
+   "race_time": "02:26:50",
+   "pos": "176",
+   "tod": "09:26:50",
+   "gender": "Female",
+   "gender_pos": "107",
+   "category": "Open",
+   "category_pos": "56",
+   "speed_kmh": "5.63",
+   "pace": "10:38"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:11:08",
+   "run_time": "03:37:58",
+   "race_time": "03:37:58",
+   "pos": "175",
+   "tod": "10:37:58",
+   "gender": "Female",
+   "gender_pos": "106",
+   "category": "Open",
+   "category_pos": "56",
+   "speed_kmh": "6.05",
+   "pace": "09:54"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:46:42",
+   "run_time": "04:24:41",
+   "race_time": "04:24:41",
+   "pos": "176",
+   "tod": "11:24:41",
+   "gender": "Female",
+   "gender_pos": "107",
+   "category": "Open",
+   "category_pos": "55",
+   "speed_kmh": "6.12",
+   "pace": "09:48"
+  }
+ ],
+ "found": true
+}

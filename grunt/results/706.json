@@ -1,0 +1,77 @@
+{
+ "id": 706,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/706",
+ "summary": {
+  "bib": "706",
+  "name": "NICOLA AYSON",
+  "status": "Finished",
+  "gun_time": "03:23:05",
+  "place": "86",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "39",
+  "gender_of": "131",
+  "category": "Veteran 50+",
+  "category_place": "2",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:33:13",
+   "run_time": "00:33:20",
+   "race_time": "00:33:20",
+   "pos": "116",
+   "tod": "07:33:20",
+   "gender": "Female",
+   "gender_pos": "63",
+   "category": "Veteran 50+",
+   "category_pos": "3",
+   "speed_kmh": "8.99",
+   "pace": "06:40"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:20:11",
+   "run_time": "01:53:32",
+   "race_time": "01:53:32",
+   "pos": "80",
+   "tod": "08:53:32",
+   "gender": "Female",
+   "gender_pos": "33",
+   "category": "Veteran 50+",
+   "category_pos": "2",
+   "speed_kmh": "7.29",
+   "pace": "08:13"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:54:51",
+   "run_time": "02:48:23",
+   "race_time": "02:48:23",
+   "pos": "89",
+   "tod": "09:48:23",
+   "gender": "Female",
+   "gender_pos": "40",
+   "category": "Veteran 50+",
+   "category_pos": "2",
+   "speed_kmh": "7.83",
+   "pace": "07:39"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:34:41",
+   "run_time": "03:23:05",
+   "race_time": "03:23:05",
+   "pos": "86",
+   "tod": "10:23:05",
+   "gender": "Female",
+   "gender_pos": "39",
+   "category": "Veteran 50+",
+   "category_pos": "2",
+   "speed_kmh": "7.97",
+   "pace": "07:31"
+  }
+ ],
+ "found": true
+}

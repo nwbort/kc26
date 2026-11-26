@@ -1,0 +1,77 @@
+{
+ "id": 773,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/773",
+ "summary": {
+  "bib": "773",
+  "name": "KRIS HARRISON",
+  "status": "Finished",
+  "gun_time": "03:17:07",
+  "place": "74",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "44",
+  "gender_of": "74",
+  "category": "Veteran 40+",
+  "category_place": "12",
+  "category_of": "20"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:29:18",
+   "run_time": "00:29:35",
+   "race_time": "00:29:35",
+   "pos": "73",
+   "tod": "07:29:35",
+   "gender": "Male",
+   "gender_pos": "44",
+   "category": "Veteran 40+",
+   "category_pos": "12",
+   "speed_kmh": "10.13",
+   "pace": "05:55"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:19:41",
+   "run_time": "01:49:16",
+   "race_time": "01:49:16",
+   "pos": "66",
+   "tod": "08:49:16",
+   "gender": "Male",
+   "gender_pos": "41",
+   "category": "Veteran 40+",
+   "category_pos": "12",
+   "speed_kmh": "7.57",
+   "pace": "07:55"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:49:45",
+   "run_time": "02:39:02",
+   "race_time": "02:39:02",
+   "pos": "69",
+   "tod": "09:39:02",
+   "gender": "Male",
+   "gender_pos": "42",
+   "category": "Veteran 40+",
+   "category_pos": "12",
+   "speed_kmh": "8.29",
+   "pace": "07:13"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:38:04",
+   "run_time": "03:17:07",
+   "race_time": "03:17:07",
+   "pos": "74",
+   "tod": "10:17:07",
+   "gender": "Male",
+   "gender_pos": "44",
+   "category": "Veteran 40+",
+   "category_pos": "12",
+   "speed_kmh": "8.21",
+   "pace": "07:18"
+  }
+ ],
+ "found": true
+}

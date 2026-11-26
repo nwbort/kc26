@@ -1,0 +1,77 @@
+{
+ "id": 867,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/867",
+ "summary": {
+  "bib": "867",
+  "name": "LISA SIMPSON",
+  "status": "Finished",
+  "gun_time": "03:34:14",
+  "place": "103",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "48",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "19",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:32:41",
+   "run_time": "00:32:48",
+   "race_time": "00:32:48",
+   "pos": "101",
+   "tod": "07:32:48",
+   "gender": "Female",
+   "gender_pos": "50",
+   "category": "Veteran 40+",
+   "category_pos": "19",
+   "speed_kmh": "9.14",
+   "pace": "06:33"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:25:15",
+   "run_time": "01:58:04",
+   "race_time": "01:58:04",
+   "pos": "100",
+   "tod": "08:58:04",
+   "gender": "Female",
+   "gender_pos": "48",
+   "category": "Veteran 40+",
+   "category_pos": "19",
+   "speed_kmh": "7.01",
+   "pace": "08:33"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:57:02",
+   "run_time": "02:55:07",
+   "race_time": "02:55:07",
+   "pos": "100",
+   "tod": "09:55:07",
+   "gender": "Female",
+   "gender_pos": "47",
+   "category": "Veteran 40+",
+   "category_pos": "18",
+   "speed_kmh": "7.53",
+   "pace": "07:57"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:39:07",
+   "run_time": "03:34:14",
+   "race_time": "03:34:14",
+   "pos": "103",
+   "tod": "10:34:14",
+   "gender": "Female",
+   "gender_pos": "48",
+   "category": "Veteran 40+",
+   "category_pos": "19",
+   "speed_kmh": "7.56",
+   "pace": "07:56"
+  }
+ ],
+ "found": true
+}

@@ -1,0 +1,77 @@
+{
+ "id": 869,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/869",
+ "summary": {
+  "bib": "869",
+  "name": "BECKY SLADE",
+  "status": "Finished",
+  "gun_time": "05:42:16",
+  "place": "203",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "130",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "47",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:43:46",
+   "run_time": "00:44:02",
+   "race_time": "00:44:02",
+   "pos": "192",
+   "tod": "07:44:02",
+   "gender": "Female",
+   "gender_pos": "121",
+   "category": "Veteran 40+",
+   "category_pos": "43",
+   "speed_kmh": "6.81",
+   "pace": "08:48"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "02:22:12",
+   "run_time": "03:06:15",
+   "race_time": "03:06:15",
+   "pos": "199",
+   "tod": "10:06:15",
+   "gender": "Female",
+   "gender_pos": "126",
+   "category": "Veteran 40+",
+   "category_pos": "45",
+   "speed_kmh": "4.44",
+   "pace": "13:29"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:37:46",
+   "run_time": "04:44:02",
+   "race_time": "04:44:02",
+   "pos": "203",
+   "tod": "11:44:02",
+   "gender": "Female",
+   "gender_pos": "130",
+   "category": "Veteran 40+",
+   "category_pos": "47",
+   "speed_kmh": "4.64",
+   "pace": "12:54"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:58:14",
+   "run_time": "05:42:16",
+   "race_time": "05:42:16",
+   "pos": "203",
+   "tod": "12:42:16",
+   "gender": "Female",
+   "gender_pos": "130",
+   "category": "Veteran 40+",
+   "category_pos": "47",
+   "speed_kmh": "4.73",
+   "pace": "12:40"
+  }
+ ],
+ "found": true
+}

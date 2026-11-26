@@ -1,0 +1,77 @@
+{
+ "id": 748,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/748",
+ "summary": {
+  "bib": "748",
+  "name": "BLAIR DEVLIN",
+  "status": "Finished",
+  "gun_time": "03:04:57",
+  "place": "52",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "31",
+  "gender_of": "74",
+  "category": "Veteran 40+",
+  "category_place": "8",
+  "category_of": "20"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:28:41",
+   "run_time": "00:28:48",
+   "race_time": "00:28:48",
+   "pos": "58",
+   "tod": "07:28:48",
+   "gender": "Male",
+   "gender_pos": "35",
+   "category": "Veteran 40+",
+   "category_pos": "8",
+   "speed_kmh": "10.41",
+   "pace": "05:45"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:14:08",
+   "run_time": "01:42:57",
+   "race_time": "01:42:57",
+   "pos": "47",
+   "tod": "08:42:57",
+   "gender": "Male",
+   "gender_pos": "30",
+   "category": "Veteran 40+",
+   "category_pos": "9",
+   "speed_kmh": "8.04",
+   "pace": "07:27"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:46:29",
+   "run_time": "02:29:26",
+   "race_time": "02:29:26",
+   "pos": "48",
+   "tod": "09:29:26",
+   "gender": "Male",
+   "gender_pos": "30",
+   "category": "Veteran 40+",
+   "category_pos": "8",
+   "speed_kmh": "8.83",
+   "pace": "06:47"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:35:30",
+   "run_time": "03:04:57",
+   "race_time": "03:04:57",
+   "pos": "52",
+   "tod": "10:04:57",
+   "gender": "Male",
+   "gender_pos": "31",
+   "category": "Veteran 40+",
+   "category_pos": "8",
+   "speed_kmh": "8.75",
+   "pace": "06:51"
+  }
+ ],
+ "found": true
+}

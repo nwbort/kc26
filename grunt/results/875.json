@@ -1,0 +1,77 @@
+{
+ "id": 875,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/875",
+ "summary": {
+  "bib": "875",
+  "name": "PAUL SULLIVAN",
+  "status": "Finished",
+  "gun_time": "04:04:15",
+  "place": "156",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "66",
+  "gender_of": "74",
+  "category": "Veteran 50+",
+  "category_place": "16",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:36:45",
+   "run_time": "00:37:06",
+   "race_time": "00:37:06",
+   "pos": "160",
+   "tod": "07:37:06",
+   "gender": "Male",
+   "gender_pos": "67",
+   "category": "Veteran 50+",
+   "category_pos": "15",
+   "speed_kmh": "8.08",
+   "pace": "07:25"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:34:19",
+   "run_time": "02:11:25",
+   "race_time": "02:11:25",
+   "pos": "151",
+   "tod": "09:11:25",
+   "gender": "Male",
+   "gender_pos": "66",
+   "category": "Veteran 50+",
+   "category_pos": "16",
+   "speed_kmh": "6.3",
+   "pace": "09:31"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:07:30",
+   "run_time": "03:18:55",
+   "race_time": "03:18:55",
+   "pos": "149",
+   "tod": "10:18:55",
+   "gender": "Male",
+   "gender_pos": "65",
+   "category": "Veteran 50+",
+   "category_pos": "16",
+   "speed_kmh": "6.63",
+   "pace": "09:02"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:45:20",
+   "run_time": "04:04:15",
+   "race_time": "04:04:15",
+   "pos": "156",
+   "tod": "11:04:15",
+   "gender": "Male",
+   "gender_pos": "66",
+   "category": "Veteran 50+",
+   "category_pos": "16",
+   "speed_kmh": "6.63",
+   "pace": "09:02"
+  }
+ ],
+ "found": true
+}

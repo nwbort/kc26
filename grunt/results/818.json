@@ -1,0 +1,77 @@
+{
+ "id": 818,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/818",
+ "summary": {
+  "bib": "818",
+  "name": "SARAH MCCARTHY",
+  "status": "Finished",
+  "gun_time": "04:10:43",
+  "place": "165",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "98",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "51",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:35:53",
+   "run_time": "00:36:09",
+   "race_time": "00:36:09",
+   "pos": "145",
+   "tod": "07:36:09",
+   "gender": "Female",
+   "gender_pos": "84",
+   "category": "Open",
+   "category_pos": "44",
+   "speed_kmh": "8.29",
+   "pace": "07:13"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:43:56",
+   "run_time": "02:20:05",
+   "race_time": "02:20:05",
+   "pos": "166",
+   "tod": "09:20:05",
+   "gender": "Female",
+   "gender_pos": "99",
+   "category": "Open",
+   "category_pos": "51",
+   "speed_kmh": "5.91",
+   "pace": "10:09"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:06:59",
+   "run_time": "03:27:05",
+   "race_time": "03:27:05",
+   "pos": "165",
+   "tod": "10:27:05",
+   "gender": "Female",
+   "gender_pos": "98",
+   "category": "Open",
+   "category_pos": "51",
+   "speed_kmh": "6.37",
+   "pace": "09:24"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:43:38",
+   "run_time": "04:10:43",
+   "race_time": "04:10:43",
+   "pos": "165",
+   "tod": "11:10:43",
+   "gender": "Female",
+   "gender_pos": "98",
+   "category": "Open",
+   "category_pos": "51",
+   "speed_kmh": "6.46",
+   "pace": "09:17"
+  }
+ ],
+ "found": true
+}

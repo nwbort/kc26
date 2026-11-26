@@ -1,0 +1,77 @@
+{
+ "id": 779,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/779",
+ "summary": {
+  "bib": "779",
+  "name": "CALEB HONISS",
+  "status": "Finished",
+  "gun_time": "02:26:02",
+  "place": "14",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "14",
+  "gender_of": "74",
+  "category": "Open",
+  "category_place": "13",
+  "category_of": "30"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:22:22",
+   "run_time": "00:22:24",
+   "race_time": "00:22:24",
+   "pos": "15",
+   "tod": "07:22:24",
+   "gender": "Male",
+   "gender_pos": "14",
+   "category": "Open",
+   "category_pos": "13",
+   "speed_kmh": "13.38",
+   "pace": "04:28"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:02:32",
+   "run_time": "01:24:57",
+   "race_time": "01:24:57",
+   "pos": "15",
+   "tod": "08:24:57",
+   "gender": "Male",
+   "gender_pos": "15",
+   "category": "Open",
+   "category_pos": "13",
+   "speed_kmh": "9.74",
+   "pace": "06:09"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:35:51",
+   "run_time": "02:00:49",
+   "race_time": "02:00:49",
+   "pos": "13",
+   "tod": "09:00:49",
+   "gender": "Male",
+   "gender_pos": "13",
+   "category": "Open",
+   "category_pos": "12",
+   "speed_kmh": "10.92",
+   "pace": "05:29"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:25:13",
+   "run_time": "02:26:02",
+   "race_time": "02:26:02",
+   "pos": "14",
+   "tod": "09:26:02",
+   "gender": "Male",
+   "gender_pos": "14",
+   "category": "Open",
+   "category_pos": "13",
+   "speed_kmh": "11.09",
+   "pace": "05:24"
+  }
+ ],
+ "found": true
+}

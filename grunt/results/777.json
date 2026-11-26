@@ -1,0 +1,77 @@
+{
+ "id": 777,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/777",
+ "summary": {
+  "bib": "777",
+  "name": "DAN HERMANN",
+  "status": "Finished",
+  "gun_time": "02:58:30",
+  "place": "45",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "28",
+  "gender_of": "74",
+  "category": "Veteran 40+",
+  "category_place": "6",
+  "category_of": "20"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:27:43",
+   "run_time": "00:27:48",
+   "race_time": "00:27:48",
+   "pos": "45",
+   "tod": "07:27:48",
+   "gender": "Male",
+   "gender_pos": "28",
+   "category": "Veteran 40+",
+   "category_pos": "7",
+   "speed_kmh": "10.79",
+   "pace": "05:33"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:12:14",
+   "run_time": "01:40:02",
+   "race_time": "01:40:02",
+   "pos": "39",
+   "tod": "08:40:02",
+   "gender": "Male",
+   "gender_pos": "24",
+   "category": "Veteran 40+",
+   "category_pos": "5",
+   "speed_kmh": "8.27",
+   "pace": "07:14"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:44:25",
+   "run_time": "02:24:28",
+   "race_time": "02:24:28",
+   "pos": "41",
+   "tod": "09:24:28",
+   "gender": "Male",
+   "gender_pos": "25",
+   "category": "Veteran 40+",
+   "category_pos": "5",
+   "speed_kmh": "9.13",
+   "pace": "06:34"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:34:01",
+   "run_time": "02:58:30",
+   "race_time": "02:58:30",
+   "pos": "45",
+   "tod": "09:58:30",
+   "gender": "Male",
+   "gender_pos": "28",
+   "category": "Veteran 40+",
+   "category_pos": "6",
+   "speed_kmh": "9.07",
+   "pace": "06:36"
+  }
+ ],
+ "found": true
+}

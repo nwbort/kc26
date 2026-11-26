@@ -1,0 +1,77 @@
+{
+ "id": 772,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/772",
+ "summary": {
+  "bib": "772",
+  "name": "STUART HARRIS",
+  "status": "Finished",
+  "gun_time": "03:41:34",
+  "place": "119",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "60",
+  "gender_of": "74",
+  "category": "Veteran 40+",
+  "category_place": "17",
+  "category_of": "20"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:35:44",
+   "run_time": "00:36:06",
+   "race_time": "00:36:06",
+   "pos": "144",
+   "tod": "07:36:06",
+   "gender": "Male",
+   "gender_pos": "61",
+   "category": "Veteran 40+",
+   "category_pos": "17",
+   "speed_kmh": "8.3",
+   "pace": "07:13"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:26:27",
+   "run_time": "02:02:34",
+   "race_time": "02:02:34",
+   "pos": "113",
+   "tod": "09:02:34",
+   "gender": "Male",
+   "gender_pos": "57",
+   "category": "Veteran 40+",
+   "category_pos": "17",
+   "speed_kmh": "6.75",
+   "pace": "08:52"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:55:56",
+   "run_time": "02:58:30",
+   "race_time": "02:58:30",
+   "pos": "112",
+   "tod": "09:58:30",
+   "gender": "Male",
+   "gender_pos": "59",
+   "category": "Veteran 40+",
+   "category_pos": "17",
+   "speed_kmh": "7.39",
+   "pace": "08:06"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:43:03",
+   "run_time": "03:41:34",
+   "race_time": "03:41:34",
+   "pos": "119",
+   "tod": "10:41:34",
+   "gender": "Male",
+   "gender_pos": "60",
+   "category": "Veteran 40+",
+   "category_pos": "17",
+   "speed_kmh": "7.31",
+   "pace": "08:12"
+  }
+ ],
+ "found": true
+}

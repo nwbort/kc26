@@ -3,10 +3,10 @@
   const C = window.KEPLER_CONFIG;
   const M = window.KeplerModel;
   const $ = (id) => document.getElementById(id);
-  const STORE = "kepler26-v1";
+  const STORE = C.storeKey || "kepler26-v1";
 
   const defaults = () => ({
-    mode: "race",
+    mode: "clock",
     actual: {},                // checkpoint index -> race seconds
     goal: M.parseDuration(C.goalFinish),
     start: M.parseClock(C.startTime),
@@ -53,10 +53,16 @@
     });
 
   // ---------- input helpers ----------
-  const raceToInput = (sec) => S.mode === "race" ? M.fmtDur(sec, sec % 60 !== 0) : M.fmtClock(S.start + sec);
+  // Clock mode uses the browser's native time input, whose value is always
+  // 24h "HH:MM" whatever the display looks like.
+  const hhmm = (sec) => {
+    const m = Math.round(sec / 60) % (24 * 60);
+    return `${String(Math.floor(m / 60)).padStart(2, "0")}:${String(m % 60).padStart(2, "0")}`;
+  };
+  const raceToInput = (sec) => S.mode === "race" ? M.fmtDur(sec, sec % 60 !== 0) : hhmm(S.start + sec);
   function inputToRace(str) {
     if (S.mode === "race") return M.parseDuration(str);
-    const c = M.parseClock(str, S.start);
+    const c = M.parseClock(str);
     if (c == null) return null;
     let r = c - S.start;
     if (r < 0) r += 24 * 3600;
@@ -99,7 +105,7 @@
   function bindSettings() {
     const sync = () => {
       $("goalIn").value = M.fmtDur(S.goal);
-      $("startIn").value = M.fmtDur(S.start).padStart(5, "0");
+      $("startIn").value = hhmm(S.start);
       $("bandLo").value = S.band[0];
       $("bandHi").value = S.band[1];
       $("genderIn").value = S.gender;
@@ -137,8 +143,8 @@
     // mode toggle
     document.querySelectorAll(".seg button").forEach((b) => b.setAttribute("aria-checked", String(b.dataset.mode === S.mode)));
     $("modeHint").textContent = S.mode === "race"
-      ? "Enter the race time shown on tracking, e.g. 1:58 or 1:58:30, then press Enter."
-      : "Enter the time of day (NZ) they passed, e.g. 7:58 or 1:05pm, then press Enter.";
+      ? "Enter the race time shown on tracking, e.g. 1:58 or 1:58:30."
+      : "Enter the time of day (NZ) they passed each checkpoint.";
 
     // valid actuals: must increase with distance
     const idxs = Object.keys(S.actual).map(Number).sort((a, b) => a - b);
@@ -159,8 +165,10 @@
         ? `<span class="big">${M.fmtClock(S.start + p)}</span><span class="small">${M.fmtDur(p)}</span>` : "–";
 
       const inp = tr.querySelector("input");
+      const type = S.mode === "race" ? "text" : "time";
+      if (inp.type !== type) { inp.type = type; inp.value = ""; }
       if (document.activeElement !== inp) inp.value = S.actual[cp.i] != null ? raceToInput(S.actual[cp.i]) : "";
-      inp.placeholder = S.mode === "race" ? "h:mm" : "clock";
+      inp.placeholder = S.mode === "race" ? "h:mm" : "";
       inp.classList.toggle("bad", bad.has(cp.i));
       const dEl = tr.querySelector(".delta");
       dEl.className = "small delta";
@@ -196,15 +204,12 @@
       $("heroClock").textContent = M.fmtClock(S.start + q.p50);
       $("heroMeta").textContent = `${M.fmtDur(q.p50)} race time · likely ${M.fmtClock(S.start + q.p25)}–${M.fmtClock(S.start + q.p75)}`;
       const next = proj.byCp[latest + 1];
-      const nextTxt = latest + 1 < fin && next ? ` Next up: ${CPS[latest + 1].name} around ${M.fmtClock(S.start + next.p50)}.` : "";
-      const fr = M.finishRate(DATA, latest, T);
-      const frTxt = fr ? ` ${Math.round(fr.rate * 100)}% of 2025 runners at a similar time there went on to finish.` : "";
-      $("heroBasis").textContent = `From ${cpName} at ${M.fmtDur(T)} (${M.fmtClock(S.start + T)}). ${rankLine(latest, T)}${frTxt}${nextTxt}`;
+      $("heroBasis").textContent = latest + 1 < fin && next ? `Next up: ${CPS[latest + 1].name} around ${M.fmtClock(S.start + next.p50)}.` : "";
     } else {
       $("heroLabel").textContent = "Goal finish (NZ time)";
       $("heroClock").textContent = M.fmtClock(S.start + S.goal);
       $("heroMeta").textContent = `${M.fmtDur(S.goal)} race time · start ${M.fmtClock(S.start)}`;
-      $("heroBasis").textContent = `The plan uses the typical splits of 2025 runners who finished near ${M.fmtDur(S.goal)}. Enter a checkpoint time to switch to a live estimate.`;
+      $("heroBasis").textContent = plan.plan[0] != null ? `Next up: ${CPS[0].name} around ${M.fmtClock(S.start + plan.plan[0])}.` : "";
     }
 
     // settings info
@@ -257,8 +262,8 @@
     const y = (v) => H - mb - (v / maxB) * (H - mb - mt);
 
     let svg = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Histogram of finish times">`;
-    // ticks every 30 or 60 min of race time, labelled with clock time
-    const tick = span > 3 * 3600 || W < 500 ? 3600 : 1800;
+    // ticks every 15, 30 or 60 min of race time, labelled with clock time
+    const tick = span > 3 * 3600 || (W < 500 && span > 1.5 * 3600) ? 3600 : span > 3600 ? 1800 : 900;
     svg += `<g class="axis">`;
     for (let t = Math.ceil(lo / tick) * tick; t <= hi; t += tick) {
       svg += `<line class="grid" x1="${x(t)}" x2="${x(t)}" y1="${mt}" y2="${H - mb}"/>`;

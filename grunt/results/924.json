@@ -1,0 +1,77 @@
+{
+ "id": 924,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/924",
+ "summary": {
+  "bib": "924",
+  "name": "HILARY WICKS",
+  "status": "Finished",
+  "gun_time": "03:03:56",
+  "place": "51",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "21",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "7",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:29:14",
+   "run_time": "00:29:22",
+   "race_time": "00:29:22",
+   "pos": "71",
+   "tod": "07:29:22",
+   "gender": "Female",
+   "gender_pos": "28",
+   "category": "Veteran 40+",
+   "category_pos": "9",
+   "speed_kmh": "10.21",
+   "pace": "05:52"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:17:07",
+   "run_time": "01:46:30",
+   "race_time": "01:46:30",
+   "pos": "59",
+   "tod": "08:46:30",
+   "gender": "Female",
+   "gender_pos": "22",
+   "category": "Veteran 40+",
+   "category_pos": "7",
+   "speed_kmh": "7.77",
+   "pace": "07:43"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:46:22",
+   "run_time": "02:32:52",
+   "race_time": "02:32:52",
+   "pos": "55",
+   "tod": "09:32:52",
+   "gender": "Female",
+   "gender_pos": "21",
+   "category": "Veteran 40+",
+   "category_pos": "7",
+   "speed_kmh": "8.63",
+   "pace": "06:56"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:31:03",
+   "run_time": "03:03:56",
+   "race_time": "03:03:56",
+   "pos": "51",
+   "tod": "10:03:56",
+   "gender": "Female",
+   "gender_pos": "21",
+   "category": "Veteran 40+",
+   "category_pos": "7",
+   "speed_kmh": "8.8",
+   "pace": "06:48"
+  }
+ ],
+ "found": true
+}

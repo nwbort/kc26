@@ -1,0 +1,77 @@
+{
+ "id": 726,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/726",
+ "summary": {
+  "bib": "726",
+  "name": "NICK BRAITHWAITE",
+  "status": "Finished",
+  "gun_time": "03:23:22",
+  "place": "87",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "48",
+  "gender_of": "74",
+  "category": "Legend 60+",
+  "category_place": "1",
+  "category_of": "7"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:33:25",
+   "run_time": "00:33:36",
+   "race_time": "00:33:36",
+   "pos": "120",
+   "tod": "07:33:36",
+   "gender": "Male",
+   "gender_pos": "54",
+   "category": "Legend 60+",
+   "category_pos": "1",
+   "speed_kmh": "8.92",
+   "pace": "06:43"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:19:54",
+   "run_time": "01:53:30",
+   "race_time": "01:53:30",
+   "pos": "79",
+   "tod": "08:53:30",
+   "gender": "Male",
+   "gender_pos": "47",
+   "category": "Legend 60+",
+   "category_pos": "1",
+   "speed_kmh": "7.29",
+   "pace": "08:13"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:53:27",
+   "run_time": "02:46:58",
+   "race_time": "02:46:58",
+   "pos": "83",
+   "tod": "09:46:58",
+   "gender": "Male",
+   "gender_pos": "48",
+   "category": "Legend 60+",
+   "category_pos": "1",
+   "speed_kmh": "7.9",
+   "pace": "07:35"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:36:24",
+   "run_time": "03:23:22",
+   "race_time": "03:23:22",
+   "pos": "87",
+   "tod": "10:23:22",
+   "gender": "Male",
+   "gender_pos": "48",
+   "category": "Legend 60+",
+   "category_pos": "1",
+   "speed_kmh": "7.96",
+   "pace": "07:31"
+  }
+ ],
+ "found": true
+}

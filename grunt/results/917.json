@@ -1,0 +1,77 @@
+{
+ "id": 917,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/917",
+ "summary": {
+  "bib": "917",
+  "name": "KATE WOODERSON",
+  "status": "Finished",
+  "gun_time": "03:30:50",
+  "place": "100",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "47",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "18",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:33:07",
+   "run_time": "00:33:15",
+   "race_time": "00:33:15",
+   "pos": "113",
+   "tod": "07:33:15",
+   "gender": "Female",
+   "gender_pos": "60",
+   "category": "Veteran 40+",
+   "category_pos": "26",
+   "speed_kmh": "9.02",
+   "pace": "06:39"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:30:33",
+   "run_time": "02:03:48",
+   "race_time": "02:03:48",
+   "pos": "116",
+   "tod": "09:03:48",
+   "gender": "Female",
+   "gender_pos": "59",
+   "category": "Veteran 40+",
+   "category_pos": "22",
+   "speed_kmh": "6.68",
+   "pace": "08:58"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:52:24",
+   "run_time": "02:56:13",
+   "race_time": "02:56:13",
+   "pos": "107",
+   "tod": "09:56:13",
+   "gender": "Female",
+   "gender_pos": "50",
+   "category": "Veteran 40+",
+   "category_pos": "21",
+   "speed_kmh": "7.49",
+   "pace": "08:00"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:34:36",
+   "run_time": "03:30:50",
+   "race_time": "03:30:50",
+   "pos": "100",
+   "tod": "10:30:50",
+   "gender": "Female",
+   "gender_pos": "47",
+   "category": "Veteran 40+",
+   "category_pos": "18",
+   "speed_kmh": "7.68",
+   "pace": "07:48"
+  }
+ ],
+ "found": true
+}

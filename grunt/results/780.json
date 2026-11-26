@@ -1,0 +1,77 @@
+{
+ "id": 780,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/780",
+ "summary": {
+  "bib": "780",
+  "name": "GINNY HOWDEN",
+  "status": "Finished",
+  "gun_time": "03:51:06",
+  "place": "139",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "77",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "41",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:36:47",
+   "run_time": "00:37:07",
+   "race_time": "00:37:07",
+   "pos": "162",
+   "tod": "07:37:07",
+   "gender": "Female",
+   "gender_pos": "94",
+   "category": "Open",
+   "category_pos": "47",
+   "speed_kmh": "8.07",
+   "pace": "07:25"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:33:51",
+   "run_time": "02:10:59",
+   "race_time": "02:10:59",
+   "pos": "150",
+   "tod": "09:10:59",
+   "gender": "Female",
+   "gender_pos": "85",
+   "category": "Open",
+   "category_pos": "44",
+   "speed_kmh": "6.32",
+   "pace": "09:29"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:58:18",
+   "run_time": "03:09:17",
+   "race_time": "03:09:17",
+   "pos": "137",
+   "tod": "10:09:17",
+   "gender": "Female",
+   "gender_pos": "75",
+   "category": "Open",
+   "category_pos": "40",
+   "speed_kmh": "6.97",
+   "pace": "08:36"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:41:48",
+   "run_time": "03:51:06",
+   "race_time": "03:51:06",
+   "pos": "139",
+   "tod": "10:51:06",
+   "gender": "Female",
+   "gender_pos": "77",
+   "category": "Open",
+   "category_pos": "41",
+   "speed_kmh": "7",
+   "pace": "08:33"
+  }
+ ],
+ "found": true
+}

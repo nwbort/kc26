@@ -1,0 +1,77 @@
+{
+ "id": 868,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/868",
+ "summary": {
+  "bib": "868",
+  "name": "TARA SIMPSON",
+  "status": "Finished",
+  "gun_time": "03:16:51",
+  "place": "73",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "30",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "20",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:29:26",
+   "run_time": "00:29:32",
+   "race_time": "00:29:32",
+   "pos": "72",
+   "tod": "07:29:32",
+   "gender": "Female",
+   "gender_pos": "29",
+   "category": "Open",
+   "category_pos": "20",
+   "speed_kmh": "10.15",
+   "pace": "05:54"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:25:27",
+   "run_time": "01:55:00",
+   "race_time": "01:55:00",
+   "pos": "86",
+   "tod": "08:55:00",
+   "gender": "Female",
+   "gender_pos": "38",
+   "category": "Open",
+   "category_pos": "23",
+   "speed_kmh": "7.19",
+   "pace": "08:20"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:45:07",
+   "run_time": "02:40:08",
+   "race_time": "02:40:08",
+   "pos": "71",
+   "tod": "09:40:08",
+   "gender": "Female",
+   "gender_pos": "29",
+   "category": "Open",
+   "category_pos": "19",
+   "speed_kmh": "8.24",
+   "pace": "07:16"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:36:42",
+   "run_time": "03:16:51",
+   "race_time": "03:16:51",
+   "pos": "73",
+   "tod": "10:16:51",
+   "gender": "Female",
+   "gender_pos": "30",
+   "category": "Open",
+   "category_pos": "20",
+   "speed_kmh": "8.22",
+   "pace": "07:17"
+  }
+ ],
+ "found": true
+}

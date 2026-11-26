@@ -1,0 +1,77 @@
+{
+ "id": 750,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/750",
+ "summary": {
+  "bib": "750",
+  "name": "TONI EADE",
+  "status": "Finished",
+  "gun_time": "03:36:15",
+  "place": "108",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "51",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "21",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:32:53",
+   "run_time": "00:33:11",
+   "race_time": "00:33:11",
+   "pos": "110",
+   "tod": "07:33:11",
+   "gender": "Female",
+   "gender_pos": "57",
+   "category": "Veteran 40+",
+   "category_pos": "25",
+   "speed_kmh": "9.03",
+   "pace": "06:38"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:28:10",
+   "run_time": "02:01:22",
+   "race_time": "02:01:22",
+   "pos": "106",
+   "tod": "09:01:22",
+   "gender": "Female",
+   "gender_pos": "50",
+   "category": "Veteran 40+",
+   "category_pos": "20",
+   "speed_kmh": "6.82",
+   "pace": "08:47"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:54:01",
+   "run_time": "02:55:24",
+   "race_time": "02:55:24",
+   "pos": "102",
+   "tod": "09:55:24",
+   "gender": "Female",
+   "gender_pos": "49",
+   "category": "Veteran 40+",
+   "category_pos": "20",
+   "speed_kmh": "7.52",
+   "pace": "07:58"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:40:51",
+   "run_time": "03:36:15",
+   "race_time": "03:36:15",
+   "pos": "108",
+   "tod": "10:36:15",
+   "gender": "Female",
+   "gender_pos": "51",
+   "category": "Veteran 40+",
+   "category_pos": "21",
+   "speed_kmh": "7.49",
+   "pace": "08:00"
+  }
+ ],
+ "found": true
+}

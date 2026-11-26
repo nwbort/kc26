@@ -1,0 +1,77 @@
+{
+ "id": 810,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/810",
+ "summary": {
+  "bib": "810",
+  "name": "SIMON MACKINTOSH",
+  "status": "Finished",
+  "gun_time": "02:53:25",
+  "place": "38",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "23",
+  "gender_of": "74",
+  "category": "Veteran 40+",
+  "category_place": "4",
+  "category_of": "20"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:25:11",
+   "run_time": "00:25:15",
+   "race_time": "00:25:15",
+   "pos": "29",
+   "tod": "07:25:15",
+   "gender": "Male",
+   "gender_pos": "19",
+   "category": "Veteran 40+",
+   "category_pos": "4",
+   "speed_kmh": "11.88",
+   "pace": "05:03"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:11:05",
+   "run_time": "01:36:20",
+   "race_time": "01:36:20",
+   "pos": "35",
+   "tod": "08:36:20",
+   "gender": "Male",
+   "gender_pos": "22",
+   "category": "Veteran 40+",
+   "category_pos": "4",
+   "speed_kmh": "8.59",
+   "pace": "06:58"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:43:25",
+   "run_time": "02:19:45",
+   "race_time": "02:19:45",
+   "pos": "38",
+   "tod": "09:19:45",
+   "gender": "Male",
+   "gender_pos": "23",
+   "category": "Veteran 40+",
+   "category_pos": "4",
+   "speed_kmh": "9.44",
+   "pace": "06:21"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:33:39",
+   "run_time": "02:53:25",
+   "race_time": "02:53:25",
+   "pos": "38",
+   "tod": "09:53:25",
+   "gender": "Male",
+   "gender_pos": "23",
+   "category": "Veteran 40+",
+   "category_pos": "4",
+   "speed_kmh": "9.34",
+   "pace": "06:25"
+  }
+ ],
+ "found": true
+}

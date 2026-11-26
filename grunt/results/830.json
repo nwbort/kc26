@@ -1,0 +1,77 @@
+{
+ "id": 830,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/830",
+ "summary": {
+  "bib": "830",
+  "name": "EMILY MERCER",
+  "status": "Finished",
+  "gun_time": "03:41:19",
+  "place": "118",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "59",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "33",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:38:57",
+   "run_time": "00:39:16",
+   "race_time": "00:39:16",
+   "pos": "175",
+   "tod": "07:39:16",
+   "gender": "Female",
+   "gender_pos": "106",
+   "category": "Open",
+   "category_pos": "54",
+   "speed_kmh": "7.63",
+   "pace": "07:51"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:29:59",
+   "run_time": "02:09:16",
+   "race_time": "02:09:16",
+   "pos": "142",
+   "tod": "09:09:16",
+   "gender": "Female",
+   "gender_pos": "78",
+   "category": "Open",
+   "category_pos": "39",
+   "speed_kmh": "6.4",
+   "pace": "09:22"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:57:32",
+   "run_time": "03:06:48",
+   "race_time": "03:06:48",
+   "pos": "130",
+   "tod": "10:06:48",
+   "gender": "Female",
+   "gender_pos": "68",
+   "category": "Open",
+   "category_pos": "37",
+   "speed_kmh": "7.06",
+   "pace": "08:29"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:34:30",
+   "run_time": "03:41:19",
+   "race_time": "03:41:19",
+   "pos": "118",
+   "tod": "10:41:19",
+   "gender": "Female",
+   "gender_pos": "59",
+   "category": "Open",
+   "category_pos": "33",
+   "speed_kmh": "7.31",
+   "pace": "08:11"
+  }
+ ],
+ "found": true
+}

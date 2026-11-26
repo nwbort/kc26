@@ -1,0 +1,77 @@
+{
+ "id": 702,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/702",
+ "summary": {
+  "bib": "702",
+  "name": "REBECCA ANDREW",
+  "status": "Finished",
+  "gun_time": "03:41:54",
+  "place": "122",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "61",
+  "gender_of": "131",
+  "category": "Veteran 50+",
+  "category_place": "4",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:34:22",
+   "run_time": "00:34:41",
+   "race_time": "00:34:41",
+   "pos": "129",
+   "tod": "07:34:41",
+   "gender": "Female",
+   "gender_pos": "73",
+   "category": "Veteran 50+",
+   "category_pos": "5",
+   "speed_kmh": "8.64",
+   "pace": "06:56"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:27:35",
+   "run_time": "02:02:17",
+   "race_time": "02:02:17",
+   "pos": "111",
+   "tod": "09:02:17",
+   "gender": "Female",
+   "gender_pos": "55",
+   "category": "Veteran 50+",
+   "category_pos": "4",
+   "speed_kmh": "6.77",
+   "pace": "08:51"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:02:06",
+   "run_time": "03:04:23",
+   "race_time": "03:04:23",
+   "pos": "127",
+   "tod": "10:04:23",
+   "gender": "Female",
+   "gender_pos": "66",
+   "category": "Veteran 50+",
+   "category_pos": "5",
+   "speed_kmh": "7.15",
+   "pace": "08:22"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:37:30",
+   "run_time": "03:41:54",
+   "race_time": "03:41:54",
+   "pos": "122",
+   "tod": "10:41:54",
+   "gender": "Female",
+   "gender_pos": "61",
+   "category": "Veteran 50+",
+   "category_pos": "4",
+   "speed_kmh": "7.3",
+   "pace": "08:13"
+  }
+ ],
+ "found": true
+}

@@ -1,0 +1,77 @@
+{
+ "id": 774,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/774",
+ "summary": {
+  "bib": "774",
+  "name": "KEVIN HARVEY",
+  "status": "Finished",
+  "gun_time": "05:30:51",
+  "place": "197",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "72",
+  "gender_of": "74",
+  "category": "Legend 60+",
+  "category_place": "6",
+  "category_of": "7"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:50:16",
+   "run_time": "00:50:45",
+   "race_time": "00:50:45",
+   "pos": "205",
+   "tod": "07:50:45",
+   "gender": "Male",
+   "gender_pos": "74",
+   "category": "Legend 60+",
+   "category_pos": "7",
+   "speed_kmh": "5.9",
+   "pace": "10:09"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "02:01:48",
+   "run_time": "02:52:34",
+   "race_time": "02:52:34",
+   "pos": "195",
+   "tod": "09:52:34",
+   "gender": "Male",
+   "gender_pos": "73",
+   "category": "Legend 60+",
+   "category_pos": "7",
+   "speed_kmh": "4.79",
+   "pace": "12:30"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:42:43",
+   "run_time": "04:35:17",
+   "race_time": "04:35:17",
+   "pos": "200",
+   "tod": "11:35:17",
+   "gender": "Male",
+   "gender_pos": "73",
+   "category": "Legend 60+",
+   "category_pos": "7",
+   "speed_kmh": "4.79",
+   "pace": "12:30"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:55:33",
+   "run_time": "05:30:51",
+   "race_time": "05:30:51",
+   "pos": "197",
+   "tod": "12:30:51",
+   "gender": "Male",
+   "gender_pos": "72",
+   "category": "Legend 60+",
+   "category_pos": "6",
+   "speed_kmh": "4.89",
+   "pace": "12:15"
+  }
+ ],
+ "found": true
+}

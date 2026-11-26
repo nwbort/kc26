@@ -1,0 +1,77 @@
+{
+ "id": 754,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/754",
+ "summary": {
+  "bib": "754",
+  "name": "BRAD FOOTE",
+  "status": "Finished",
+  "gun_time": "03:10:15",
+  "place": "59",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "36",
+  "gender_of": "74",
+  "category": "Open",
+  "category_place": "21",
+  "category_of": "30"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:29:53",
+   "run_time": "00:30:11",
+   "race_time": "00:30:11",
+   "pos": "75",
+   "tod": "07:30:11",
+   "gender": "Male",
+   "gender_pos": "46",
+   "category": "Open",
+   "category_pos": "26",
+   "speed_kmh": "9.93",
+   "pace": "06:02"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:12:57",
+   "run_time": "01:43:08",
+   "race_time": "01:43:08",
+   "pos": "49",
+   "tod": "08:43:08",
+   "gender": "Male",
+   "gender_pos": "32",
+   "category": "Open",
+   "category_pos": "19",
+   "speed_kmh": "8.02",
+   "pace": "07:28"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:48:55",
+   "run_time": "02:32:04",
+   "race_time": "02:32:04",
+   "pos": "54",
+   "tod": "09:32:04",
+   "gender": "Male",
+   "gender_pos": "34",
+   "category": "Open",
+   "category_pos": "20",
+   "speed_kmh": "8.68",
+   "pace": "06:54"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:38:11",
+   "run_time": "03:10:15",
+   "race_time": "03:10:15",
+   "pos": "59",
+   "tod": "10:10:15",
+   "gender": "Male",
+   "gender_pos": "36",
+   "category": "Open",
+   "category_pos": "21",
+   "speed_kmh": "8.51",
+   "pace": "07:02"
+  }
+ ],
+ "found": true
+}

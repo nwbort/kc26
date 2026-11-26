@@ -1,0 +1,77 @@
+{
+ "id": 837,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/837",
+ "summary": {
+  "bib": "837",
+  "name": "DUANNE MORRISON",
+  "status": "Finished",
+  "gun_time": "03:13:10",
+  "place": "68",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "42",
+  "gender_of": "74",
+  "category": "Veteran 50+",
+  "category_place": "7",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:30:21",
+   "run_time": "00:30:31",
+   "race_time": "00:30:31",
+   "pos": "77",
+   "tod": "07:30:31",
+   "gender": "Male",
+   "gender_pos": "47",
+   "category": "Veteran 50+",
+   "category_pos": "9",
+   "speed_kmh": "9.82",
+   "pace": "06:06"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:17:16",
+   "run_time": "01:47:48",
+   "race_time": "01:47:48",
+   "pos": "62",
+   "tod": "08:47:48",
+   "gender": "Male",
+   "gender_pos": "39",
+   "category": "Veteran 50+",
+   "category_pos": "7",
+   "speed_kmh": "7.68",
+   "pace": "07:48"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:50:31",
+   "run_time": "02:38:19",
+   "race_time": "02:38:19",
+   "pos": "67",
+   "tod": "09:38:19",
+   "gender": "Male",
+   "gender_pos": "40",
+   "category": "Veteran 50+",
+   "category_pos": "7",
+   "speed_kmh": "8.33",
+   "pace": "07:11"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:34:50",
+   "run_time": "03:13:10",
+   "race_time": "03:13:10",
+   "pos": "68",
+   "tod": "10:13:10",
+   "gender": "Male",
+   "gender_pos": "42",
+   "category": "Veteran 50+",
+   "category_pos": "7",
+   "speed_kmh": "8.38",
+   "pace": "07:09"
+  }
+ ],
+ "found": true
+}

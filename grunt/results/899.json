@@ -1,0 +1,77 @@
+{
+ "id": 899,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/899",
+ "summary": {
+  "bib": "899",
+  "name": "KIRSTY WATSON",
+  "status": "Finished",
+  "gun_time": "04:22:13",
+  "place": "173",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "104",
+  "gender_of": "131",
+  "category": "Veteran 50+",
+  "category_place": "10",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:36:20",
+   "run_time": "00:36:32",
+   "race_time": "00:36:32",
+   "pos": "154",
+   "tod": "07:36:32",
+   "gender": "Female",
+   "gender_pos": "89",
+   "category": "Veteran 50+",
+   "category_pos": "9",
+   "speed_kmh": "8.2",
+   "pace": "07:18"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:56:47",
+   "run_time": "02:33:20",
+   "race_time": "02:33:20",
+   "pos": "184",
+   "tod": "09:33:20",
+   "gender": "Female",
+   "gender_pos": "114",
+   "category": "Veteran 50+",
+   "category_pos": "12",
+   "speed_kmh": "5.39",
+   "pace": "11:06"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:08:36",
+   "run_time": "03:41:56",
+   "race_time": "03:41:56",
+   "pos": "178",
+   "tod": "10:41:56",
+   "gender": "Female",
+   "gender_pos": "109",
+   "category": "Veteran 50+",
+   "category_pos": "12",
+   "speed_kmh": "5.94",
+   "pace": "10:05"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:40:16",
+   "run_time": "04:22:13",
+   "race_time": "04:22:13",
+   "pos": "173",
+   "tod": "11:22:13",
+   "gender": "Female",
+   "gender_pos": "104",
+   "category": "Veteran 50+",
+   "category_pos": "10",
+   "speed_kmh": "6.17",
+   "pace": "09:42"
+  }
+ ],
+ "found": true
+}

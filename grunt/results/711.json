@@ -1,0 +1,77 @@
+{
+ "id": 711,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/711",
+ "summary": {
+  "bib": "711",
+  "name": "DUNCAN BAXTER",
+  "status": "Finished",
+  "gun_time": "02:34:39",
+  "place": "18",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "17",
+  "gender_of": "74",
+  "category": "Open",
+  "category_place": "15",
+  "category_of": "30"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:23:27",
+   "run_time": "00:23:30",
+   "race_time": "00:23:30",
+   "pos": "17",
+   "tod": "07:23:30",
+   "gender": "Male",
+   "gender_pos": "16",
+   "category": "Open",
+   "category_pos": "14",
+   "speed_kmh": "12.76",
+   "pace": "04:42"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:07:09",
+   "run_time": "01:30:40",
+   "race_time": "01:30:40",
+   "pos": "20",
+   "tod": "08:30:40",
+   "gender": "Male",
+   "gender_pos": "17",
+   "category": "Open",
+   "category_pos": "15",
+   "speed_kmh": "9.13",
+   "pace": "06:34"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:37:31",
+   "run_time": "02:08:11",
+   "race_time": "02:08:11",
+   "pos": "20",
+   "tod": "09:08:11",
+   "gender": "Male",
+   "gender_pos": "17",
+   "category": "Open",
+   "category_pos": "15",
+   "speed_kmh": "10.29",
+   "pace": "05:49"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:26:27",
+   "run_time": "02:34:39",
+   "race_time": "02:34:39",
+   "pos": "18",
+   "tod": "09:34:39",
+   "gender": "Male",
+   "gender_pos": "17",
+   "category": "Open",
+   "category_pos": "15",
+   "speed_kmh": "10.47",
+   "pace": "05:43"
+  }
+ ],
+ "found": true
+}

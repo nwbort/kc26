@@ -1,0 +1,77 @@
+{
+ "id": 731,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/731",
+ "summary": {
+  "bib": "731",
+  "name": "LEAH BROWN",
+  "status": "Finished",
+  "gun_time": "04:40:16",
+  "place": "185",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "115",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "41",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:43:14",
+   "run_time": "00:43:36",
+   "race_time": "00:43:36",
+   "pos": "188",
+   "tod": "07:43:36",
+   "gender": "Female",
+   "gender_pos": "117",
+   "category": "Veteran 40+",
+   "category_pos": "40",
+   "speed_kmh": "6.87",
+   "pace": "08:43"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:51:14",
+   "run_time": "02:34:50",
+   "race_time": "02:34:50",
+   "pos": "186",
+   "tod": "09:34:50",
+   "gender": "Female",
+   "gender_pos": "116",
+   "category": "Veteran 40+",
+   "category_pos": "41",
+   "speed_kmh": "5.34",
+   "pace": "11:13"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:16:00",
+   "run_time": "03:50:51",
+   "race_time": "03:50:51",
+   "pos": "185",
+   "tod": "10:50:51",
+   "gender": "Female",
+   "gender_pos": "116",
+   "category": "Veteran 40+",
+   "category_pos": "41",
+   "speed_kmh": "5.71",
+   "pace": "10:29"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:49:25",
+   "run_time": "04:40:16",
+   "race_time": "04:40:16",
+   "pos": "185",
+   "tod": "11:40:16",
+   "gender": "Female",
+   "gender_pos": "115",
+   "category": "Veteran 40+",
+   "category_pos": "41",
+   "speed_kmh": "5.77",
+   "pace": "10:22"
+  }
+ ],
+ "found": true
+}

@@ -17,7 +17,16 @@ of the CSVs.
 Individuals already in results/ are skipped unless --force is given; bibs
 recorded as not found are tried again on every run.
 
-Usage: scrape.py [--race SLUG] [--event N] [--start N] [--end N] [--force]
+--out sets where results/ and the CSVs go (default: the repo root, for the
+Kepler; use --event 2 --out grunt for the Luxmore Grunt).
+
+--discover reads the bibs off the event's results pages (events/<n>,
+events/<n>?page=2, ...) and fetches only those, instead of scanning
+--start..--end (the URL's number is the bib, and the Grunt's bib range isn't
+known up front).
+
+Usage: scrape.py [--race SLUG] [--event N] [--start N] [--end N] [--out DIR]
+                 [--discover] [--force]
 """
 
 import argparse
@@ -71,6 +80,10 @@ DEFAULT_DELAY_SECONDS = 1.0
 # recording the bib as not found, and the pause between tries.
 NOT_FOUND_ATTEMPTS = 3
 NOT_FOUND_RETRY_SECONDS = 3
+
+# Sportsplits sometimes answers "Too Many Requests": back off this long
+# before trying again. A bib still rate limited is left for the next run.
+RATE_LIMIT_WAIT_SECONDS = 60
 
 # Give up if this many pages in a row fail: we've probably been blocked.
 MAX_CONSECUTIVE_FAILURES = 10
@@ -278,6 +291,71 @@ def page_url(race: str, event: int, n: int) -> str:
     return f"{BASE_URL}/races/{race}/events/{event}/results/individuals/{n}"
 
 
+# Most list pages to read when discovering individuals.
+MAX_LIST_PAGES = 60
+
+
+def listed_ids(html: str, event: int) -> tuple[set[int], set[int]]:
+    """Bibs of the people who started, from one page of the event's results
+    table, whose rows read:
+
+        Pos  Name                Gun Time  Representing  Category (Pos)  Gender (Pos)
+        201  LEE GRIEVE (#767)   05:39:23  NZL |         Veteran 40+ (45) Female (128)
+        DNS  MIKE MARTIN (#814)            NZL |         Legend 60+       Male
+
+    Returns (started, listed): DNS rows are left out of started (no splits
+    to fetch), DNFs are kept. If there's no such table, the numbers in links
+    to individual results (also the bib) count as both."""
+    p = parse.TableParser()
+    p.feed(html)
+    p.close()
+    started, listed = set(), set()
+    for t in p.tables:
+        for row in t["rows"]:
+            for cell in row:
+                m = re.search(r"\(#(\d+)\)", cell)
+                if m:
+                    listed.add(int(m.group(1)))
+                    if row[0].strip().upper() != "DNS":
+                        started.add(int(m.group(1)))
+                    break
+    if listed:
+        return started, listed
+    linked = {int(n) for n in re.findall(rf"/events/{event}/results/individuals/(\d+)", html)}
+    return linked, linked
+
+
+async def discover(browser, tab, race: str, event: int):
+    """Bibs listed on the event's results pages (events/<n>, then
+    events/<n>?page=2, ...), read until a page adds nobody new, so only
+    people who actually ran are fetched. Returns (tab, sorted ids)."""
+    base = f"{BASE_URL}/races/{race}/events/{event}"
+    ids: set[int] = set()
+    seen: set[int] = set()
+    for page in range(1, MAX_LIST_PAGES + 1):
+        url = base if page == 1 else f"{base}?page={page}"
+        html = None
+        for _ in range(2):
+            tab, html, _where = await fetch_page(browser, url, tab=tab)
+            if html is not None:
+                break
+        if html is None:
+            print(f"  list page {page} never loaded; stopping here", flush=True)
+            break
+        started, listed = listed_ids(html, event)
+        new = listed - seen
+        last = max((int(n) for n in re.findall(r"[?&](?:amp;)?page=(\d+)", html)), default=page)
+        print(f"  list page {page}: {len(listed)} listed ({len(listed - started)} DNS), {len(new)} new (last page link {last})", flush=True)
+        if page == 1 and not listed:
+            text = parse._text(re.sub(r"<script.*?</script>|<style.*?</style>", " ", html, flags=re.S))
+            print(f"  nothing listed on {url}; title {page_title(html)!r}; text: {text[:1500]}", flush=True)
+        if not new:
+            break
+        seen |= listed
+        ids |= started
+    return tab, sorted(ids)
+
+
 def write_json(path: str, data) -> None:
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
@@ -305,8 +383,10 @@ async def fetch_result(browser, tab, url: str, n: int):
     result = None
     for attempt in range(1, NOT_FOUND_ATTEMPTS + 1):
         if attempt > 1:
-            print(f"  no results for {n}; trying again ({attempt}/{NOT_FOUND_ATTEMPTS})", flush=True)
-            await asyncio.sleep(NOT_FOUND_RETRY_SECONDS)
+            limited = result and result.get("title", "").lower().startswith("too many requests")
+            wait = RATE_LIMIT_WAIT_SECONDS if limited else NOT_FOUND_RETRY_SECONDS
+            print(f"  {'rate limited' if limited else 'no results'} for {n}; trying again in {wait}s ({attempt}/{NOT_FOUND_ATTEMPTS})", flush=True)
+            await asyncio.sleep(wait)
         tab, html, where = await fetch_page(browser, url, tab=tab)
         if html is None:
             return tab, None
@@ -321,13 +401,15 @@ async def fetch_result(browser, tab, url: str, n: int):
         if result["found"]:
             return tab, result
         result["title"] = page_title(html)
+    if result and result.get("title", "").lower().startswith("too many requests"):
+        return tab, None  # a failure, not a missing bib: retried next run
     return tab, result
 
 
 async def scrape(args) -> int:
     todo = [n for n in range(args.start, args.end + 1) if args.force or not already_found(n)]
-    print(f"{len(todo)} individual(s) to fetch", flush=True)
-    if not todo:
+    if not todo and not args.discover:
+        print("0 individual(s) to fetch", flush=True)
         parse.write_csvs()
         return 0
 
@@ -348,6 +430,14 @@ async def scrape(args) -> int:
     consecutive = 0
     tab = None
     try:
+        if args.discover:
+            tab, ids = await discover(browser, tab, args.race, args.event)
+            if not ids:
+                print("ERROR: no bibs found on the results pages", flush=True)
+                return 4
+            print(f"Discovered {len(ids)} bib(s): {ids[0]}..{ids[-1]}", flush=True)
+            todo = [n for n in ids if args.force or not already_found(n)]
+        print(f"{len(todo)} individual(s) to fetch", flush=True)
         for i, n in enumerate(todo):
             if i:
                 await asyncio.sleep(args.delay)
@@ -403,8 +493,16 @@ def main() -> int:
     p.add_argument("--start", type=int, default=int(os.environ.get("START") or 1))
     p.add_argument("--end", type=int, default=int(os.environ.get("END") or 499))
     p.add_argument("--delay", type=float, default=DEFAULT_DELAY_SECONDS)
+    p.add_argument("--out", default=os.environ.get("OUT") or ".")
+    p.add_argument(
+        "--discover",
+        action="store_true",
+        default=os.environ.get("DISCOVER") == "true",
+        help="fetch only the bibs listed on the event's results pages (else --start..--end)",
+    )
     p.add_argument("--force", action="store_true", default=os.environ.get("FORCE") == "true")
     args = p.parse_args()
+    parse.OUT_DIR = args.out
     return uc.loop().run_until_complete(scrape(args))
 
 

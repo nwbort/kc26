@@ -1,0 +1,77 @@
+{
+ "id": 843,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/843",
+ "summary": {
+  "bib": "843",
+  "name": "ANDY NICHOLLS",
+  "status": "Finished",
+  "gun_time": "03:41:51",
+  "place": "121",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "61",
+  "gender_of": "74",
+  "category": "Veteran 50+",
+  "category_place": "14",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:36:58",
+   "run_time": "00:37:14",
+   "race_time": "00:37:14",
+   "pos": "163",
+   "tod": "07:37:14",
+   "gender": "Male",
+   "gender_pos": "69",
+   "category": "Veteran 50+",
+   "category_pos": "16",
+   "speed_kmh": "8.05",
+   "pace": "07:26"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:27:17",
+   "run_time": "02:04:31",
+   "race_time": "02:04:31",
+   "pos": "119",
+   "tod": "09:04:31",
+   "gender": "Male",
+   "gender_pos": "58",
+   "category": "Veteran 50+",
+   "category_pos": "12",
+   "speed_kmh": "6.64",
+   "pace": "09:01"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:58:20",
+   "run_time": "03:02:51",
+   "race_time": "03:02:51",
+   "pos": "124",
+   "tod": "10:02:51",
+   "gender": "Male",
+   "gender_pos": "61",
+   "category": "Veteran 50+",
+   "category_pos": "14",
+   "speed_kmh": "7.21",
+   "pace": "08:18"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:38:59",
+   "run_time": "03:41:51",
+   "race_time": "03:41:51",
+   "pos": "121",
+   "tod": "10:41:51",
+   "gender": "Male",
+   "gender_pos": "61",
+   "category": "Veteran 50+",
+   "category_pos": "14",
+   "speed_kmh": "7.3",
+   "pace": "08:13"
+  }
+ ],
+ "found": true
+}

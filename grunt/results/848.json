@@ -1,0 +1,77 @@
+{
+ "id": 848,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/848",
+ "summary": {
+  "bib": "848",
+  "name": "JO PATTON",
+  "status": "Finished",
+  "gun_time": "03:40:40",
+  "place": "116",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "57",
+  "gender_of": "131",
+  "category": "Veteran 50+",
+  "category_place": "3",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:34:43",
+   "run_time": "00:35:02",
+   "race_time": "00:35:02",
+   "pos": "135",
+   "tod": "07:35:02",
+   "gender": "Female",
+   "gender_pos": "77",
+   "category": "Veteran 50+",
+   "category_pos": "6",
+   "speed_kmh": "8.56",
+   "pace": "07:00"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:28:44",
+   "run_time": "02:03:46",
+   "race_time": "02:03:46",
+   "pos": "115",
+   "tod": "09:03:46",
+   "gender": "Female",
+   "gender_pos": "58",
+   "category": "Veteran 50+",
+   "category_pos": "5",
+   "speed_kmh": "6.68",
+   "pace": "08:58"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:59:03",
+   "run_time": "03:02:50",
+   "race_time": "03:02:50",
+   "pos": "123",
+   "tod": "10:02:50",
+   "gender": "Female",
+   "gender_pos": "63",
+   "category": "Veteran 50+",
+   "category_pos": "4",
+   "speed_kmh": "7.21",
+   "pace": "08:18"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:37:49",
+   "run_time": "03:40:40",
+   "race_time": "03:40:40",
+   "pos": "116",
+   "tod": "10:40:40",
+   "gender": "Female",
+   "gender_pos": "57",
+   "category": "Veteran 50+",
+   "category_pos": "3",
+   "speed_kmh": "7.34",
+   "pace": "08:10"
+  }
+ ],
+ "found": true
+}

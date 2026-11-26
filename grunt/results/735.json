@@ -1,0 +1,77 @@
+{
+ "id": 735,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/735",
+ "summary": {
+  "bib": "735",
+  "name": "LILY CAMPBELL",
+  "status": "Finished",
+  "gun_time": "03:15:06",
+  "place": "71",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "28",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "19",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:27:58",
+   "run_time": "00:28:04",
+   "race_time": "00:28:04",
+   "pos": "52",
+   "tod": "07:28:04",
+   "gender": "Female",
+   "gender_pos": "20",
+   "category": "Open",
+   "category_pos": "14",
+   "speed_kmh": "10.68",
+   "pace": "05:36"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:25:30",
+   "run_time": "01:53:35",
+   "race_time": "01:53:35",
+   "pos": "82",
+   "tod": "08:53:35",
+   "gender": "Female",
+   "gender_pos": "35",
+   "category": "Open",
+   "category_pos": "21",
+   "speed_kmh": "7.28",
+   "pace": "08:13"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:44:07",
+   "run_time": "02:37:42",
+   "race_time": "02:37:42",
+   "pos": "65",
+   "tod": "09:37:42",
+   "gender": "Female",
+   "gender_pos": "26",
+   "category": "Open",
+   "category_pos": "18",
+   "speed_kmh": "8.36",
+   "pace": "07:10"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:37:24",
+   "run_time": "03:15:06",
+   "race_time": "03:15:06",
+   "pos": "71",
+   "tod": "10:15:06",
+   "gender": "Female",
+   "gender_pos": "28",
+   "category": "Open",
+   "category_pos": "19",
+   "speed_kmh": "8.3",
+   "pace": "07:13"
+  }
+ ],
+ "found": true
+}

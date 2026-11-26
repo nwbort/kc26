@@ -1,0 +1,77 @@
+{
+ "id": 770,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/770",
+ "summary": {
+  "bib": "770",
+  "name": "INI-ISABEE GUNN",
+  "status": "Finished",
+  "gun_time": "03:50:47",
+  "place": "138",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "76",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "30",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:33:18",
+   "run_time": "00:33:31",
+   "race_time": "00:33:31",
+   "pos": "119",
+   "tod": "07:33:31",
+   "gender": "Female",
+   "gender_pos": "66",
+   "category": "Veteran 40+",
+   "category_pos": "28",
+   "speed_kmh": "8.94",
+   "pace": "06:42"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:35:21",
+   "run_time": "02:08:52",
+   "race_time": "02:08:52",
+   "pos": "138",
+   "tod": "09:08:52",
+   "gender": "Female",
+   "gender_pos": "74",
+   "category": "Veteran 40+",
+   "category_pos": "32",
+   "speed_kmh": "6.42",
+   "pace": "09:20"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:56:23",
+   "run_time": "03:05:16",
+   "race_time": "03:05:16",
+   "pos": "129",
+   "tod": "10:05:16",
+   "gender": "Female",
+   "gender_pos": "67",
+   "category": "Veteran 40+",
+   "category_pos": "26",
+   "speed_kmh": "7.12",
+   "pace": "08:25"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:45:30",
+   "run_time": "03:50:47",
+   "race_time": "03:50:47",
+   "pos": "138",
+   "tod": "10:50:47",
+   "gender": "Female",
+   "gender_pos": "76",
+   "category": "Veteran 40+",
+   "category_pos": "30",
+   "speed_kmh": "7.01",
+   "pace": "08:32"
+  }
+ ],
+ "found": true
+}

@@ -1,0 +1,77 @@
+{
+ "id": 908,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/908",
+ "summary": {
+  "bib": "908",
+  "name": "RYAN WHITE",
+  "status": "Finished",
+  "gun_time": "03:42:53",
+  "place": "124",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "62",
+  "gender_of": "74",
+  "category": "Open",
+  "category_place": "30",
+  "category_of": "30"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:29:13",
+   "run_time": "00:29:20",
+   "race_time": "00:29:20",
+   "pos": "70",
+   "tod": "07:29:20",
+   "gender": "Male",
+   "gender_pos": "43",
+   "category": "Open",
+   "category_pos": "25",
+   "speed_kmh": "10.22",
+   "pace": "05:52"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:38:43",
+   "run_time": "02:08:03",
+   "race_time": "02:08:03",
+   "pos": "132",
+   "tod": "09:08:03",
+   "gender": "Male",
+   "gender_pos": "64",
+   "category": "Open",
+   "category_pos": "30",
+   "speed_kmh": "6.46",
+   "pace": "09:16"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:56:22",
+   "run_time": "03:04:26",
+   "race_time": "03:04:26",
+   "pos": "128",
+   "tod": "10:04:26",
+   "gender": "Male",
+   "gender_pos": "62",
+   "category": "Open",
+   "category_pos": "30",
+   "speed_kmh": "7.15",
+   "pace": "08:23"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:38:27",
+   "run_time": "03:42:53",
+   "race_time": "03:42:53",
+   "pos": "124",
+   "tod": "10:42:53",
+   "gender": "Male",
+   "gender_pos": "62",
+   "category": "Open",
+   "category_pos": "30",
+   "speed_kmh": "7.26",
+   "pace": "08:15"
+  }
+ ],
+ "found": true
+}

@@ -1,0 +1,77 @@
+{
+ "id": 893,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/893",
+ "summary": {
+  "bib": "893",
+  "name": "GRACE WALLACE",
+  "status": "Finished",
+  "gun_time": "03:19:02",
+  "place": "76",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "32",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "21",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:28:44",
+   "run_time": "00:28:59",
+   "race_time": "00:28:59",
+   "pos": "62",
+   "tod": "07:28:59",
+   "gender": "Female",
+   "gender_pos": "26",
+   "category": "Open",
+   "category_pos": "18",
+   "speed_kmh": "10.34",
+   "pace": "05:47"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:22:02",
+   "run_time": "01:51:02",
+   "race_time": "01:51:02",
+   "pos": "71",
+   "tod": "08:51:02",
+   "gender": "Female",
+   "gender_pos": "28",
+   "category": "Open",
+   "category_pos": "18",
+   "speed_kmh": "7.45",
+   "pace": "08:02"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:49:26",
+   "run_time": "02:40:28",
+   "race_time": "02:40:28",
+   "pos": "72",
+   "tod": "09:40:28",
+   "gender": "Female",
+   "gender_pos": "30",
+   "category": "Open",
+   "category_pos": "20",
+   "speed_kmh": "8.22",
+   "pace": "07:17"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:38:33",
+   "run_time": "03:19:02",
+   "race_time": "03:19:02",
+   "pos": "76",
+   "tod": "10:19:02",
+   "gender": "Female",
+   "gender_pos": "32",
+   "category": "Open",
+   "category_pos": "21",
+   "speed_kmh": "8.13",
+   "pace": "07:22"
+  }
+ ],
+ "found": true
+}

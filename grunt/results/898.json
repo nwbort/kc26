@@ -1,0 +1,77 @@
+{
+ "id": 898,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/898",
+ "summary": {
+  "bib": "898",
+  "name": "LAURA WALLIS",
+  "status": "Finished",
+  "gun_time": "02:39:06",
+  "place": "23",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "6",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "4",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:24:37",
+   "run_time": "00:24:41",
+   "race_time": "00:24:41",
+   "pos": "26",
+   "tod": "07:24:41",
+   "gender": "Female",
+   "gender_pos": "9",
+   "category": "Open",
+   "category_pos": "7",
+   "speed_kmh": "12.14",
+   "pace": "04:56"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:07:52",
+   "run_time": "01:32:34",
+   "race_time": "01:32:34",
+   "pos": "27",
+   "tod": "08:32:34",
+   "gender": "Female",
+   "gender_pos": "7",
+   "category": "Open",
+   "category_pos": "4",
+   "speed_kmh": "8.94",
+   "pace": "06:42"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:38:31",
+   "run_time": "02:11:06",
+   "race_time": "02:11:06",
+   "pos": "23",
+   "tod": "09:11:06",
+   "gender": "Female",
+   "gender_pos": "5",
+   "category": "Open",
+   "category_pos": "3",
+   "speed_kmh": "10.06",
+   "pace": "05:57"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:27:59",
+   "run_time": "02:39:06",
+   "race_time": "02:39:06",
+   "pos": "23",
+   "tod": "09:39:06",
+   "gender": "Female",
+   "gender_pos": "6",
+   "category": "Open",
+   "category_pos": "4",
+   "speed_kmh": "10.18",
+   "pace": "05:53"
+  }
+ ],
+ "found": true
+}

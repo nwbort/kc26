@@ -1,0 +1,77 @@
+{
+ "id": 918,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/918",
+ "summary": {
+  "bib": "918",
+  "name": "DANIELE DANESIN",
+  "status": "Finished",
+  "gun_time": "01:58:25",
+  "place": "5",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "5",
+  "gender_of": "74",
+  "category": "Open",
+  "category_place": "5",
+  "category_of": "30"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:19:28",
+   "run_time": "00:19:30",
+   "race_time": "00:19:30",
+   "pos": "6",
+   "tod": "07:19:30",
+   "gender": "Male",
+   "gender_pos": "6",
+   "category": "Open",
+   "category_pos": "6",
+   "speed_kmh": "15.38",
+   "pace": "03:54"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "00:49:13",
+   "run_time": "01:08:44",
+   "race_time": "01:08:44",
+   "pos": "5",
+   "tod": "08:08:44",
+   "gender": "Male",
+   "gender_pos": "5",
+   "category": "Open",
+   "category_pos": "5",
+   "speed_kmh": "12.04",
+   "pace": "04:58"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:28:48",
+   "run_time": "01:37:33",
+   "race_time": "01:37:33",
+   "pos": "4",
+   "tod": "08:37:33",
+   "gender": "Male",
+   "gender_pos": "4",
+   "category": "Open",
+   "category_pos": "4",
+   "speed_kmh": "13.53",
+   "pace": "04:26"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:20:52",
+   "run_time": "01:58:25",
+   "race_time": "01:58:25",
+   "pos": "5",
+   "tod": "08:58:25",
+   "gender": "Male",
+   "gender_pos": "5",
+   "category": "Open",
+   "category_pos": "5",
+   "speed_kmh": "13.67",
+   "pace": "04:23"
+  }
+ ],
+ "found": true
+}

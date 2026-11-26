@@ -1,0 +1,77 @@
+{
+ "id": 715,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/715",
+ "summary": {
+  "bib": "715",
+  "name": "JOHN BLANKLEY",
+  "status": "Finished",
+  "gun_time": "03:56:17",
+  "place": "140",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "63",
+  "gender_of": "74",
+  "category": "Veteran 50+",
+  "category_place": "15",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:32:08",
+   "run_time": "00:32:17",
+   "race_time": "00:32:17",
+   "pos": "98",
+   "tod": "07:32:17",
+   "gender": "Male",
+   "gender_pos": "51",
+   "category": "Veteran 50+",
+   "category_pos": "10",
+   "speed_kmh": "9.29",
+   "pace": "06:27"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:33:59",
+   "run_time": "02:06:16",
+   "race_time": "02:06:16",
+   "pos": "125",
+   "tod": "09:06:16",
+   "gender": "Male",
+   "gender_pos": "60",
+   "category": "Veteran 50+",
+   "category_pos": "14",
+   "speed_kmh": "6.55",
+   "pace": "09:09"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:05:56",
+   "run_time": "03:12:13",
+   "race_time": "03:12:13",
+   "pos": "140",
+   "tod": "10:12:13",
+   "gender": "Male",
+   "gender_pos": "63",
+   "category": "Veteran 50+",
+   "category_pos": "15",
+   "speed_kmh": "6.86",
+   "pace": "08:44"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:44:04",
+   "run_time": "03:56:17",
+   "race_time": "03:56:17",
+   "pos": "140",
+   "tod": "10:56:17",
+   "gender": "Male",
+   "gender_pos": "63",
+   "category": "Veteran 50+",
+   "category_pos": "15",
+   "speed_kmh": "6.85",
+   "pace": "08:45"
+  }
+ ],
+ "found": true
+}

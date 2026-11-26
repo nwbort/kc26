@@ -1,0 +1,77 @@
+{
+ "id": 744,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/744",
+ "summary": {
+  "bib": "744",
+  "name": "KAYA CORPORAAL",
+  "status": "Finished",
+  "gun_time": "01:57:39",
+  "place": "4",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "4",
+  "gender_of": "74",
+  "category": "Open",
+  "category_place": "4",
+  "category_of": "30"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:19:22",
+   "run_time": "00:19:24",
+   "race_time": "00:19:24",
+   "pos": "4",
+   "tod": "07:19:24",
+   "gender": "Male",
+   "gender_pos": "4",
+   "category": "Open",
+   "category_pos": "4",
+   "speed_kmh": "15.45",
+   "pace": "03:52"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "00:47:44",
+   "run_time": "01:07:08",
+   "race_time": "01:07:08",
+   "pos": "4",
+   "tod": "08:07:08",
+   "gender": "Male",
+   "gender_pos": "4",
+   "category": "Open",
+   "category_pos": "4",
+   "speed_kmh": "12.33",
+   "pace": "04:51"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:30:39",
+   "run_time": "01:37:48",
+   "race_time": "01:37:48",
+   "pos": "6",
+   "tod": "08:37:48",
+   "gender": "Male",
+   "gender_pos": "6",
+   "category": "Open",
+   "category_pos": "6",
+   "speed_kmh": "13.49",
+   "pace": "04:26"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:19:51",
+   "run_time": "01:57:39",
+   "race_time": "01:57:39",
+   "pos": "4",
+   "tod": "08:57:39",
+   "gender": "Male",
+   "gender_pos": "4",
+   "category": "Open",
+   "category_pos": "4",
+   "speed_kmh": "13.76",
+   "pace": "04:21"
+  }
+ ],
+ "found": true
+}

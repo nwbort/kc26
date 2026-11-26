@@ -1,0 +1,77 @@
+{
+ "id": 878,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/878",
+ "summary": {
+  "bib": "878",
+  "name": "IAN SPICE",
+  "status": "Finished",
+  "gun_time": "04:39:25",
+  "place": "184",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "70",
+  "gender_of": "74",
+  "category": "Legend 60+",
+  "category_place": "5",
+  "category_of": "7"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:46:24",
+   "run_time": "00:46:51",
+   "race_time": "00:46:51",
+   "pos": "197",
+   "tod": "07:46:51",
+   "gender": "Male",
+   "gender_pos": "72",
+   "category": "Legend 60+",
+   "category_pos": "6",
+   "speed_kmh": "6.4",
+   "pace": "09:22"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:45:22",
+   "run_time": "02:32:13",
+   "race_time": "02:32:13",
+   "pos": "183",
+   "tod": "09:32:13",
+   "gender": "Male",
+   "gender_pos": "70",
+   "category": "Legend 60+",
+   "category_pos": "5",
+   "speed_kmh": "5.43",
+   "pace": "11:01"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:21:47",
+   "run_time": "03:54:01",
+   "race_time": "03:54:01",
+   "pos": "186",
+   "tod": "10:54:01",
+   "gender": "Male",
+   "gender_pos": "70",
+   "category": "Legend 60+",
+   "category_pos": "5",
+   "speed_kmh": "5.64",
+   "pace": "10:38"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:45:24",
+   "run_time": "04:39:25",
+   "race_time": "04:39:25",
+   "pos": "184",
+   "tod": "11:39:25",
+   "gender": "Male",
+   "gender_pos": "70",
+   "category": "Legend 60+",
+   "category_pos": "5",
+   "speed_kmh": "5.79",
+   "pace": "10:20"
+  }
+ ],
+ "found": true
+}

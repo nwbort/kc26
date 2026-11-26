@@ -1,0 +1,77 @@
+{
+ "id": 847,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/847",
+ "summary": {
+  "bib": "847",
+  "name": "NICOLLE PATERSON",
+  "status": "Finished",
+  "gun_time": "05:31:37",
+  "place": "198",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "126",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "61",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:48:52",
+   "run_time": "00:49:19",
+   "race_time": "00:49:19",
+   "pos": "202",
+   "tod": "07:49:19",
+   "gender": "Female",
+   "gender_pos": "130",
+   "category": "Open",
+   "category_pos": "61",
+   "speed_kmh": "6.08",
+   "pace": "09:51"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "02:13:31",
+   "run_time": "03:02:50",
+   "race_time": "03:02:50",
+   "pos": "198",
+   "tod": "10:02:50",
+   "gender": "Female",
+   "gender_pos": "125",
+   "category": "Open",
+   "category_pos": "60",
+   "speed_kmh": "4.52",
+   "pace": "13:14"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:28:08",
+   "run_time": "04:30:59",
+   "race_time": "04:30:59",
+   "pos": "197",
+   "tod": "11:30:59",
+   "gender": "Female",
+   "gender_pos": "126",
+   "category": "Open",
+   "category_pos": "61",
+   "speed_kmh": "4.87",
+   "pace": "12:19"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "01:00:37",
+   "run_time": "05:31:37",
+   "race_time": "05:31:37",
+   "pos": "198",
+   "tod": "12:31:37",
+   "gender": "Female",
+   "gender_pos": "126",
+   "category": "Open",
+   "category_pos": "61",
+   "speed_kmh": "4.88",
+   "pace": "12:16"
+  }
+ ],
+ "found": true
+}

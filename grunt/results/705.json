@@ -1,0 +1,77 @@
+{
+ "id": 705,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/705",
+ "summary": {
+  "bib": "705",
+  "name": "CATHERINE ATKINSON",
+  "status": "Finished",
+  "gun_time": "02:35:37",
+  "place": "19",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "2",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "2",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:24:34",
+   "run_time": "00:24:38",
+   "race_time": "00:24:38",
+   "pos": "23",
+   "tod": "07:24:38",
+   "gender": "Female",
+   "gender_pos": "6",
+   "category": "Open",
+   "category_pos": "5",
+   "speed_kmh": "12.17",
+   "pace": "04:55"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:03:12",
+   "run_time": "01:27:50",
+   "race_time": "01:27:50",
+   "pos": "18",
+   "tod": "08:27:50",
+   "gender": "Female",
+   "gender_pos": "2",
+   "category": "Open",
+   "category_pos": "2",
+   "speed_kmh": "9.42",
+   "pace": "06:21"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:40:01",
+   "run_time": "02:07:52",
+   "race_time": "02:07:52",
+   "pos": "19",
+   "tod": "09:07:52",
+   "gender": "Female",
+   "gender_pos": "3",
+   "category": "Open",
+   "category_pos": "2",
+   "speed_kmh": "10.32",
+   "pace": "05:48"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:27:45",
+   "run_time": "02:35:37",
+   "race_time": "02:35:37",
+   "pos": "19",
+   "tod": "09:35:37",
+   "gender": "Female",
+   "gender_pos": "2",
+   "category": "Open",
+   "category_pos": "2",
+   "speed_kmh": "10.4",
+   "pace": "05:45"
+  }
+ ],
+ "found": true
+}

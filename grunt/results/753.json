@@ -1,0 +1,77 @@
+{
+ "id": 753,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/753",
+ "summary": {
+  "bib": "753",
+  "name": "CALLUM FEELY",
+  "status": "Finished",
+  "gun_time": "03:30:09",
+  "place": "97",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "51",
+  "gender_of": "74",
+  "category": "Veteran 40+",
+  "category_place": "14",
+  "category_of": "20"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:30:42",
+   "run_time": "00:30:56",
+   "race_time": "00:30:56",
+   "pos": "85",
+   "tod": "07:30:56",
+   "gender": "Male",
+   "gender_pos": "49",
+   "category": "Veteran 40+",
+   "category_pos": "13",
+   "speed_kmh": "9.69",
+   "pace": "06:11"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:25:52",
+   "run_time": "01:56:49",
+   "race_time": "01:56:49",
+   "pos": "97",
+   "tod": "08:56:49",
+   "gender": "Male",
+   "gender_pos": "51",
+   "category": "Veteran 40+",
+   "category_pos": "14",
+   "speed_kmh": "7.08",
+   "pace": "08:27"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:52:34",
+   "run_time": "02:49:23",
+   "race_time": "02:49:23",
+   "pos": "91",
+   "tod": "09:49:23",
+   "gender": "Male",
+   "gender_pos": "50",
+   "category": "Veteran 40+",
+   "category_pos": "14",
+   "speed_kmh": "7.79",
+   "pace": "07:41"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:40:46",
+   "run_time": "03:30:09",
+   "race_time": "03:30:09",
+   "pos": "97",
+   "tod": "10:30:09",
+   "gender": "Male",
+   "gender_pos": "51",
+   "category": "Veteran 40+",
+   "category_pos": "14",
+   "speed_kmh": "7.7",
+   "pace": "07:47"
+  }
+ ],
+ "found": true
+}

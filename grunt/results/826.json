@@ -1,0 +1,77 @@
+{
+ "id": 826,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/826",
+ "summary": {
+  "bib": "826",
+  "name": "HEATHER MCLEOD",
+  "status": "Finished",
+  "gun_time": "06:15:47",
+  "place": "205",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "131",
+  "gender_of": "131",
+  "category": "Veteran 50+",
+  "category_place": "17",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:49:50",
+   "run_time": "00:50:17",
+   "race_time": "00:50:17",
+   "pos": "203",
+   "tod": "07:50:17",
+   "gender": "Female",
+   "gender_pos": "131",
+   "category": "Veteran 50+",
+   "category_pos": "17",
+   "speed_kmh": "5.96",
+   "pace": "10:03"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "02:43:39",
+   "run_time": "03:33:56",
+   "race_time": "03:33:56",
+   "pos": "204",
+   "tod": "10:33:56",
+   "gender": "Female",
+   "gender_pos": "131",
+   "category": "Veteran 50+",
+   "category_pos": "17",
+   "speed_kmh": "3.87",
+   "pace": "15:30"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:44:02",
+   "run_time": "05:17:59",
+   "race_time": "05:17:59",
+   "pos": "204",
+   "tod": "12:17:59",
+   "gender": "Female",
+   "gender_pos": "131",
+   "category": "Veteran 50+",
+   "category_pos": "17",
+   "speed_kmh": "4.15",
+   "pace": "14:27"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:57:48",
+   "run_time": "06:15:47",
+   "race_time": "06:15:47",
+   "pos": "205",
+   "tod": "13:15:47",
+   "gender": "Female",
+   "gender_pos": "131",
+   "category": "Veteran 50+",
+   "category_pos": "17",
+   "speed_kmh": "4.31",
+   "pace": "13:55"
+  }
+ ],
+ "found": true
+}

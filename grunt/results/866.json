@@ -1,0 +1,77 @@
+{
+ "id": 866,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/866",
+ "summary": {
+  "bib": "866",
+  "name": "PAUL SIMMONDS",
+  "status": "Finished",
+  "gun_time": "03:21:16",
+  "place": "80",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "46",
+  "gender_of": "74",
+  "category": "Open",
+  "category_place": "25",
+  "category_of": "30"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:32:32",
+   "run_time": "00:32:55",
+   "race_time": "00:32:55",
+   "pos": "103",
+   "tod": "07:32:55",
+   "gender": "Male",
+   "gender_pos": "52",
+   "category": "Open",
+   "category_pos": "29",
+   "speed_kmh": "9.11",
+   "pace": "06:35"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:22:23",
+   "run_time": "01:55:18",
+   "race_time": "01:55:18",
+   "pos": "89",
+   "tod": "08:55:18",
+   "gender": "Male",
+   "gender_pos": "49",
+   "category": "Open",
+   "category_pos": "27",
+   "speed_kmh": "7.18",
+   "pace": "08:21"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:50:43",
+   "run_time": "02:46:01",
+   "race_time": "02:46:01",
+   "pos": "82",
+   "tod": "09:46:01",
+   "gender": "Male",
+   "gender_pos": "47",
+   "category": "Open",
+   "category_pos": "26",
+   "speed_kmh": "7.95",
+   "pace": "07:32"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:35:14",
+   "run_time": "03:21:16",
+   "race_time": "03:21:16",
+   "pos": "80",
+   "tod": "10:21:16",
+   "gender": "Male",
+   "gender_pos": "46",
+   "category": "Open",
+   "category_pos": "25",
+   "speed_kmh": "8.04",
+   "pace": "07:27"
+  }
+ ],
+ "found": true
+}

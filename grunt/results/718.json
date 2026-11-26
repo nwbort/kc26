@@ -1,0 +1,77 @@
+{
+ "id": 718,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/718",
+ "summary": {
+  "bib": "718",
+  "name": "LYNDAL BLATCH",
+  "status": "Finished",
+  "gun_time": "03:42:06",
+  "place": "123",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "62",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "34",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:32:02",
+   "run_time": "00:32:15",
+   "race_time": "00:32:15",
+   "pos": "97",
+   "tod": "07:32:15",
+   "gender": "Female",
+   "gender_pos": "47",
+   "category": "Open",
+   "category_pos": "30",
+   "speed_kmh": "9.29",
+   "pace": "06:27"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:29:43",
+   "run_time": "02:01:59",
+   "race_time": "02:01:59",
+   "pos": "108",
+   "tod": "09:01:59",
+   "gender": "Female",
+   "gender_pos": "52",
+   "category": "Open",
+   "category_pos": "29",
+   "speed_kmh": "6.78",
+   "pace": "08:50"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:00:49",
+   "run_time": "03:02:48",
+   "race_time": "03:02:48",
+   "pos": "121",
+   "tod": "10:02:48",
+   "gender": "Female",
+   "gender_pos": "61",
+   "category": "Open",
+   "category_pos": "34",
+   "speed_kmh": "7.22",
+   "pace": "08:18"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:39:17",
+   "run_time": "03:42:06",
+   "race_time": "03:42:06",
+   "pos": "123",
+   "tod": "10:42:06",
+   "gender": "Female",
+   "gender_pos": "62",
+   "category": "Open",
+   "category_pos": "34",
+   "speed_kmh": "7.29",
+   "pace": "08:13"
+  }
+ ],
+ "found": true
+}

@@ -1,0 +1,77 @@
+{
+ "id": 850,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/850",
+ "summary": {
+  "bib": "850",
+  "name": "KATIE PETERS",
+  "status": "Finished",
+  "gun_time": "05:14:18",
+  "place": "193",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "123",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "43",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:47:37",
+   "run_time": "00:48:01",
+   "race_time": "00:48:01",
+   "pos": "198",
+   "tod": "07:48:01",
+   "gender": "Female",
+   "gender_pos": "126",
+   "category": "Veteran 40+",
+   "category_pos": "46",
+   "speed_kmh": "6.24",
+   "pace": "09:36"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "02:05:40",
+   "run_time": "02:53:42",
+   "race_time": "02:53:42",
+   "pos": "196",
+   "tod": "09:53:42",
+   "gender": "Female",
+   "gender_pos": "123",
+   "category": "Veteran 40+",
+   "category_pos": "43",
+   "speed_kmh": "4.76",
+   "pace": "12:35"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:28:53",
+   "run_time": "04:22:36",
+   "race_time": "04:22:36",
+   "pos": "194",
+   "tod": "11:22:36",
+   "gender": "Female",
+   "gender_pos": "123",
+   "category": "Veteran 40+",
+   "category_pos": "43",
+   "speed_kmh": "5.02",
+   "pace": "11:56"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:51:41",
+   "run_time": "05:14:18",
+   "race_time": "05:14:18",
+   "pos": "193",
+   "tod": "12:14:18",
+   "gender": "Female",
+   "gender_pos": "123",
+   "category": "Veteran 40+",
+   "category_pos": "43",
+   "speed_kmh": "5.15",
+   "pace": "11:38"
+  }
+ ],
+ "found": true
+}

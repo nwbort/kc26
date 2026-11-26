@@ -1,0 +1,77 @@
+{
+ "id": 732,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/732",
+ "summary": {
+  "bib": "732",
+  "name": "MICK BRUHN",
+  "status": "Finished",
+  "gun_time": "04:07:27",
+  "place": "162",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "67",
+  "gender_of": "74",
+  "category": "Veteran 40+",
+  "category_place": "19",
+  "category_of": "20"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:33:45",
+   "run_time": "00:33:54",
+   "race_time": "00:33:54",
+   "pos": "122",
+   "tod": "07:33:54",
+   "gender": "Male",
+   "gender_pos": "55",
+   "category": "Veteran 40+",
+   "category_pos": "14",
+   "speed_kmh": "8.84",
+   "pace": "06:46"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:39:11",
+   "run_time": "02:13:06",
+   "race_time": "02:13:06",
+   "pos": "155",
+   "tod": "09:13:06",
+   "gender": "Male",
+   "gender_pos": "67",
+   "category": "Veteran 40+",
+   "category_pos": "19",
+   "speed_kmh": "6.22",
+   "pace": "09:38"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:07:08",
+   "run_time": "03:20:15",
+   "race_time": "03:20:15",
+   "pos": "157",
+   "tod": "10:20:15",
+   "gender": "Male",
+   "gender_pos": "67",
+   "category": "Veteran 40+",
+   "category_pos": "19",
+   "speed_kmh": "6.59",
+   "pace": "09:06"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:47:11",
+   "run_time": "04:07:27",
+   "race_time": "04:07:27",
+   "pos": "162",
+   "tod": "11:07:27",
+   "gender": "Male",
+   "gender_pos": "67",
+   "category": "Veteran 40+",
+   "category_pos": "19",
+   "speed_kmh": "6.54",
+   "pace": "09:09"
+  }
+ ],
+ "found": true
+}

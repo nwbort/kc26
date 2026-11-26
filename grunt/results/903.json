@@ -1,0 +1,77 @@
+{
+ "id": 903,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/903",
+ "summary": {
+  "bib": "903",
+  "name": "LEE WEBBER",
+  "status": "Finished",
+  "gun_time": "02:43:16",
+  "place": "30",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "20",
+  "gender_of": "74",
+  "category": "Veteran 40+",
+  "category_place": "3",
+  "category_of": "20"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:24:42",
+   "run_time": "00:24:45",
+   "race_time": "00:24:45",
+   "pos": "27",
+   "tod": "07:24:45",
+   "gender": "Male",
+   "gender_pos": "18",
+   "category": "Veteran 40+",
+   "category_pos": "3",
+   "speed_kmh": "12.11",
+   "pace": "04:57"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:06:29",
+   "run_time": "01:31:15",
+   "race_time": "01:31:15",
+   "pos": "24",
+   "tod": "08:31:15",
+   "gender": "Male",
+   "gender_pos": "19",
+   "category": "Veteran 40+",
+   "category_pos": "3",
+   "speed_kmh": "9.07",
+   "pace": "06:36"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:42:13",
+   "run_time": "02:13:29",
+   "race_time": "02:13:29",
+   "pos": "29",
+   "tod": "09:13:29",
+   "gender": "Male",
+   "gender_pos": "20",
+   "category": "Veteran 40+",
+   "category_pos": "3",
+   "speed_kmh": "9.88",
+   "pace": "06:04"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:29:47",
+   "run_time": "02:43:16",
+   "race_time": "02:43:16",
+   "pos": "30",
+   "tod": "09:43:16",
+   "gender": "Male",
+   "gender_pos": "20",
+   "category": "Veteran 40+",
+   "category_pos": "3",
+   "speed_kmh": "9.92",
+   "pace": "06:02"
+  }
+ ],
+ "found": true
+}

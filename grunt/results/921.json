@@ -1,0 +1,77 @@
+{
+ "id": 921,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/921",
+ "summary": {
+  "bib": "921",
+  "name": "GRAHAM STUART",
+  "status": "Finished",
+  "gun_time": "04:13:43",
+  "place": "168",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "68",
+  "gender_of": "74",
+  "category": "Legend 60+",
+  "category_place": "3",
+  "category_of": "7"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:36:38",
+   "run_time": "00:36:55",
+   "race_time": "00:36:55",
+   "pos": "157",
+   "tod": "07:36:55",
+   "gender": "Male",
+   "gender_pos": "66",
+   "category": "Legend 60+",
+   "category_pos": "3",
+   "speed_kmh": "8.12",
+   "pace": "07:23"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:43:17",
+   "run_time": "02:20:13",
+   "race_time": "02:20:13",
+   "pos": "167",
+   "tod": "09:20:13",
+   "gender": "Male",
+   "gender_pos": "68",
+   "category": "Legend 60+",
+   "category_pos": "3",
+   "speed_kmh": "5.9",
+   "pace": "10:09"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:08:43",
+   "run_time": "03:28:57",
+   "race_time": "03:28:57",
+   "pos": "166",
+   "tod": "10:28:57",
+   "gender": "Male",
+   "gender_pos": "68",
+   "category": "Legend 60+",
+   "category_pos": "3",
+   "speed_kmh": "6.31",
+   "pace": "09:29"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:44:46",
+   "run_time": "04:13:43",
+   "race_time": "04:13:43",
+   "pos": "168",
+   "tod": "11:13:43",
+   "gender": "Male",
+   "gender_pos": "68",
+   "category": "Legend 60+",
+   "category_pos": "3",
+   "speed_kmh": "6.38",
+   "pace": "09:23"
+  }
+ ],
+ "found": true
+}

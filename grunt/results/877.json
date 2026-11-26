@@ -1,0 +1,77 @@
+{
+ "id": 877,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/877",
+ "summary": {
+  "bib": "877",
+  "name": "TIM SUNDERLAND",
+  "status": "Finished",
+  "gun_time": "04:00:51",
+  "place": "151",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "65",
+  "gender_of": "74",
+  "category": "Veteran 40+",
+  "category_place": "18",
+  "category_of": "20"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:35:22",
+   "run_time": "00:35:32",
+   "race_time": "00:35:32",
+   "pos": "137",
+   "tod": "07:35:32",
+   "gender": "Male",
+   "gender_pos": "59",
+   "category": "Veteran 40+",
+   "category_pos": "15",
+   "speed_kmh": "8.43",
+   "pace": "07:06"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:31:51",
+   "run_time": "02:07:24",
+   "race_time": "02:07:24",
+   "pos": "128",
+   "tod": "09:07:24",
+   "gender": "Male",
+   "gender_pos": "62",
+   "category": "Veteran 40+",
+   "category_pos": "18",
+   "speed_kmh": "6.49",
+   "pace": "09:13"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:12:20",
+   "run_time": "03:19:45",
+   "race_time": "03:19:45",
+   "pos": "152",
+   "tod": "10:19:45",
+   "gender": "Male",
+   "gender_pos": "66",
+   "category": "Veteran 40+",
+   "category_pos": "18",
+   "speed_kmh": "6.6",
+   "pace": "09:04"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:41:06",
+   "run_time": "04:00:51",
+   "race_time": "04:00:51",
+   "pos": "151",
+   "tod": "11:00:51",
+   "gender": "Male",
+   "gender_pos": "65",
+   "category": "Veteran 40+",
+   "category_pos": "18",
+   "speed_kmh": "6.72",
+   "pace": "08:55"
+  }
+ ],
+ "found": true
+}

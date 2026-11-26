@@ -1,0 +1,77 @@
+{
+ "id": 769,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/769",
+ "summary": {
+  "bib": "769",
+  "name": "DAMIEN GROVER",
+  "status": "Finished",
+  "gun_time": "02:47:51",
+  "place": "36",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "22",
+  "gender_of": "74",
+  "category": "Veteran 50+",
+  "category_place": "3",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:25:14",
+   "run_time": "00:25:19",
+   "race_time": "00:25:19",
+   "pos": "32",
+   "tod": "07:25:19",
+   "gender": "Male",
+   "gender_pos": "22",
+   "category": "Veteran 50+",
+   "category_pos": "1",
+   "speed_kmh": "11.84",
+   "pace": "05:03"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:11:15",
+   "run_time": "01:36:34",
+   "race_time": "01:36:34",
+   "pos": "36",
+   "tod": "08:36:34",
+   "gender": "Male",
+   "gender_pos": "23",
+   "category": "Veteran 50+",
+   "category_pos": "3",
+   "speed_kmh": "8.57",
+   "pace": "06:59"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:42:38",
+   "run_time": "02:19:13",
+   "race_time": "02:19:13",
+   "pos": "37",
+   "tod": "09:19:13",
+   "gender": "Male",
+   "gender_pos": "22",
+   "category": "Veteran 50+",
+   "category_pos": "3",
+   "speed_kmh": "9.48",
+   "pace": "06:19"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:28:37",
+   "run_time": "02:47:51",
+   "race_time": "02:47:51",
+   "pos": "36",
+   "tod": "09:47:51",
+   "gender": "Male",
+   "gender_pos": "22",
+   "category": "Veteran 50+",
+   "category_pos": "3",
+   "speed_kmh": "9.65",
+   "pace": "06:13"
+  }
+ ],
+ "found": true
+}

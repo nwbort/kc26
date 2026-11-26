@@ -1,0 +1,77 @@
+{
+ "id": 861,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/861",
+ "summary": {
+  "bib": "861",
+  "name": "CLAIRE ROGERS",
+  "status": "Finished",
+  "gun_time": "04:24:01",
+  "place": "175",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "106",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "37",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:38:24",
+   "run_time": "00:38:44",
+   "race_time": "00:38:44",
+   "pos": "173",
+   "tod": "07:38:44",
+   "gender": "Female",
+   "gender_pos": "104",
+   "category": "Veteran 40+",
+   "category_pos": "37",
+   "speed_kmh": "7.74",
+   "pace": "07:44"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:48:33",
+   "run_time": "02:27:18",
+   "race_time": "02:27:18",
+   "pos": "177",
+   "tod": "09:27:18",
+   "gender": "Female",
+   "gender_pos": "108",
+   "category": "Veteran 40+",
+   "category_pos": "37",
+   "speed_kmh": "5.62",
+   "pace": "10:40"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:09:15",
+   "run_time": "03:36:33",
+   "race_time": "03:36:33",
+   "pos": "173",
+   "tod": "10:36:33",
+   "gender": "Female",
+   "gender_pos": "104",
+   "category": "Veteran 40+",
+   "category_pos": "37",
+   "speed_kmh": "6.09",
+   "pace": "09:50"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:47:28",
+   "run_time": "04:24:01",
+   "race_time": "04:24:01",
+   "pos": "175",
+   "tod": "11:24:01",
+   "gender": "Female",
+   "gender_pos": "106",
+   "category": "Veteran 40+",
+   "category_pos": "37",
+   "speed_kmh": "6.13",
+   "pace": "09:46"
+  }
+ ],
+ "found": true
+}

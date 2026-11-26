@@ -1,0 +1,77 @@
+{
+ "id": 764,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/764",
+ "summary": {
+  "bib": "764",
+  "name": "TOM GREENSLADE",
+  "status": "Finished",
+  "gun_time": "03:32:33",
+  "place": "101",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "54",
+  "gender_of": "74",
+  "category": "Veteran 40+",
+  "category_place": "15",
+  "category_of": "20"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:35:57",
+   "run_time": "00:36:19",
+   "race_time": "00:36:19",
+   "pos": "151",
+   "tod": "07:36:19",
+   "gender": "Male",
+   "gender_pos": "63",
+   "category": "Veteran 40+",
+   "category_pos": "18",
+   "speed_kmh": "8.25",
+   "pace": "07:15"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:22:33",
+   "run_time": "01:58:53",
+   "race_time": "01:58:53",
+   "pos": "102",
+   "tod": "08:58:53",
+   "gender": "Male",
+   "gender_pos": "54",
+   "category": "Veteran 40+",
+   "category_pos": "15",
+   "speed_kmh": "6.96",
+   "pace": "08:36"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:56:46",
+   "run_time": "02:55:39",
+   "race_time": "02:55:39",
+   "pos": "104",
+   "tod": "09:55:39",
+   "gender": "Male",
+   "gender_pos": "55",
+   "category": "Veteran 40+",
+   "category_pos": "15",
+   "speed_kmh": "7.51",
+   "pace": "07:59"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:36:53",
+   "run_time": "03:32:33",
+   "race_time": "03:32:33",
+   "pos": "101",
+   "tod": "10:32:33",
+   "gender": "Male",
+   "gender_pos": "54",
+   "category": "Veteran 40+",
+   "category_pos": "15",
+   "speed_kmh": "7.62",
+   "pace": "07:52"
+  }
+ ],
+ "found": true
+}

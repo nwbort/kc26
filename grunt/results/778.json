@@ -1,0 +1,77 @@
+{
+ "id": 778,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/778",
+ "summary": {
+  "bib": "778",
+  "name": "TAMARA HOGG",
+  "status": "Finished",
+  "gun_time": "04:31:26",
+  "place": "180",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "111",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "38",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:43:15",
+   "run_time": "00:43:26",
+   "race_time": "00:43:26",
+   "pos": "186",
+   "tod": "07:43:26",
+   "gender": "Female",
+   "gender_pos": "116",
+   "category": "Veteran 40+",
+   "category_pos": "39",
+   "speed_kmh": "6.9",
+   "pace": "08:41"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:47:02",
+   "run_time": "02:30:29",
+   "race_time": "02:30:29",
+   "pos": "181",
+   "tod": "09:30:29",
+   "gender": "Female",
+   "gender_pos": "112",
+   "category": "Veteran 40+",
+   "category_pos": "39",
+   "speed_kmh": "5.5",
+   "pace": "10:54"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:16:05",
+   "run_time": "03:46:35",
+   "race_time": "03:46:35",
+   "pos": "181",
+   "tod": "10:46:35",
+   "gender": "Female",
+   "gender_pos": "112",
+   "category": "Veteran 40+",
+   "category_pos": "40",
+   "speed_kmh": "5.82",
+   "pace": "10:17"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:44:51",
+   "run_time": "04:31:26",
+   "race_time": "04:31:26",
+   "pos": "180",
+   "tod": "11:31:26",
+   "gender": "Female",
+   "gender_pos": "111",
+   "category": "Veteran 40+",
+   "category_pos": "38",
+   "speed_kmh": "5.96",
+   "pace": "10:03"
+  }
+ ],
+ "found": true
+}

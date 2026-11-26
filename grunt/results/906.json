@@ -1,0 +1,77 @@
+{
+ "id": 906,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/906",
+ "summary": {
+  "bib": "906",
+  "name": "ALEXA WEGENER",
+  "status": "Finished",
+  "gun_time": "03:46:01",
+  "place": "132",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "70",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "37",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:34:34",
+   "run_time": "00:34:49",
+   "race_time": "00:34:49",
+   "pos": "132",
+   "tod": "07:34:49",
+   "gender": "Female",
+   "gender_pos": "75",
+   "category": "Open",
+   "category_pos": "39",
+   "speed_kmh": "8.61",
+   "pace": "06:57"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:30:49",
+   "run_time": "02:05:39",
+   "race_time": "02:05:39",
+   "pos": "124",
+   "tod": "09:05:39",
+   "gender": "Female",
+   "gender_pos": "65",
+   "category": "Open",
+   "category_pos": "34",
+   "speed_kmh": "6.58",
+   "pace": "09:06"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:58:30",
+   "run_time": "03:04:10",
+   "race_time": "03:04:10",
+   "pos": "126",
+   "tod": "10:04:10",
+   "gender": "Female",
+   "gender_pos": "65",
+   "category": "Open",
+   "category_pos": "36",
+   "speed_kmh": "7.16",
+   "pace": "08:22"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:41:51",
+   "run_time": "03:46:01",
+   "race_time": "03:46:01",
+   "pos": "132",
+   "tod": "10:46:01",
+   "gender": "Female",
+   "gender_pos": "70",
+   "category": "Open",
+   "category_pos": "37",
+   "speed_kmh": "7.16",
+   "pace": "08:22"
+  }
+ ],
+ "found": true
+}

@@ -1,0 +1,77 @@
+{
+ "id": 922,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/922",
+ "summary": {
+  "bib": "922",
+  "name": "JOHANNAH JAGGER",
+  "status": "Finished",
+  "gun_time": "02:39:24",
+  "place": "25",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "7",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "5",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:24:17",
+   "run_time": "00:24:21",
+   "race_time": "00:24:21",
+   "pos": "20",
+   "tod": "07:24:21",
+   "gender": "Female",
+   "gender_pos": "3",
+   "category": "Open",
+   "category_pos": "3",
+   "speed_kmh": "12.31",
+   "pace": "04:52"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:06:33",
+   "run_time": "01:30:54",
+   "race_time": "01:30:54",
+   "pos": "21",
+   "tod": "08:30:54",
+   "gender": "Female",
+   "gender_pos": "4",
+   "category": "Open",
+   "category_pos": "3",
+   "speed_kmh": "9.1",
+   "pace": "06:35"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:40:53",
+   "run_time": "02:11:48",
+   "race_time": "02:11:48",
+   "pos": "26",
+   "tod": "09:11:48",
+   "gender": "Female",
+   "gender_pos": "7",
+   "category": "Open",
+   "category_pos": "5",
+   "speed_kmh": "10.01",
+   "pace": "05:59"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:27:36",
+   "run_time": "02:39:24",
+   "race_time": "02:39:24",
+   "pos": "25",
+   "tod": "09:39:24",
+   "gender": "Female",
+   "gender_pos": "7",
+   "category": "Open",
+   "category_pos": "5",
+   "speed_kmh": "10.16",
+   "pace": "05:54"
+  }
+ ],
+ "found": true
+}

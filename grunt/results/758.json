@@ -1,0 +1,77 @@
+{
+ "id": 758,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/758",
+ "summary": {
+  "bib": "758",
+  "name": "SHEREE GAMBLE",
+  "status": "Finished",
+  "gun_time": "03:41:18",
+  "place": "117",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "58",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "32",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:31:40",
+   "run_time": "00:31:52",
+   "race_time": "00:31:52",
+   "pos": "93",
+   "tod": "07:31:52",
+   "gender": "Female",
+   "gender_pos": "43",
+   "category": "Open",
+   "category_pos": "28",
+   "speed_kmh": "9.41",
+   "pace": "06:22"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:37:01",
+   "run_time": "02:08:53",
+   "race_time": "02:08:53",
+   "pos": "139",
+   "tod": "09:08:53",
+   "gender": "Female",
+   "gender_pos": "75",
+   "category": "Open",
+   "category_pos": "37",
+   "speed_kmh": "6.42",
+   "pace": "09:20"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:51:37",
+   "run_time": "03:00:31",
+   "race_time": "03:00:31",
+   "pos": "116",
+   "tod": "10:00:31",
+   "gender": "Female",
+   "gender_pos": "56",
+   "category": "Open",
+   "category_pos": "32",
+   "speed_kmh": "7.31",
+   "pace": "08:12"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:40:47",
+   "run_time": "03:41:18",
+   "race_time": "03:41:18",
+   "pos": "117",
+   "tod": "10:41:18",
+   "gender": "Female",
+   "gender_pos": "58",
+   "category": "Open",
+   "category_pos": "32",
+   "speed_kmh": "7.32",
+   "pace": "08:11"
+  }
+ ],
+ "found": true
+}

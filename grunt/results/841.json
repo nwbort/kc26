@@ -1,0 +1,77 @@
+{
+ "id": 841,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/841",
+ "summary": {
+  "bib": "841",
+  "name": "ELLA NEAL",
+  "status": "Finished",
+  "gun_time": "03:45:24",
+  "place": "130",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "68",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "36",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:42:55",
+   "run_time": "00:43:17",
+   "race_time": "00:43:17",
+   "pos": "184",
+   "tod": "07:43:17",
+   "gender": "Female",
+   "gender_pos": "114",
+   "category": "Open",
+   "category_pos": "57",
+   "speed_kmh": "6.92",
+   "pace": "08:39"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:26:26",
+   "run_time": "02:09:43",
+   "race_time": "02:09:43",
+   "pos": "143",
+   "tod": "09:09:43",
+   "gender": "Female",
+   "gender_pos": "79",
+   "category": "Open",
+   "category_pos": "40",
+   "speed_kmh": "6.38",
+   "pace": "09:24"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:59:56",
+   "run_time": "03:09:40",
+   "race_time": "03:09:40",
+   "pos": "138",
+   "tod": "10:09:40",
+   "gender": "Female",
+   "gender_pos": "76",
+   "category": "Open",
+   "category_pos": "41",
+   "speed_kmh": "6.95",
+   "pace": "08:37"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:35:44",
+   "run_time": "03:45:24",
+   "race_time": "03:45:24",
+   "pos": "130",
+   "tod": "10:45:24",
+   "gender": "Female",
+   "gender_pos": "68",
+   "category": "Open",
+   "category_pos": "36",
+   "speed_kmh": "7.18",
+   "pace": "08:20"
+  }
+ ],
+ "found": true
+}

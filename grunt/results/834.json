@@ -1,0 +1,77 @@
+{
+ "id": 834,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/834",
+ "summary": {
+  "bib": "834",
+  "name": "COURTNEY MOLLOY",
+  "status": "Finished",
+  "gun_time": "04:00:42",
+  "place": "149",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "85",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "44",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:34:22",
+   "run_time": "00:34:34",
+   "race_time": "00:34:34",
+   "pos": "128",
+   "tod": "07:34:34",
+   "gender": "Female",
+   "gender_pos": "72",
+   "category": "Open",
+   "category_pos": "38",
+   "speed_kmh": "8.67",
+   "pace": "06:54"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:35:46",
+   "run_time": "02:10:21",
+   "race_time": "02:10:21",
+   "pos": "145",
+   "tod": "09:10:21",
+   "gender": "Female",
+   "gender_pos": "81",
+   "category": "Open",
+   "category_pos": "41",
+   "speed_kmh": "6.35",
+   "pace": "09:26"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:09:17",
+   "run_time": "03:19:38",
+   "race_time": "03:19:38",
+   "pos": "151",
+   "tod": "10:19:38",
+   "gender": "Female",
+   "gender_pos": "86",
+   "category": "Open",
+   "category_pos": "45",
+   "speed_kmh": "6.61",
+   "pace": "09:04"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:41:03",
+   "run_time": "04:00:42",
+   "race_time": "04:00:42",
+   "pos": "149",
+   "tod": "11:00:42",
+   "gender": "Female",
+   "gender_pos": "85",
+   "category": "Open",
+   "category_pos": "44",
+   "speed_kmh": "6.73",
+   "pace": "08:54"
+  }
+ ],
+ "found": true
+}

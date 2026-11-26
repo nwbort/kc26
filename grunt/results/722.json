@@ -1,0 +1,77 @@
+{
+ "id": 722,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/722",
+ "summary": {
+  "bib": "722",
+  "name": "JODY BOLGER",
+  "status": "Finished",
+  "gun_time": "03:08:44",
+  "place": "55",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "23",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "16",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:28:44",
+   "run_time": "00:28:50",
+   "race_time": "00:28:50",
+   "pos": "59",
+   "tod": "07:28:50",
+   "gender": "Female",
+   "gender_pos": "24",
+   "category": "Open",
+   "category_pos": "16",
+   "speed_kmh": "10.39",
+   "pace": "05:46"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:17:54",
+   "run_time": "01:46:44",
+   "race_time": "01:46:44",
+   "pos": "60",
+   "tod": "08:46:44",
+   "gender": "Female",
+   "gender_pos": "23",
+   "category": "Open",
+   "category_pos": "16",
+   "speed_kmh": "7.75",
+   "pace": "07:44"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:49:22",
+   "run_time": "02:36:07",
+   "race_time": "02:36:07",
+   "pos": "62",
+   "tod": "09:36:07",
+   "gender": "Female",
+   "gender_pos": "23",
+   "category": "Open",
+   "category_pos": "16",
+   "speed_kmh": "8.45",
+   "pace": "07:05"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:32:37",
+   "run_time": "03:08:44",
+   "race_time": "03:08:44",
+   "pos": "55",
+   "tod": "10:08:44",
+   "gender": "Female",
+   "gender_pos": "23",
+   "category": "Open",
+   "category_pos": "16",
+   "speed_kmh": "8.58",
+   "pace": "06:59"
+  }
+ ],
+ "found": true
+}

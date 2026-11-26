@@ -1,0 +1,77 @@
+{
+ "id": 888,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/888",
+ "summary": {
+  "bib": "888",
+  "name": "RUTH TRAMSCHEK",
+  "status": "Finished",
+  "gun_time": "03:43:22",
+  "place": "125",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "63",
+  "gender_of": "131",
+  "category": "Veteran 50+",
+  "category_place": "5",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:32:56",
+   "run_time": "00:33:13",
+   "race_time": "00:33:13",
+   "pos": "112",
+   "tod": "07:33:13",
+   "gender": "Female",
+   "gender_pos": "59",
+   "category": "Veteran 50+",
+   "category_pos": "2",
+   "speed_kmh": "9.03",
+   "pace": "06:38"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:23:18",
+   "run_time": "01:56:31",
+   "race_time": "01:56:31",
+   "pos": "94",
+   "tod": "08:56:31",
+   "gender": "Female",
+   "gender_pos": "44",
+   "category": "Veteran 50+",
+   "category_pos": "3",
+   "speed_kmh": "7.1",
+   "pace": "08:26"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:04:39",
+   "run_time": "03:01:11",
+   "race_time": "03:01:11",
+   "pos": "118",
+   "tod": "10:01:11",
+   "gender": "Female",
+   "gender_pos": "58",
+   "category": "Veteran 50+",
+   "category_pos": "3",
+   "speed_kmh": "7.28",
+   "pace": "08:14"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:42:10",
+   "run_time": "03:43:22",
+   "race_time": "03:43:22",
+   "pos": "125",
+   "tod": "10:43:22",
+   "gender": "Female",
+   "gender_pos": "63",
+   "category": "Veteran 50+",
+   "category_pos": "5",
+   "speed_kmh": "7.25",
+   "pace": "08:16"
+  }
+ ],
+ "found": true
+}

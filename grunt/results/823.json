@@ -1,0 +1,77 @@
+{
+ "id": 823,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/823",
+ "summary": {
+  "bib": "823",
+  "name": "SARAH MCINTOSH",
+  "status": "Finished",
+  "gun_time": "03:41:36",
+  "place": "120",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "60",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "24",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:33:00",
+   "run_time": "00:33:05",
+   "race_time": "00:33:05",
+   "pos": "105",
+   "tod": "07:33:05",
+   "gender": "Female",
+   "gender_pos": "53",
+   "category": "Veteran 40+",
+   "category_pos": "21",
+   "speed_kmh": "9.06",
+   "pace": "06:37"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:32:30",
+   "run_time": "02:05:35",
+   "race_time": "02:05:35",
+   "pos": "123",
+   "tod": "09:05:35",
+   "gender": "Female",
+   "gender_pos": "64",
+   "category": "Veteran 40+",
+   "category_pos": "26",
+   "speed_kmh": "6.59",
+   "pace": "09:06"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:56:57",
+   "run_time": "03:02:33",
+   "race_time": "03:02:33",
+   "pos": "119",
+   "tod": "10:02:33",
+   "gender": "Female",
+   "gender_pos": "59",
+   "category": "Veteran 40+",
+   "category_pos": "24",
+   "speed_kmh": "7.23",
+   "pace": "08:17"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:39:02",
+   "run_time": "03:41:36",
+   "race_time": "03:41:36",
+   "pos": "120",
+   "tod": "10:41:36",
+   "gender": "Female",
+   "gender_pos": "60",
+   "category": "Veteran 40+",
+   "category_pos": "24",
+   "speed_kmh": "7.31",
+   "pace": "08:12"
+  }
+ ],
+ "found": true
+}

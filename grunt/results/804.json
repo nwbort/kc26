@@ -1,0 +1,77 @@
+{
+ "id": 804,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/804",
+ "summary": {
+  "bib": "804",
+  "name": "AMIE LIMBRICK",
+  "status": "Finished",
+  "gun_time": "03:11:19",
+  "place": "64",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "24",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "17",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:32:58",
+   "run_time": "00:33:12",
+   "race_time": "00:33:12",
+   "pos": "111",
+   "tod": "07:33:12",
+   "gender": "Female",
+   "gender_pos": "58",
+   "category": "Open",
+   "category_pos": "32",
+   "speed_kmh": "9.03",
+   "pace": "06:38"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:20:30",
+   "run_time": "01:53:42",
+   "race_time": "01:53:42",
+   "pos": "83",
+   "tod": "08:53:42",
+   "gender": "Female",
+   "gender_pos": "36",
+   "category": "Open",
+   "category_pos": "22",
+   "speed_kmh": "7.28",
+   "pace": "08:14"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:46:52",
+   "run_time": "02:40:34",
+   "race_time": "02:40:34",
+   "pos": "73",
+   "tod": "09:40:34",
+   "gender": "Female",
+   "gender_pos": "31",
+   "category": "Open",
+   "category_pos": "21",
+   "speed_kmh": "8.22",
+   "pace": "07:17"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:30:44",
+   "run_time": "03:11:19",
+   "race_time": "03:11:19",
+   "pos": "64",
+   "tod": "10:11:19",
+   "gender": "Female",
+   "gender_pos": "24",
+   "category": "Open",
+   "category_pos": "17",
+   "speed_kmh": "8.46",
+   "pace": "07:05"
+  }
+ ],
+ "found": true
+}

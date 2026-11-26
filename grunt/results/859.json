@@ -1,0 +1,77 @@
+{
+ "id": 859,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/859",
+ "summary": {
+  "bib": "859",
+  "name": "ANJA ROBERTS",
+  "status": "Finished",
+  "gun_time": "05:36:27",
+  "place": "200",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "127",
+  "gender_of": "131",
+  "category": "Veteran 50+",
+  "category_place": "16",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:44:47",
+   "run_time": "00:45:12",
+   "race_time": "00:45:12",
+   "pos": "194",
+   "tod": "07:45:12",
+   "gender": "Female",
+   "gender_pos": "123",
+   "category": "Veteran 50+",
+   "category_pos": "16",
+   "speed_kmh": "6.63",
+   "pace": "09:02"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "02:22:37",
+   "run_time": "03:07:49",
+   "race_time": "03:07:49",
+   "pos": "200",
+   "tod": "10:07:49",
+   "gender": "Female",
+   "gender_pos": "127",
+   "category": "Veteran 50+",
+   "category_pos": "16",
+   "speed_kmh": "4.4",
+   "pace": "13:36"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:26:30",
+   "run_time": "04:34:20",
+   "race_time": "04:34:20",
+   "pos": "199",
+   "tod": "11:34:20",
+   "gender": "Female",
+   "gender_pos": "127",
+   "category": "Veteran 50+",
+   "category_pos": "16",
+   "speed_kmh": "4.81",
+   "pace": "12:28"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "01:02:07",
+   "run_time": "05:36:27",
+   "race_time": "05:36:27",
+   "pos": "200",
+   "tod": "12:36:27",
+   "gender": "Female",
+   "gender_pos": "127",
+   "category": "Veteran 50+",
+   "category_pos": "16",
+   "speed_kmh": "4.81",
+   "pace": "12:27"
+  }
+ ],
+ "found": true
+}

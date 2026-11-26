@@ -1,0 +1,77 @@
+{
+ "id": 885,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/885",
+ "summary": {
+  "bib": "885",
+  "name": "RHIANNON THRUPP",
+  "status": "Finished",
+  "gun_time": "03:50:02",
+  "place": "137",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "75",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "40",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:35:13",
+   "run_time": "00:35:36",
+   "race_time": "00:35:36",
+   "pos": "140",
+   "tod": "07:35:36",
+   "gender": "Female",
+   "gender_pos": "81",
+   "category": "Open",
+   "category_pos": "41",
+   "speed_kmh": "8.42",
+   "pace": "07:07"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:33:27",
+   "run_time": "02:09:04",
+   "race_time": "02:09:04",
+   "pos": "141",
+   "tod": "09:09:04",
+   "gender": "Female",
+   "gender_pos": "77",
+   "category": "Open",
+   "category_pos": "38",
+   "speed_kmh": "6.41",
+   "pace": "09:21"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:59:54",
+   "run_time": "03:08:58",
+   "race_time": "03:08:58",
+   "pos": "134",
+   "tod": "10:08:58",
+   "gender": "Female",
+   "gender_pos": "72",
+   "category": "Open",
+   "category_pos": "39",
+   "speed_kmh": "6.98",
+   "pace": "08:35"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:41:03",
+   "run_time": "03:50:02",
+   "race_time": "03:50:02",
+   "pos": "137",
+   "tod": "10:50:02",
+   "gender": "Female",
+   "gender_pos": "75",
+   "category": "Open",
+   "category_pos": "40",
+   "speed_kmh": "7.04",
+   "pace": "08:31"
+  }
+ ],
+ "found": true
+}

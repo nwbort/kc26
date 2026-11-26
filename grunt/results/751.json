@@ -1,0 +1,77 @@
+{
+ "id": 751,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/751",
+ "summary": {
+  "bib": "751",
+  "name": "MEGAN ELLIS",
+  "status": "Finished",
+  "gun_time": "04:29:56",
+  "place": "178",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "109",
+  "gender_of": "131",
+  "category": "Veteran 50+",
+  "category_place": "12",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:39:51",
+   "run_time": "00:40:07",
+   "race_time": "00:40:07",
+   "pos": "178",
+   "tod": "07:40:07",
+   "gender": "Female",
+   "gender_pos": "109",
+   "category": "Veteran 50+",
+   "category_pos": "12",
+   "speed_kmh": "7.47",
+   "pace": "08:01"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:48:50",
+   "run_time": "02:28:58",
+   "race_time": "02:28:58",
+   "pos": "179",
+   "tod": "09:28:58",
+   "gender": "Female",
+   "gender_pos": "110",
+   "category": "Veteran 50+",
+   "category_pos": "11",
+   "speed_kmh": "5.55",
+   "pace": "10:47"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:12:00",
+   "run_time": "03:40:58",
+   "race_time": "03:40:58",
+   "pos": "176",
+   "tod": "10:40:58",
+   "gender": "Female",
+   "gender_pos": "107",
+   "category": "Veteran 50+",
+   "category_pos": "10",
+   "speed_kmh": "5.97",
+   "pace": "10:02"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:48:58",
+   "run_time": "04:29:56",
+   "race_time": "04:29:56",
+   "pos": "178",
+   "tod": "11:29:56",
+   "gender": "Female",
+   "gender_pos": "109",
+   "category": "Veteran 50+",
+   "category_pos": "12",
+   "speed_kmh": "6",
+   "pace": "09:59"
+  }
+ ],
+ "found": true
+}

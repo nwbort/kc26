@@ -1,0 +1,77 @@
+{
+ "id": 802,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/802",
+ "summary": {
+  "bib": "802",
+  "name": "GIGI LAROCHE",
+  "status": "Finished",
+  "gun_time": "04:17:39",
+  "place": "169",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "101",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "52",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:39:05",
+   "run_time": "00:39:19",
+   "race_time": "00:39:19",
+   "pos": "176",
+   "tod": "07:39:19",
+   "gender": "Female",
+   "gender_pos": "107",
+   "category": "Open",
+   "category_pos": "55",
+   "speed_kmh": "7.62",
+   "pace": "07:51"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:43:14",
+   "run_time": "02:22:34",
+   "race_time": "02:22:34",
+   "pos": "173",
+   "tod": "09:22:34",
+   "gender": "Female",
+   "gender_pos": "104",
+   "category": "Open",
+   "category_pos": "54",
+   "speed_kmh": "5.8",
+   "pace": "10:19"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:09:05",
+   "run_time": "03:31:40",
+   "race_time": "03:31:40",
+   "pos": "169",
+   "tod": "10:31:40",
+   "gender": "Female",
+   "gender_pos": "101",
+   "category": "Open",
+   "category_pos": "52",
+   "speed_kmh": "6.23",
+   "pace": "09:37"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:45:58",
+   "run_time": "04:17:39",
+   "race_time": "04:17:39",
+   "pos": "169",
+   "tod": "11:17:39",
+   "gender": "Female",
+   "gender_pos": "101",
+   "category": "Open",
+   "category_pos": "52",
+   "speed_kmh": "6.28",
+   "pace": "09:32"
+  }
+ ],
+ "found": true
+}

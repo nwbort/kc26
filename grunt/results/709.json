@@ -1,0 +1,77 @@
+{
+ "id": 709,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/709",
+ "summary": {
+  "bib": "709",
+  "name": "KIMBERLEY BARTON",
+  "status": "Finished",
+  "gun_time": "04:03:38",
+  "place": "155",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "90",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "47",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:33:22",
+   "run_time": "00:33:30",
+   "race_time": "00:33:30",
+   "pos": "118",
+   "tod": "07:33:30",
+   "gender": "Female",
+   "gender_pos": "65",
+   "category": "Open",
+   "category_pos": "35",
+   "speed_kmh": "8.95",
+   "pace": "06:42"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:42:54",
+   "run_time": "02:16:24",
+   "race_time": "02:16:24",
+   "pos": "161",
+   "tod": "09:16:24",
+   "gender": "Female",
+   "gender_pos": "94",
+   "category": "Open",
+   "category_pos": "48",
+   "speed_kmh": "6.06",
+   "pace": "09:53"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:03:44",
+   "run_time": "03:20:09",
+   "race_time": "03:20:09",
+   "pos": "154",
+   "tod": "10:20:09",
+   "gender": "Female",
+   "gender_pos": "88",
+   "category": "Open",
+   "category_pos": "46",
+   "speed_kmh": "6.59",
+   "pace": "09:05"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:43:28",
+   "run_time": "04:03:38",
+   "race_time": "04:03:38",
+   "pos": "155",
+   "tod": "11:03:38",
+   "gender": "Female",
+   "gender_pos": "90",
+   "category": "Open",
+   "category_pos": "47",
+   "speed_kmh": "6.64",
+   "pace": "09:01"
+  }
+ ],
+ "found": true
+}

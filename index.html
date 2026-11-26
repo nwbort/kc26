@@ -11,7 +11,7 @@
 <body>
   <main class="wrap">
     <header class="top">
-      <p class="eyebrow">Kepler Challenge 60 km · <span id="raceDate"></span></p>
+      <p class="eyebrow">Kepler Challenge 60 km · <span id="raceDate"></span> · <a href="grunt.html">Luxmore Grunt →</a></p>
       <h1>When will <span id="runnerName">our runner</span> finish?</h1>
       <p class="sub">Type in checkpoint times from the <a id="trackLink" href="#" target="_blank" rel="noopener">live tracking</a>. Estimates come from how comparable runners went in 2025.</p>
     </header>
@@ -64,8 +64,8 @@
           <label>Goal finish (h:mm)
             <input id="goalIn" inputmode="numeric" autocomplete="off">
           </label>
-          <label>Start time (24h, NZ)
-            <input id="startIn" inputmode="numeric" autocomplete="off">
+          <label>Start time (NZ)
+            <input id="startIn" type="time" step="60">
           </label>
           <label>Comparable band: from percentile
             <input id="bandLo" type="number" min="0" max="99" step="1">

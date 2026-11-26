@@ -1,0 +1,77 @@
+{
+ "id": 782,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/782",
+ "summary": {
+  "bib": "782",
+  "name": "SOPHIE HURSTHOUSE",
+  "status": "Finished",
+  "gun_time": "04:09:54",
+  "place": "164",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "97",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "50",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:48:27",
+   "run_time": "00:48:42",
+   "race_time": "00:48:42",
+   "pos": "199",
+   "tod": "07:48:42",
+   "gender": "Female",
+   "gender_pos": "127",
+   "category": "Open",
+   "category_pos": "59",
+   "speed_kmh": "6.16",
+   "pace": "09:44"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:29:02",
+   "run_time": "02:17:44",
+   "race_time": "02:17:44",
+   "pos": "164",
+   "tod": "09:17:44",
+   "gender": "Female",
+   "gender_pos": "97",
+   "category": "Open",
+   "category_pos": "49",
+   "speed_kmh": "6.01",
+   "pace": "09:58"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:06:03",
+   "run_time": "03:23:48",
+   "race_time": "03:23:48",
+   "pos": "161",
+   "tod": "10:23:48",
+   "gender": "Female",
+   "gender_pos": "94",
+   "category": "Open",
+   "category_pos": "48",
+   "speed_kmh": "6.47",
+   "pace": "09:15"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:46:06",
+   "run_time": "04:09:54",
+   "race_time": "04:09:54",
+   "pos": "164",
+   "tod": "11:09:54",
+   "gender": "Female",
+   "gender_pos": "97",
+   "category": "Open",
+   "category_pos": "50",
+   "speed_kmh": "6.48",
+   "pace": "09:15"
+  }
+ ],
+ "found": true
+}

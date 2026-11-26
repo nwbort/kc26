@@ -1,0 +1,77 @@
+{
+ "id": 741,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/741",
+ "summary": {
+  "bib": "741",
+  "name": "LINDA COLLARD",
+  "status": "Finished",
+  "gun_time": "05:00:53",
+  "place": "191",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "121",
+  "gender_of": "131",
+  "category": "Legend 60+",
+  "category_place": "6",
+  "category_of": "6"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:41:01",
+   "run_time": "00:41:25",
+   "race_time": "00:41:25",
+   "pos": "182",
+   "tod": "07:41:25",
+   "gender": "Female",
+   "gender_pos": "112",
+   "category": "Legend 60+",
+   "category_pos": "6",
+   "speed_kmh": "7.24",
+   "pace": "08:17"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "02:05:33",
+   "run_time": "02:46:58",
+   "race_time": "02:46:58",
+   "pos": "191",
+   "tod": "09:46:58",
+   "gender": "Female",
+   "gender_pos": "120",
+   "category": "Legend 60+",
+   "category_pos": "6",
+   "speed_kmh": "4.95",
+   "pace": "12:06"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:25:30",
+   "run_time": "04:12:29",
+   "race_time": "04:12:29",
+   "pos": "190",
+   "tod": "11:12:29",
+   "gender": "Female",
+   "gender_pos": "120",
+   "category": "Legend 60+",
+   "category_pos": "6",
+   "speed_kmh": "5.22",
+   "pace": "11:28"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:48:24",
+   "run_time": "05:00:53",
+   "race_time": "05:00:53",
+   "pos": "191",
+   "tod": "12:00:53",
+   "gender": "Female",
+   "gender_pos": "121",
+   "category": "Legend 60+",
+   "category_pos": "6",
+   "speed_kmh": "5.38",
+   "pace": "11:08"
+  }
+ ],
+ "found": true
+}

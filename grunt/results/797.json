@@ -1,0 +1,77 @@
+{
+ "id": 797,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/797",
+ "summary": {
+  "bib": "797",
+  "name": "SAGAR KHEMANI",
+  "status": "Finished",
+  "gun_time": "02:10:33",
+  "place": "11",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "11",
+  "gender_of": "74",
+  "category": "Open",
+  "category_place": "10",
+  "category_of": "30"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:19:59",
+   "run_time": "00:20:01",
+   "race_time": "00:20:01",
+   "pos": "9",
+   "tod": "07:20:01",
+   "gender": "Male",
+   "gender_pos": "9",
+   "category": "Open",
+   "category_pos": "8",
+   "speed_kmh": "14.97",
+   "pace": "04:00"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "00:56:02",
+   "run_time": "01:16:04",
+   "race_time": "01:16:04",
+   "pos": "11",
+   "tod": "08:16:04",
+   "gender": "Male",
+   "gender_pos": "11",
+   "category": "Open",
+   "category_pos": "10",
+   "speed_kmh": "10.88",
+   "pace": "05:30"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:31:20",
+   "run_time": "01:47:25",
+   "race_time": "01:47:25",
+   "pos": "11",
+   "tod": "08:47:25",
+   "gender": "Male",
+   "gender_pos": "11",
+   "category": "Open",
+   "category_pos": "10",
+   "speed_kmh": "12.28",
+   "pace": "04:52"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:23:08",
+   "run_time": "02:10:33",
+   "race_time": "02:10:33",
+   "pos": "11",
+   "tod": "09:10:33",
+   "gender": "Male",
+   "gender_pos": "11",
+   "category": "Open",
+   "category_pos": "10",
+   "speed_kmh": "12.4",
+   "pace": "04:50"
+  }
+ ],
+ "found": true
+}

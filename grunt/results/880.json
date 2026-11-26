@@ -1,0 +1,77 @@
+{
+ "id": 880,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/880",
+ "summary": {
+  "bib": "880",
+  "name": "MICHAEL SUTTON",
+  "status": "Finished",
+  "gun_time": "01:54:53",
+  "place": "2",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "2",
+  "gender_of": "74",
+  "category": "Open",
+  "category_place": "2",
+  "category_of": "30"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:19:19",
+   "run_time": "00:19:21",
+   "race_time": "00:19:21",
+   "pos": "3",
+   "tod": "07:19:21",
+   "gender": "Male",
+   "gender_pos": "3",
+   "category": "Open",
+   "category_pos": "3",
+   "speed_kmh": "15.5",
+   "pace": "03:52"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "00:45:08",
+   "run_time": "01:04:29",
+   "race_time": "01:04:29",
+   "pos": "2",
+   "tod": "08:04:29",
+   "gender": "Male",
+   "gender_pos": "2",
+   "category": "Open",
+   "category_pos": "2",
+   "speed_kmh": "12.83",
+   "pace": "04:40"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:29:55",
+   "run_time": "01:34:24",
+   "race_time": "01:34:24",
+   "pos": "2",
+   "tod": "08:34:24",
+   "gender": "Male",
+   "gender_pos": "2",
+   "category": "Open",
+   "category_pos": "2",
+   "speed_kmh": "13.98",
+   "pace": "04:17"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:20:28",
+   "run_time": "01:54:53",
+   "race_time": "01:54:53",
+   "pos": "2",
+   "tod": "08:54:53",
+   "gender": "Male",
+   "gender_pos": "2",
+   "category": "Open",
+   "category_pos": "2",
+   "speed_kmh": "14.1",
+   "pace": "04:15"
+  }
+ ],
+ "found": true
+}

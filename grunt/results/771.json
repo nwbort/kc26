@@ -1,0 +1,77 @@
+{
+ "id": 771,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/771",
+ "summary": {
+  "bib": "771",
+  "name": "COURTNEY HANSEN",
+  "status": "Finished",
+  "gun_time": "03:38:40",
+  "place": "112",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "54",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "30",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:31:01",
+   "run_time": "00:31:12",
+   "race_time": "00:31:12",
+   "pos": "89",
+   "tod": "07:31:12",
+   "gender": "Female",
+   "gender_pos": "40",
+   "category": "Open",
+   "category_pos": "25",
+   "speed_kmh": "9.61",
+   "pace": "06:14"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:30:51",
+   "run_time": "02:02:04",
+   "race_time": "02:02:04",
+   "pos": "110",
+   "tod": "09:02:04",
+   "gender": "Female",
+   "gender_pos": "54",
+   "category": "Open",
+   "category_pos": "31",
+   "speed_kmh": "6.78",
+   "pace": "08:50"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:56:37",
+   "run_time": "02:58:41",
+   "race_time": "02:58:41",
+   "pos": "113",
+   "tod": "09:58:41",
+   "gender": "Female",
+   "gender_pos": "54",
+   "category": "Open",
+   "category_pos": "30",
+   "speed_kmh": "7.38",
+   "pace": "08:07"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:39:58",
+   "run_time": "03:38:40",
+   "race_time": "03:38:40",
+   "pos": "112",
+   "tod": "10:38:40",
+   "gender": "Female",
+   "gender_pos": "54",
+   "category": "Open",
+   "category_pos": "30",
+   "speed_kmh": "7.4",
+   "pace": "08:05"
+  }
+ ],
+ "found": true
+}

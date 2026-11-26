@@ -1,0 +1,77 @@
+{
+ "id": 838,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/838",
+ "summary": {
+  "bib": "838",
+  "name": "HOLLIE MORTON",
+  "status": "Finished",
+  "gun_time": "02:36:36",
+  "place": "20",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "3",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "1",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:24:39",
+   "run_time": "00:24:45",
+   "race_time": "00:24:45",
+   "pos": "28",
+   "tod": "07:24:45",
+   "gender": "Female",
+   "gender_pos": "10",
+   "category": "Veteran 40+",
+   "category_pos": "3",
+   "speed_kmh": "12.11",
+   "pace": "04:57"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:05:38",
+   "run_time": "01:30:23",
+   "race_time": "01:30:23",
+   "pos": "19",
+   "tod": "08:30:23",
+   "gender": "Female",
+   "gender_pos": "3",
+   "category": "Veteran 40+",
+   "category_pos": "1",
+   "speed_kmh": "9.15",
+   "pace": "06:33"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:37:19",
+   "run_time": "02:07:43",
+   "race_time": "02:07:43",
+   "pos": "18",
+   "tod": "09:07:43",
+   "gender": "Female",
+   "gender_pos": "2",
+   "category": "Veteran 40+",
+   "category_pos": "1",
+   "speed_kmh": "10.33",
+   "pace": "05:48"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:28:52",
+   "run_time": "02:36:36",
+   "race_time": "02:36:36",
+   "pos": "20",
+   "tod": "09:36:36",
+   "gender": "Female",
+   "gender_pos": "3",
+   "category": "Veteran 40+",
+   "category_pos": "1",
+   "speed_kmh": "10.34",
+   "pace": "05:48"
+  }
+ ],
+ "found": true
+}

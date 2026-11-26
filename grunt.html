@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grunt Finish Estimator</title>
+  <meta name="description" content="When will they finish the Luxmore Grunt? Live estimates from 2025 checkpoint splits.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M2 28 L12 8 L18 18 L22 12 L30 28 Z' fill='%23257de0'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="wrap">
+    <header class="top">
+      <p class="eyebrow">Luxmore Grunt 27 km · <span id="raceDate"></span> · <a href="index.html">Kepler Challenge →</a></p>
+      <h1>When will <span id="runnerName">our runner</span> finish?</h1>
+      <p class="sub">Type in checkpoint times from the <a id="trackLink" href="#" target="_blank" rel="noopener">live tracking</a>. Estimates come from how comparable runners went in 2025.</p>
+    </header>
+
+    <div id="demoBanner" class="banner" hidden>
+      <strong>Demo data.</strong> These numbers come from synthetic results until the real 2025 splits are loaded. Don't plan your day around them yet.
+    </div>
+    <div id="loadError" class="banner error" hidden></div>
+
+    <section class="hero" aria-live="polite">
+      <p class="hero-label" id="heroLabel">Goal finish</p>
+      <p class="hero-main"><span id="heroClock">–</span></p>
+      <p class="hero-meta" id="heroMeta"></p>
+      <p class="hero-basis" id="heroBasis"></p>
+    </section>
+
+    <section class="card">
+      <div class="card-head">
+        <h2>Checkpoints</h2>
+        <div class="seg" role="radiogroup" aria-label="Times entered as">
+          <button type="button" role="radio" data-mode="race" aria-checked="true">Race time</button>
+          <button type="button" role="radio" data-mode="clock" aria-checked="false">Clock time</button>
+        </div>
+      </div>
+      <p class="hint" id="modeHint"></p>
+      <div class="table-scroll">
+        <table class="cps">
+          <thead>
+            <tr><th>Checkpoint</th><th>Plan</th><th>Actual</th><th>Estimate</th></tr>
+          </thead>
+          <tbody id="cpBody"></tbody>
+        </table>
+      </div>
+      <div class="row-actions">
+        <button type="button" id="clearBtn" class="ghost">Clear entered times</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 id="chartTitle">Finish time spread</h2>
+      <p class="hint" id="chartHint"></p>
+      <div id="chart" class="chart"></div>
+      <div id="tip" class="tip" hidden></div>
+    </section>
+
+    <section class="card">
+      <details>
+        <summary>Settings</summary>
+        <div class="settings">
+          <label>Goal finish (h:mm)
+            <input id="goalIn" inputmode="numeric" autocomplete="off">
+          </label>
+          <label>Start time (NZ)
+            <input id="startIn" type="time" step="60">
+          </label>
+          <label>Comparable band: from percentile
+            <input id="bandLo" type="number" min="0" max="99" step="1">
+          </label>
+          <label>to percentile
+            <input id="bandHi" type="number" min="1" max="100" step="1">
+          </label>
+          <label>Compare with
+            <select id="genderIn">
+              <option value="all">Everyone</option>
+              <option value="M">Men</option>
+              <option value="F">Women</option>
+            </select>
+          </label>
+          <p class="hint" id="bandInfo"></p>
+          <button type="button" id="resetBtn" class="ghost">Reset to defaults</button>
+        </div>
+      </details>
+    </section>
+
+    <section class="card how">
+      <details>
+        <summary>How the estimate works</summary>
+        <ol>
+          <li><strong>Pool.</strong> Take the 2025 finishers, sort them by finish time, and keep a fixed percentile band (default 10th–75th). That drops the elites and the back of the field, whose pacing doesn't transfer well.</li>
+          <li><strong>Plan.</strong> Before any checkpoint is entered, the plan shows the typical splits of pool runners who finished close to the goal time.</li>
+          <li><strong>Projection.</strong> Once a time is entered at a checkpoint, each pool runner's later splits are scaled to it. A runner who reached Luxmore Hut in 2:00 and finished in 3:30 becomes "×1.75 from Luxmore". Runners whose time at that checkpoint was closest to the entered one get the most weight.</li>
+          <li><strong>Range.</strong> The estimate is the weighted median. The range shown is the middle 50% (25th–75th percentile), and the chart shows the full spread.</li>
+        </ol>
+        <p><strong>How accurate is it?</strong> Tested on the 2025 field (each runner projected from the others), the estimate was unbiased. Its typical miss was about 7 min from Brod Bay, 3 min from Luxmore Hut and 2 min from Brod Bay on the way back. Half of runners finished inside the range shown.</p>
+        <p>It only uses the latest checkpoint entered. Weather, a bad patch or a great descent can move things a lot, especially early on.</p>
+        <p class="hint" id="dataInfo"></p>
+      </details>
+    </section>
+  </main>
+
+  <script src="grunt-config.js"></script>
+  <script src="model.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

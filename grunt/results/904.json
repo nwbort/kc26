@@ -1,0 +1,77 @@
+{
+ "id": 904,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/904",
+ "summary": {
+  "bib": "904",
+  "name": "CARLY WEBBER",
+  "status": "Finished",
+  "gun_time": "03:59:09",
+  "place": "146",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "83",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "33",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:33:50",
+   "run_time": "00:34:03",
+   "race_time": "00:34:03",
+   "pos": "125",
+   "tod": "07:34:03",
+   "gender": "Female",
+   "gender_pos": "70",
+   "category": "Veteran 40+",
+   "category_pos": "30",
+   "speed_kmh": "8.81",
+   "pace": "06:48"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:34:37",
+   "run_time": "02:08:40",
+   "race_time": "02:08:40",
+   "pos": "137",
+   "tod": "09:08:40",
+   "gender": "Female",
+   "gender_pos": "73",
+   "category": "Veteran 40+",
+   "category_pos": "31",
+   "speed_kmh": "6.43",
+   "pace": "09:19"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:07:20",
+   "run_time": "03:16:00",
+   "race_time": "03:16:00",
+   "pos": "145",
+   "tod": "10:16:00",
+   "gender": "Female",
+   "gender_pos": "81",
+   "category": "Veteran 40+",
+   "category_pos": "33",
+   "speed_kmh": "6.73",
+   "pace": "08:54"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:43:09",
+   "run_time": "03:59:09",
+   "race_time": "03:59:09",
+   "pos": "146",
+   "tod": "10:59:09",
+   "gender": "Female",
+   "gender_pos": "83",
+   "category": "Veteran 40+",
+   "category_pos": "33",
+   "speed_kmh": "6.77",
+   "pace": "08:51"
+  }
+ ],
+ "found": true
+}

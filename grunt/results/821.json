@@ -1,0 +1,77 @@
+{
+ "id": 821,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/821",
+ "summary": {
+  "bib": "821",
+  "name": "ZINTA MCGUINNIETY",
+  "status": "Finished",
+  "gun_time": "02:39:14",
+  "place": "24",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "18",
+  "gender_of": "74",
+  "category": "Veteran 50+",
+  "category_place": "1",
+  "category_of": "17"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:25:18",
+   "run_time": "00:25:24",
+   "race_time": "00:25:24",
+   "pos": "34",
+   "tod": "07:25:24",
+   "gender": "Male",
+   "gender_pos": "24",
+   "category": "Veteran 50+",
+   "category_pos": "3",
+   "speed_kmh": "11.8",
+   "pace": "05:04"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:05:48",
+   "run_time": "01:31:12",
+   "race_time": "01:31:12",
+   "pos": "23",
+   "tod": "08:31:12",
+   "gender": "Male",
+   "gender_pos": "18",
+   "category": "Veteran 50+",
+   "category_pos": "1",
+   "speed_kmh": "9.07",
+   "pace": "06:36"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:40:15",
+   "run_time": "02:11:27",
+   "race_time": "02:11:27",
+   "pos": "25",
+   "tod": "09:11:27",
+   "gender": "Male",
+   "gender_pos": "19",
+   "category": "Veteran 50+",
+   "category_pos": "1",
+   "speed_kmh": "10.04",
+   "pace": "05:58"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:27:46",
+   "run_time": "02:39:14",
+   "race_time": "02:39:14",
+   "pos": "24",
+   "tod": "09:39:14",
+   "gender": "Male",
+   "gender_pos": "18",
+   "category": "Veteran 50+",
+   "category_pos": "1",
+   "speed_kmh": "10.17",
+   "pace": "05:53"
+  }
+ ],
+ "found": true
+}

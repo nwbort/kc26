@@ -1,0 +1,77 @@
+{
+ "id": 714,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/714",
+ "summary": {
+  "bib": "714",
+  "name": "PETER BLAKELY",
+  "status": "Finished",
+  "gun_time": "03:10:37",
+  "place": "60",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "37",
+  "gender_of": "74",
+  "category": "Open",
+  "category_place": "22",
+  "category_of": "30"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:29:01",
+   "run_time": "00:30:44",
+   "race_time": "00:30:44",
+   "pos": "78",
+   "tod": "07:30:44",
+   "gender": "Male",
+   "gender_pos": "48",
+   "category": "Open",
+   "category_pos": "27",
+   "speed_kmh": "9.76",
+   "pace": "06:08"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:19:41",
+   "run_time": "01:50:25",
+   "race_time": "01:50:25",
+   "pos": "68",
+   "tod": "08:50:25",
+   "gender": "Male",
+   "gender_pos": "42",
+   "category": "Open",
+   "category_pos": "23",
+   "speed_kmh": "7.49",
+   "pace": "08:00"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:51:42",
+   "run_time": "02:42:07",
+   "race_time": "02:42:07",
+   "pos": "74",
+   "tod": "09:42:07",
+   "gender": "Male",
+   "gender_pos": "43",
+   "category": "Open",
+   "category_pos": "24",
+   "speed_kmh": "8.14",
+   "pace": "07:22"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:28:29",
+   "run_time": "03:10:37",
+   "race_time": "03:10:37",
+   "pos": "60",
+   "tod": "10:10:37",
+   "gender": "Male",
+   "gender_pos": "37",
+   "category": "Open",
+   "category_pos": "22",
+   "speed_kmh": "8.49",
+   "pace": "07:03"
+  }
+ ],
+ "found": true
+}

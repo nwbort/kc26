@@ -1,0 +1,77 @@
+{
+ "id": 762,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/762",
+ "summary": {
+  "bib": "762",
+  "name": "JACK GILLIES",
+  "status": "Finished",
+  "gun_time": "03:10:48",
+  "place": "62",
+  "place_of": "205",
+  "gender": "Male",
+  "gender_place": "39",
+  "gender_of": "74",
+  "category": "Open",
+  "category_place": "24",
+  "category_of": "30"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:28:08",
+   "run_time": "00:28:17",
+   "race_time": "00:28:17",
+   "pos": "54",
+   "tod": "07:28:17",
+   "gender": "Male",
+   "gender_pos": "33",
+   "category": "Open",
+   "category_pos": "21",
+   "speed_kmh": "10.6",
+   "pace": "05:39"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:18:00",
+   "run_time": "01:46:17",
+   "race_time": "01:46:17",
+   "pos": "58",
+   "tod": "08:46:17",
+   "gender": "Male",
+   "gender_pos": "37",
+   "category": "Open",
+   "category_pos": "22",
+   "speed_kmh": "7.79",
+   "pace": "07:42"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:44:59",
+   "run_time": "02:31:17",
+   "race_time": "02:31:17",
+   "pos": "52",
+   "tod": "09:31:17",
+   "gender": "Male",
+   "gender_pos": "32",
+   "category": "Open",
+   "category_pos": "19",
+   "speed_kmh": "8.72",
+   "pace": "06:52"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:39:31",
+   "run_time": "03:10:48",
+   "race_time": "03:10:48",
+   "pos": "62",
+   "tod": "10:10:48",
+   "gender": "Male",
+   "gender_pos": "39",
+   "category": "Open",
+   "category_pos": "24",
+   "speed_kmh": "8.49",
+   "pace": "07:04"
+  }
+ ],
+ "found": true
+}

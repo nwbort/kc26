@@ -1,0 +1,77 @@
+{
+ "id": 729,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/729",
+ "summary": {
+  "bib": "729",
+  "name": "NICHY BROWN",
+  "status": "Finished",
+  "gun_time": "03:22:36",
+  "place": "85",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "38",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "15",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:30:39",
+   "run_time": "00:30:46",
+   "race_time": "00:30:46",
+   "pos": "79",
+   "tod": "07:30:46",
+   "gender": "Female",
+   "gender_pos": "31",
+   "category": "Veteran 40+",
+   "category_pos": "10",
+   "speed_kmh": "9.74",
+   "pace": "06:09"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:24:33",
+   "run_time": "01:55:20",
+   "race_time": "01:55:20",
+   "pos": "90",
+   "tod": "08:55:20",
+   "gender": "Female",
+   "gender_pos": "41",
+   "category": "Veteran 40+",
+   "category_pos": "15",
+   "speed_kmh": "7.17",
+   "pace": "08:21"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:52:10",
+   "run_time": "02:47:31",
+   "race_time": "02:47:31",
+   "pos": "86",
+   "tod": "09:47:31",
+   "gender": "Female",
+   "gender_pos": "38",
+   "category": "Veteran 40+",
+   "category_pos": "15",
+   "speed_kmh": "7.87",
+   "pace": "07:36"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:35:05",
+   "run_time": "03:22:36",
+   "race_time": "03:22:36",
+   "pos": "85",
+   "tod": "10:22:36",
+   "gender": "Female",
+   "gender_pos": "38",
+   "category": "Veteran 40+",
+   "category_pos": "15",
+   "speed_kmh": "7.99",
+   "pace": "07:30"
+  }
+ ],
+ "found": true
+}

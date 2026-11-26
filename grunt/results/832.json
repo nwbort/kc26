@@ -1,0 +1,77 @@
+{
+ "id": 832,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/832",
+ "summary": {
+  "bib": "832",
+  "name": "ELICIA MILNE",
+  "status": "Finished",
+  "gun_time": "03:26:49",
+  "place": "93",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "44",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "25",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:31:04",
+   "run_time": "00:31:17",
+   "race_time": "00:31:17",
+   "pos": "92",
+   "tod": "07:31:17",
+   "gender": "Female",
+   "gender_pos": "42",
+   "category": "Open",
+   "category_pos": "27",
+   "speed_kmh": "9.58",
+   "pace": "06:15"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:23:59",
+   "run_time": "01:55:17",
+   "race_time": "01:55:17",
+   "pos": "88",
+   "tod": "08:55:17",
+   "gender": "Female",
+   "gender_pos": "40",
+   "category": "Open",
+   "category_pos": "24",
+   "speed_kmh": "7.18",
+   "pace": "08:21"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:55:17",
+   "run_time": "02:50:34",
+   "race_time": "02:50:34",
+   "pos": "95",
+   "tod": "09:50:34",
+   "gender": "Female",
+   "gender_pos": "44",
+   "category": "Open",
+   "category_pos": "25",
+   "speed_kmh": "7.73",
+   "pace": "07:45"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:36:14",
+   "run_time": "03:26:49",
+   "race_time": "03:26:49",
+   "pos": "93",
+   "tod": "10:26:49",
+   "gender": "Female",
+   "gender_pos": "44",
+   "category": "Open",
+   "category_pos": "25",
+   "speed_kmh": "7.83",
+   "pace": "07:39"
+  }
+ ],
+ "found": true
+}

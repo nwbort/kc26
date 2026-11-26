@@ -1,0 +1,77 @@
+{
+ "id": 803,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/803",
+ "summary": {
+  "bib": "803",
+  "name": "NESSA LEGG",
+  "status": "Finished",
+  "gun_time": "03:21:46",
+  "place": "81",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "35",
+  "gender_of": "131",
+  "category": "Veteran 40+",
+  "category_place": "12",
+  "category_of": "47"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:30:38",
+   "run_time": "00:30:50",
+   "race_time": "00:30:50",
+   "pos": "81",
+   "tod": "07:30:50",
+   "gender": "Female",
+   "gender_pos": "33",
+   "category": "Veteran 40+",
+   "category_pos": "11",
+   "speed_kmh": "9.72",
+   "pace": "06:10"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:24:25",
+   "run_time": "01:55:15",
+   "race_time": "01:55:15",
+   "pos": "87",
+   "tod": "08:55:15",
+   "gender": "Female",
+   "gender_pos": "39",
+   "category": "Veteran 40+",
+   "category_pos": "14",
+   "speed_kmh": "7.18",
+   "pace": "08:21"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "00:51:50",
+   "run_time": "02:47:05",
+   "race_time": "02:47:05",
+   "pos": "85",
+   "tod": "09:47:05",
+   "gender": "Female",
+   "gender_pos": "37",
+   "category": "Veteran 40+",
+   "category_pos": "14",
+   "speed_kmh": "7.89",
+   "pace": "07:35"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:34:40",
+   "run_time": "03:21:46",
+   "race_time": "03:21:46",
+   "pos": "81",
+   "tod": "10:21:46",
+   "gender": "Female",
+   "gender_pos": "35",
+   "category": "Veteran 40+",
+   "category_pos": "12",
+   "speed_kmh": "8.02",
+   "pace": "07:28"
+  }
+ ],
+ "found": true
+}

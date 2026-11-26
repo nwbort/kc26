@@ -1,0 +1,77 @@
+{
+ "id": 915,
+ "url": "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025/events/2/results/individuals/915",
+ "summary": {
+  "bib": "915",
+  "name": "THERESA WOESSNER",
+  "status": "Finished",
+  "gun_time": "03:56:33",
+  "place": "141",
+  "place_of": "205",
+  "gender": "Female",
+  "gender_place": "78",
+  "gender_of": "131",
+  "category": "Open",
+  "category_place": "42",
+  "category_of": "61"
+ },
+ "splits": [
+  {
+   "location": "RUN 5KM",
+   "split": "00:33:04",
+   "run_time": "00:33:17",
+   "race_time": "00:33:17",
+   "pos": "114",
+   "tod": "07:33:17",
+   "gender": "Female",
+   "gender_pos": "61",
+   "category": "Open",
+   "category_pos": "33",
+   "speed_kmh": "9.01",
+   "pace": "06:39"
+  },
+  {
+   "location": "RUN 13.8KM",
+   "split": "01:34:32",
+   "run_time": "02:07:49",
+   "race_time": "02:07:49",
+   "pos": "131",
+   "tod": "09:07:49",
+   "gender": "Female",
+   "gender_pos": "68",
+   "category": "Open",
+   "category_pos": "36",
+   "speed_kmh": "6.47",
+   "pace": "09:15"
+  },
+  {
+   "location": "RUN 22KM",
+   "split": "01:06:30",
+   "run_time": "03:14:19",
+   "race_time": "03:14:19",
+   "pos": "142",
+   "tod": "10:14:19",
+   "gender": "Female",
+   "gender_pos": "78",
+   "category": "Open",
+   "category_pos": "42",
+   "speed_kmh": "6.79",
+   "pace": "08:49"
+  },
+  {
+   "location": "RUN 27KM",
+   "split": "00:42:13",
+   "run_time": "03:56:33",
+   "race_time": "03:56:33",
+   "pos": "141",
+   "tod": "10:56:33",
+   "gender": "Female",
+   "gender_pos": "78",
+   "category": "Open",
+   "category_pos": "42",
+   "speed_kmh": "6.84",
+   "pace": "08:45"
+  }
+ ],
+ "found": true
+}
