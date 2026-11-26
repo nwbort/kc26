@@ -1,4 +1,53 @@
-# kc26
+# Kepler Challenge finish estimator
+
+A static page that supporters use to answer "when will they finish?" on race
+day. They type in checkpoint times from live tracking, and the page projects
+the remaining checkpoints and the finish from how comparable 2025 runners went.
+
+## How the estimate works
+
+1. **Pool:** 2025 finishers in a fixed percentile band of finish time
+   (default 10th–75th, set in `config.js`). This excludes the elites and the
+   back of the field.
+2. **Plan (pre-race):** the median split fractions of pool runners who
+   finished near the goal time, scaled to the goal.
+3. **Live:** given time `T` at the latest checkpoint `k`, every pool runner's
+   later split `j` becomes `T × t_j / t_k`. Runners whose time at `k` was
+   close to `T` are weighted more (Gaussian kernel on log time, which widens
+   when too few runners match). The page shows the weighted median and the
+   25–75% range.
+
+## Files
+
+| File | Purpose |
+|---|---|
+| `index.html`, `style.css`, `app.js` | The page (no build step, no dependencies) |
+| `model.js` | Estimation maths (pure JS, also runs in node) |
+| `config.js` | **Edit me:** name, bib, goal, start time, band, checkpoint names |
+| `data/results-2025.json` | 2025 splits used by the model |
+| `scripts/build_data.py` | Converts `splits.csv` into the JSON the page loads |
+| `scrape.py`, `parse.py`, `results/`, `splits.csv` | Scraper and raw 2025 results (below) |
+
+## Rebuilding the data
+
+```sh
+python3 scripts/build_data.py splits.csv
+```
+
+This writes `data/results-2025.json` (gun/race time at each checkpoint, plus
+bib, gender and category; names are dropped). The script also accepts a wide
+CSV with one column per checkpoint, or pasted per-athlete split tables; see
+its docstring.
+
+## Run locally / deploy
+
+```sh
+python3 -m http.server   # then open http://localhost:8000
+```
+
+GitHub Pages: Settings → Pages → Deploy from a branch → `main` / `(root)`.
+
+## Scraping the 2025 results
 
 Scrapes individual results for the
 [FreshChoice Kepler Challenge 2025](https://www.sportsplits.com/races/freshchoice-kepler-challenge-2025)
@@ -11,7 +60,7 @@ Action drives a real Chrome under Xvfb with
 [nodriver](https://github.com/ultrafunkamsterdam/nodriver) to clear it, then
 loads each results page in the same browser session.
 
-## Running it
+### Running it
 
 The [Scrape results](.github/workflows/scrape.yml) workflow runs when the
 scraper changes, or by hand from the Actions tab (Run workflow), where the
@@ -23,7 +72,7 @@ Locally: `pip install -r requirements.txt`, then
 `xvfb-run -a python scrape.py --start 1 --end 499`. `python parse.py`
 rebuilds the CSVs from `results/`.
 
-## Output
+### Output
 
 - `results.csv`: one row per individual: `id, bib, name, status, gun_time,
   place, place_of, gender, gender_place, gender_of, category,
