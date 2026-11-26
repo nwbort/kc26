@@ -1,0 +1,16 @@
+{
+  "name": "Grunt Finish Estimator",
+  "short_name": "Grunt ETA",
+  "id": "./grunt.html",
+  "start_url": "./grunt.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f5f6f4",
+  "theme_color": "#f5f6f4",
+  "icons": [
+    { "src": "icons/grunt-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/grunt-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/grunt-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/grunt-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
