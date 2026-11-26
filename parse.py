@@ -13,8 +13,9 @@ the page has rather than relying on particular class names:
 - embedded: JSON the page carries inline (an Inertia data-page attribute,
   __NEXT_DATA__, <script type="application/json">, Livewire snapshots).
 
-Writes results/<n>.json for each page, results.json with them all, and
-results.csv with one row per individual and a column per field.
+Writes results/<n>.json for each page, results.json with them all,
+results.csv with one row per individual and a column per field, and
+splits.csv with one row per individual per checkpoint (see parse_splits).
 
 Usage: parse.py [PAGES_DIR]
 """
@@ -204,6 +205,91 @@ def parse_page(html: str) -> dict:
     }
 
 
+SPLIT_COLUMNS = [
+    "id",
+    "name",
+    "gender",
+    "category",
+    "location",
+    "split",
+    "run_time",
+    "race_time",
+    "pos",
+    "gender_pos",
+    "category_pos",
+    "speed_kmh",
+    "pace",
+    "tod",
+]
+
+# Fixed headers of the splits table, by the column they fill. The two
+# columns between "Pos" and "Speed/Pace" are headed by the athlete's own
+# gender and category ("Male", "Open"), so those are taken by position.
+_SPLIT_HEADERS = {
+    "location": "location",
+    "split": "split",
+    "run time": "run_time",
+    "race time": "race_time",
+    "pos": "pos",
+    "tod": "tod",
+}
+
+
+def _norm(header: str) -> str:
+    return re.sub(r"\s+", " ", header).strip().lower()
+
+
+def find_splits_table(tables: list[dict]) -> dict | None:
+    """The table headed Location | Split | Run Time | Race Time | Pos | ..."""
+    for t in tables:
+        headers = [_norm(h) for h in t["headers"]]
+        if "location" in headers and "split" in headers and "pos" in headers:
+            return t
+    return None
+
+
+def parse_splits(result: dict) -> list[dict]:
+    """The splits table as one dict per checkpoint, keyed by SPLIT_COLUMNS:
+
+        Location  Split     Run Time  Race Time Pos Male Open Speed/Pace    TOD
+        RUN 5KM   00:28:22  00:28:40  00:28:40  101 82   48   10.46 / 05:44 06:28:40
+    """
+    table = find_splits_table(result["tables"])
+    if table is None:
+        return []
+    headers = [_norm(h) for h in table["headers"]]
+    pos_i = headers.index("pos")
+    speed_i = next((i for i, h in enumerate(headers) if "speed" in h or "pace" in h), None)
+    # Columns after Pos and before Speed/Pace: gender, then category.
+    extra = list(range(pos_i + 1, speed_i if speed_i is not None else len(headers)))
+    extra = [i for i in extra if headers[i] not in _SPLIT_HEADERS]
+    gender_i = extra[0] if len(extra) > 0 else None
+    category_i = extra[1] if len(extra) > 1 else None
+
+    name = result["headings"][0]["text"] if result["headings"] else ""
+    rows = []
+    for cells in table["rows"]:
+        if len(cells) != len(headers):
+            continue
+        row = {c: "" for c in SPLIT_COLUMNS}
+        row["id"] = result["id"]
+        row["name"] = name
+        for i, h in enumerate(headers):
+            if h in _SPLIT_HEADERS:
+                row[_SPLIT_HEADERS[h]] = cells[i]
+        if gender_i is not None:
+            row["gender"] = table["headers"][gender_i].strip()
+            row["gender_pos"] = cells[gender_i]
+        if category_i is not None:
+            row["category"] = table["headers"][category_i].strip()
+            row["category_pos"] = cells[category_i]
+        if speed_i is not None:
+            speed, _, pace = cells[speed_i].partition("/")
+            row["speed_kmh"], row["pace"] = speed.strip(), pace.strip()
+        rows.append(row)
+    return rows
+
+
 def page_number(path: str) -> int:
     return int(os.path.splitext(os.path.basename(path))[0])
 
@@ -243,7 +329,17 @@ def main() -> int:
             name = r["headings"][0]["text"] if r["headings"] else ""
             w.writerow([r["id"], name, *(r["fields"].get(c, "") for c in columns)])
 
+    splits = [row for r in results for row in parse_splits(r)]
+    with open("splits.csv", "w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=SPLIT_COLUMNS)
+        w.writeheader()
+        w.writerows(splits)
+    without = [r["id"] for r in results if not parse_splits(r)]
+
     print(f"Parsed {len(results)} page(s) into {RESULTS_DIR}/, results.json, results.csv")
+    print(f"Wrote {len(splits)} split(s) to splits.csv")
+    if without:
+        print(f"No splits table on {len(without)} page(s): {', '.join(map(str, without))}")
     return 0
 
 

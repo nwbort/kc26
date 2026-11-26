@@ -31,6 +31,12 @@ Locally: `pip install -r requirements.txt`, then
   `tables` (e.g. the splits) and any `embedded` JSON.
 - `results.json`: all of the above in one file.
 - `results.csv`: one row per individual, a column per field.
+- `splits.csv`: the splits table for everyone, one row per individual per
+  checkpoint: `id, name, gender, category, location, split, run_time,
+  race_time, pos, gender_pos, category_pos, speed_kmh, pace, tod`. The
+  table's "Male"/"Open" style columns are the athlete's own gender and
+  category, so their headers go in `gender`/`category` and the positions in
+  `gender_pos`/`category_pos`.
 
 `parse.py` only reads `pages/`, so it can be refined and re-run without
 scraping again.

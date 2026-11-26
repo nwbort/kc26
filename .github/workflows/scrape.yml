@@ -46,7 +46,11 @@ jobs:
           find /opt/google/chrome -type f -exec cat {} + >/dev/null 2>&1
           timeout 30 google-chrome --headless --disable-gpu --dump-dom about:blank >/dev/null 2>&1
         ' >/dev/null 2>&1 &
+    # The branch's latest commit, not the one that triggered the run: a run
+    # queued behind another should start from the pages that one saved.
     - uses: actions/checkout@v7
+      with:
+        ref: ${{ github.ref }}
     - name: Set up Python 3.13
       uses: actions/setup-python@v7
       with:
