@@ -8,11 +8,12 @@ As in tribunal-tracker, we drive a real Chrome via nodriver (headful, under
 Xvfb), wait for the challenge to clear, and then load each individual's
 results page in the same browser session, which reuses the clearance cookie.
 
-Each page's rendered HTML is saved to pages/<n>.html (minus styles, SVGs and
-external scripts, which are only noise here). parse.py turns those into JSON
-and CSV, so the parser can be fixed and re-run without scraping again.
+Each page is parsed as it's fetched (see parse.py) and saved as
+results/<n>.json; at the end results.csv and splits.csv are rebuilt from
+results/. A bib with no results page (it redirects elsewhere, or has no
+athlete on it) is saved with "found": false and left out of the CSVs.
 
-Pages already saved are skipped unless --force is given.
+Individuals already in results/ are skipped unless --force is given.
 
 Usage: scrape.py [--race SLUG] [--event N] [--start N] [--end N] [--force]
 """
@@ -32,10 +33,11 @@ from shutil import which
 
 import nodriver as uc
 
+import parse
+
 BASE_URL = "https://www.sportsplits.com"
 DEFAULT_RACE = "freshchoice-kepler-challenge-2025"
 DEFAULT_EVENT = 1
-PAGES_DIR = "pages"
 
 # Titles of Cloudflare's challenge pages. Sportsplits brands its own
 # "Checking Your Browser". The title is what we go by: Cloudflare also puts
@@ -59,11 +61,6 @@ POLL_SECONDS = 0.5
 TURNSTILE_CLICK_INTERVAL = 3
 CDP_CALL_TIMEOUT_SECONDS = 30
 TURNSTILE_FIND_TIMEOUT_SECONDS = 5
-
-# Results may be filled in by JavaScript after the load event, so once a page
-# has loaded keep reading it until its size stops changing (or this long).
-SETTLE_MAX_SECONDS = 8
-SETTLE_POLL_SECONDS = 0.5
 
 # Pause between pages, to be gentle on the site.
 DEFAULT_DELAY_SECONDS = 1.0
@@ -199,26 +196,24 @@ async def try_click_turnstile(tab):
     return False
 
 
-async def settle(tab, html: str) -> str:
-    """Re-read the page until its HTML stops growing, so results rendered by
-    JavaScript after the load event are included."""
-    deadline = time.time() + SETTLE_MAX_SECONDS
-    while time.time() < deadline:
-        await tab.sleep(SETTLE_POLL_SECONDS)
-        try:
-            latest = await with_timeout(tab.get_content(), "tab.get_content")
-        except Exception:
-            break
-        if latest == html:
-            break
-        html = latest
-    return html
-
-
 async def fetch_page(browser, url: str, tab=None):
     """Load url and wait for the Cloudflare challenge to clear. Returns
-    (tab, html), or (tab, None) if the challenge never cleared."""
+    (tab, html, where): html is None if the challenge never cleared, and
+    where is the URL the tab ended up on if the site redirected elsewhere
+    (html is then that page)."""
     print(f"Navigating to {url}", flush=True)
+    # Until the navigation commits the tab still shows the previous page, so
+    # only a loaded page at neither address counts as a redirect.
+    previous = ""
+    if tab is not None:
+        try:
+            previous = str(
+                await with_timeout(
+                    tab.evaluate("location.origin + location.pathname"), "tab.evaluate"
+                )
+            ).rstrip("/")
+        except Exception:
+            pass
     try:
         if tab is None:
             tab = await with_timeout(browser.get(url), "browser.get")
@@ -226,7 +221,7 @@ async def fetch_page(browser, url: str, tab=None):
             await with_timeout(tab.get(url), "tab.get")
     except Exception as e:
         print(f"  navigation failed: {e}", flush=True)
-        return tab, None
+        return tab, None, None
 
     target = url.split("?")[0].split("#")[0].rstrip("/")
     deadline = time.time() + MAX_WAIT_SECONDS
@@ -236,21 +231,22 @@ async def fetch_page(browser, url: str, tab=None):
     while time.time() < deadline:
         attempt += 1
         try:
-            # Only read the page once the tab has actually moved to url and
-            # has fully loaded.
+            # Only take the page once the tab has actually moved and fully
+            # loaded. The state, address and HTML are read in one go, so they
+            # always describe the same page (nodriver's get_content() can
+            # still return the previous page's DOM after a redirect).
             state = await with_timeout(
                 tab.evaluate(
-                    "document.readyState + ' ' + location.origin + location.pathname"
+                    "JSON.stringify([document.readyState,"
+                    " location.origin + location.pathname,"
+                    " document.documentElement.outerHTML])"
                 ),
                 "tab.evaluate",
             )
-            ready, _, href = str(state).partition(" ")
-            on_page = href.rstrip("/") == target
-            html = (
-                await with_timeout(tab.get_content(), "tab.get_content")
-                if on_page and ready == "complete"
-                else None
-            )
+            ready, href, page_html = json.loads(str(state))
+            href = href.rstrip("/")
+            arrived = href == target or (href != previous and href.startswith("http"))
+            html = page_html if arrived and ready == "complete" else None
         except Exception as e:
             print(f"  page check failed: {e}", flush=True)
             await tab.sleep(POLL_SECONDS)
@@ -263,7 +259,7 @@ async def fetch_page(browser, url: str, tab=None):
                 print(f"  attempt {attempt}: challenge, title={title!r}", flush=True)
                 last_title = title
             if not challenge:
-                return tab, await settle(tab, html)
+                return tab, html, (None if href == target else href)
 
         if html is not None and time.time() >= next_click:
             await try_click_turnstile(tab)
@@ -272,44 +268,30 @@ async def fetch_page(browser, url: str, tab=None):
         await tab.sleep(POLL_SECONDS)
 
     print(f"WARNING: page did not load or challenge did not clear for {url}", flush=True)
-    return tab, None
-
-
-_NOISE = [
-    re.compile(r"<style\b.*?</style\s*>", re.I | re.S),
-    re.compile(r"<svg\b.*?</svg\s*>", re.I | re.S),
-    re.compile(r"<script\b[^>]*\bsrc=[^>]*>\s*</script\s*>", re.I | re.S),
-    re.compile(r"<link\b[^>]*>", re.I),
-    re.compile(r"<noscript\b.*?</noscript\s*>", re.I | re.S),
-]
-
-
-def strip_noise(html: str) -> str:
-    """Drop styles, inline SVG icons and external scripts to keep the saved
-    pages small. Inline scripts are kept: they may carry the results data."""
-    for pattern in _NOISE:
-        html = pattern.sub("", html)
-    return re.sub(r"\n\s*\n+", "\n", html)
+    return tab, None, None
 
 
 def page_url(race: str, event: int, n: int) -> str:
     return f"{BASE_URL}/races/{race}/events/{event}/results/individuals/{n}"
 
 
-def page_path(n: int) -> str:
-    return os.path.join(PAGES_DIR, f"{n}.html")
+def write_json(path: str, data) -> None:
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=1, ensure_ascii=False)
+        f.write("\n")
 
 
 async def scrape(args) -> int:
     todo = [
         n
         for n in range(args.start, args.end + 1)
-        if args.force or not os.path.exists(page_path(n))
+        if args.force or not os.path.exists(parse.result_path(n))
     ]
-    print(f"{len(todo)} page(s) to fetch", flush=True)
+    print(f"{len(todo)} individual(s) to fetch", flush=True)
     if not todo:
+        parse.write_csvs()
         return 0
-    os.makedirs(PAGES_DIR, exist_ok=True)
 
     chrome_path = find_chrome()
     port = free_port()
@@ -333,10 +315,10 @@ async def scrape(args) -> int:
                 await asyncio.sleep(args.delay)
             url = page_url(args.race, args.event, n)
             try:
-                tab, html = await fetch_page(browser, url, tab=tab)
+                tab, html, where = await fetch_page(browser, url, tab=tab)
             except Exception as e:
                 print(f"ERROR fetching {url}: {e!r}", flush=True)
-                html = None
+                html = where = None
             if html is None:
                 failures.append(n)
                 consecutive += 1
@@ -348,9 +330,23 @@ async def scrape(args) -> int:
                     break
                 continue
             consecutive = 0
-            with open(page_path(n), "w", encoding="utf-8") as f:
-                f.write(strip_noise(html))
-            print(f"  saved {page_path(n)} ({len(html)} bytes)", flush=True)
+            if where:
+                # Redirected away: no results page for this bib. (Don't parse
+                # what came back: it can still be the previous page's DOM.)
+                result = {"id": n, "url": url, "found": False, "redirected_to": where}
+            else:
+                result = {"id": n, "url": url, **parse.parse_page(html)}
+                summary = result["summary"]
+                result["found"] = bool(summary["name"] or result["splits"])
+            write_json(parse.result_path(n), result)
+            if result["found"]:
+                print(
+                    f"  #{summary['bib']} {summary['name']}: {summary['status']}"
+                    f" {summary['gun_time']}, {len(result['splits'])} split(s)",
+                    flush=True,
+                )
+            else:
+                print(f"  no results for {n}" + (f" (went to {where})" if where else ""), flush=True)
     finally:
         try:
             browser.stop()
@@ -361,6 +357,7 @@ async def scrape(args) -> int:
         except Exception:
             pass
 
+    parse.write_csvs()
     if failures:
         print(f"Failed ({len(failures)}): {', '.join(map(str, failures))}", flush=True)
         return 2

@@ -13,33 +13,26 @@ loads each results page in the same browser session.
 
 ## Running it
 
-The [Scrape results](.github/workflows/scrape.yml) workflow scrapes individuals
-1–10 as a check when the
+The [Scrape results](.github/workflows/scrape.yml) workflow runs when the
 scraper changes, or by hand from the Actions tab (Run workflow), where the
-race, event, range of individuals and a "re-fetch" option can be set. Pages
-already saved are skipped, so a run that stops part way can be resumed by
-running it again.
+race, event, range of individuals and a "re-fetch" option can be set.
+Individuals already in `results/` are skipped, so a run that stops part way
+can be resumed by running it again.
 
 Locally: `pip install -r requirements.txt`, then
-`xvfb-run -a python scrape.py --start 1 --end 499` and `python parse.py`.
+`xvfb-run -a python scrape.py --start 1 --end 499`. `python parse.py`
+rebuilds the CSVs from `results/`.
 
 ## Output
 
-- `pages/<n>.html`: each individual's results page as rendered (styles,
-  SVGs and external scripts removed).
-- `results/<n>.json`: what `parse.py` found on the page: `headings`,
-  `fields` (label/value pairs such as bib, category, places, finish time),
-  `tables` (e.g. the splits) and any `embedded` JSON.
-- `results.json`: all of the above in one file.
 - `results.csv`: one row per individual: `id, bib, name, status, gun_time,
   place, place_of, gender, gender_place, gender_of, category,
   category_place, category_of` (blank time and places for a DNF).
-- `splits.csv`: the splits table for everyone, one row per individual per
-  checkpoint: `id, bib, name, gender, category, location, split, run_time,
-  race_time, pos, gender_pos, category_pos, speed_kmh, pace, tod`. The
-  table's "Male"/"Open" style columns are the athlete's own gender and
-  category, so their headers go in `gender`/`category` and the positions in
-  `gender_pos`/`category_pos`.
-
-`parse.py` only reads `pages/`, so it can be refined and re-run without
-scraping again.
+- `splits.csv`: one row per individual per checkpoint: `id, bib, name,
+  gender, category, location, split, run_time, race_time, pos, gender_pos,
+  category_pos, speed_kmh, pace, tod`. The splits table's "Male"/"Open"
+  style columns are the athlete's own gender and category, so their headers
+  go in `gender`/`category` and the positions in `gender_pos`/`category_pos`.
+- `results/<n>.json`: the same for one individual (`summary` + `splits`).
+  A bib with no results page has `"found": false` and is left out of the
+  CSVs.

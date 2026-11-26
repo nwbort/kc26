@@ -21,7 +21,7 @@ on:
         default: '1'
       end:
         description: Last individual
-        default: '10'
+        default: '499'
       force:
         description: Re-fetch pages already saved
         type: boolean
@@ -47,7 +47,7 @@ jobs:
           timeout 30 google-chrome --headless --disable-gpu --dump-dom about:blank >/dev/null 2>&1
         ' >/dev/null 2>&1 &
     # The branch's latest commit, not the one that triggered the run: a run
-    # queued behind another should start from the pages that one saved.
+    # queued behind another should start from the results that one saved.
     - uses: actions/checkout@v7
       with:
         ref: ${{ github.ref }}
@@ -73,22 +73,18 @@ jobs:
         "$CHROME_PATH" --version || true
         echo "CHROME_PATH=$CHROME_PATH" >> "$GITHUB_ENV"
     # Cloudflare blocks plain curl, so drive a real (headful) Chrome under
-    # Xvfb to clear the challenge. A timeout counts as a failure rather than
-    # a cancellation, so the pages fetched so far are still committed.
-    - name: Scrape pages
+    # Xvfb to clear the challenge. Each page is parsed into results/<n>.json
+    # as it arrives, and the CSVs are rebuilt at the end. A timeout counts as
+    # a failure rather than a cancellation, so what was fetched is committed.
+    - name: Scrape results
       timeout-minutes: 150
       env:
         RACE: ${{ inputs.race }}
         EVENT: ${{ inputs.event }}
         START: ${{ inputs.start }}
-        # A push scrapes just the first 10, as a check; set the range by hand
-        # (Run workflow) for the rest. Pages already saved are skipped.
-        END: ${{ inputs.end || '10' }}
+        END: ${{ inputs.end }}
         FORCE: ${{ inputs.force }}
       run: xvfb-run -a python scrape.py
-    - name: Parse pages
-      if: ${{ !cancelled() }}
-      run: python parse.py || true
     - name: Commit and push
       if: ${{ !cancelled() }}
       run: |-
