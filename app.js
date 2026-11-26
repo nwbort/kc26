@@ -13,12 +13,20 @@
     band: C.band.slice(),
     gender: C.gender || "all",
     bib: "",                   // supporter's override; empty means use config
+    cfgGoal: C.goalFinish,     // config values the goal/start above were based on
+    cfgStart: C.startTime,
   });
 
   let S = defaults();
   try {
     const saved = JSON.parse(localStorage.getItem(STORE) || "null");
-    if (saved) S = Object.assign(S, saved);
+    if (saved) {
+      // A goal/start saved from an older config shouldn't outlive a config
+      // change; only keep the saved value if it was based on today's config.
+      if (saved.cfgGoal !== C.goalFinish) delete saved.goal;
+      if (saved.cfgStart !== C.startTime) delete saved.start;
+      S = Object.assign(S, saved);
+    }
   } catch (e) { /* storage unavailable, use defaults */ }
   const save = () => { try { localStorage.setItem(STORE, JSON.stringify(S)); } catch (e) {} };
 

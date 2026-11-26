@@ -5,7 +5,7 @@ window.KEPLER_CONFIG = {
   bib: "",                        // e.g. "123" once allocated
   raceDate: "2026-12-05",         // Saturday, Te Anau
   startTime: "06:00",             // NZ local, 24h. 2025 gun was 6:00am
-  goalFinish: "7:00",             // h:mm, the pre-race plan (3:21 marathon ≈ 15th pct of road marathoners → 15th pct of 2025 Kepler finishers)
+  goalFinish: "7:30",             // h:mm, the pre-race plan
   band: [10, 75],                 // percentile band of 2025 finishers used as comparables
   gender: "all",                  // "all" | "M" | "F"
   trackingUrl: "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2026/events/1/",
