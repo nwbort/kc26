@@ -81,6 +81,10 @@ DEFAULT_DELAY_SECONDS = 1.0
 NOT_FOUND_ATTEMPTS = 3
 NOT_FOUND_RETRY_SECONDS = 3
 
+# Sportsplits sometimes answers "Too Many Requests": back off this long
+# before trying again. A bib still rate limited is left for the next run.
+RATE_LIMIT_WAIT_SECONDS = 60
+
 # Give up if this many pages in a row fail: we've probably been blocked.
 MAX_CONSECUTIVE_FAILURES = 10
 
@@ -379,8 +383,10 @@ async def fetch_result(browser, tab, url: str, n: int):
     result = None
     for attempt in range(1, NOT_FOUND_ATTEMPTS + 1):
         if attempt > 1:
-            print(f"  no results for {n}; trying again ({attempt}/{NOT_FOUND_ATTEMPTS})", flush=True)
-            await asyncio.sleep(NOT_FOUND_RETRY_SECONDS)
+            limited = result and result.get("title", "").lower().startswith("too many requests")
+            wait = RATE_LIMIT_WAIT_SECONDS if limited else NOT_FOUND_RETRY_SECONDS
+            print(f"  {'rate limited' if limited else 'no results'} for {n}; trying again in {wait}s ({attempt}/{NOT_FOUND_ATTEMPTS})", flush=True)
+            await asyncio.sleep(wait)
         tab, html, where = await fetch_page(browser, url, tab=tab)
         if html is None:
             return tab, None
@@ -395,6 +401,8 @@ async def fetch_result(browser, tab, url: str, n: int):
         if result["found"]:
             return tab, result
         result["title"] = page_title(html)
+    if result and result.get("title", "").lower().startswith("too many requests"):
+        return tab, None  # a failure, not a missing bib: retried next run
     return tab, result
 
 
