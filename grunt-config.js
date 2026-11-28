@@ -6,8 +6,8 @@ window.KEPLER_CONFIG = {
   bib: "",                        // e.g. "612" once allocated
   raceDate: "2026-12-05",         // Saturday, Te Anau (same day as the Kepler)
   startTime: "07:00",             // NZ local, 24h. 2025 gun was 7:00am (everyone timed from the gun)
-  goalFinish: "4:15",             // h:mm. Set with Nicole (≈ 76th percentile of 2025 Grunt women)
-  band: [10, 90],                 // percentile band of 2025 finishers used as comparables (90 so the pool reaches past a 4:15 goal, up to 4:40)
+  goalFinish: "4:30",             // h:mm. 4:00 trial (21 km hilly trail) was 83rd pct of women → 83rd pct of 2025 Grunt women (4:30)
+  band: [10, 90],                 // percentile band of 2025 finishers used as comparables (90 so the pool reaches past a 4:30 goal, up to 4:40)
   gender: "all",                  // "all" | "M" | "F"
   trackingUrl: "https://www.sportsplits.com/races/freshchoice-kepler-challenge-2026/events/2/",
   dataUrl: "data/grunt-2025.json",
