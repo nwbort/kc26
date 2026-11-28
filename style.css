@@ -45,7 +45,7 @@
 }
 
 * { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; }
+html { -webkit-text-size-adjust: 100%; background: var(--bg); }
 body {
   margin: 0;
   background: var(--bg);
@@ -53,7 +53,12 @@ body {
   font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 a { color: var(--accent); }
-.wrap { max-width: 760px; margin: 0 auto; padding: 24px 16px 64px; }
+.wrap {
+  max-width: 760px; margin: 0 auto;
+  /* viewport-fit=cover draws the page under the phone's status and nav bars */
+  padding: calc(24px + env(safe-area-inset-top)) calc(16px + env(safe-area-inset-right))
+           calc(64px + env(safe-area-inset-bottom)) calc(16px + env(safe-area-inset-left));
+}
 
 .top h1 { font-size: clamp(1.6rem, 5vw, 2.2rem); line-height: 1.15; margin: 4px 0 8px; letter-spacing: -0.01em; }
 .eyebrow a { text-transform: none; letter-spacing: 0; }
